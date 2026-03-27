@@ -1,0 +1,3501 @@
+campaign_id,ad_channel,campaign_type,marketing_spend,conversion_rate,impressions
+1,Google,Brand Awareness,14907.88,0.17,49540
+2,Email,Seasonal,12732.15,0.15,30439
+3,Google,Flash Sale,10770.45,0.13,7338
+4,TikTok,Brand Awareness,12589.94,0.15,13601
+5,TikTok,Seasonal,18850.48,0.21,25260
+6,TikTok,Brand Awareness,6243.98,0.08,46099
+7,TikTok,Seasonal,2406.85,0.04,43954
+8,Email,Flash Sale,5483.71,0.07,15373
+9,Email,Brand Awareness,5736.55,0.08,31674
+10,Meta,Flash Sale,11247.5,0.13,1212
+11,Google,Brand Awareness,7414.69,0.09,22243
+12,Meta,Seasonal,19555.68,0.22,44237
+13,Email,Seasonal,5601.04,0.08,17246
+14,Google,Seasonal,10729.77,0.13,5417
+15,Email,Flash Sale,14219.9,0.16,13478
+16,Email,Brand Awareness,18045.09,0.2,23236
+17,Meta,Seasonal,6394.5,0.08,30041
+18,Google,Seasonal,7986.6,0.1,25836
+19,Meta,Seasonal,14726.59,0.17,38957
+20,Meta,Seasonal,19626.3,0.22,39996
+21,TikTok,Flash Sale,13751.73,0.16,14386
+22,Google,Seasonal,10715.51,0.13,36234
+23,TikTok,Brand Awareness,7234.9,0.09,43858
+24,Meta,Brand Awareness,2621.6,0.05,23471
+25,TikTok,Seasonal,4502.34,0.07,49577
+26,Meta,Seasonal,11532.73,0.14,21202
+27,Meta,Seasonal,4331.28,0.06,28020
+28,Google,Flash Sale,17273.31,0.19,15577
+29,Google,Flash Sale,16412.88,0.18,24012
+30,Email,Flash Sale,17052.63,0.19,48745
+31,Meta,Flash Sale,11801.89,0.14,29265
+32,TikTok,Brand Awareness,10434.66,0.12,9341
+33,Email,Brand Awareness,9520.46,0.12,40758
+34,Google,Flash Sale,3224.27,0.05,34780
+35,Email,Brand Awareness,5431.33,0.07,5772
+36,Meta,Brand Awareness,3112.75,0.05,34944
+37,Email,Seasonal,10076.58,0.12,49736
+38,Email,Seasonal,10938.86,0.13,47762
+39,Meta,Brand Awareness,12782.52,0.15,15021
+40,Google,Brand Awareness,6148.2,0.08,25928
+41,Email,Flash Sale,8152.8,0.1,2902
+42,Email,Seasonal,14142.57,0.16,31257
+43,TikTok,Seasonal,12517.32,0.15,31822
+44,Meta,Seasonal,16044.54,0.18,9272
+45,Google,Flash Sale,8452.64,0.1,38735
+46,Google,Flash Sale,9723.58,0.12,35913
+47,Meta,Flash Sale,4421.28,0.06,12543
+48,Email,Seasonal,9754.8,0.12,31455
+49,TikTok,Brand Awareness,6260.68,0.08,46952
+50,Email,Flash Sale,14056.14,0.16,2130
+51,Email,Brand Awareness,5017.51,0.07,37070
+52,Meta,Seasonal,7411.49,0.09,15180
+53,Meta,Flash Sale,4544.77,0.07,3982
+54,Meta,Seasonal,19391.89,0.21,17546
+55,TikTok,Seasonal,1984.65,0.04,17265
+56,Google,Seasonal,3027.29,0.05,41993
+57,Email,Flash Sale,3655.68,0.06,3139
+58,Meta,Brand Awareness,12857.93,0.15,10764
+59,TikTok,Brand Awareness,14880.43,0.17,27378
+60,Google,Seasonal,15486.72,0.17,45190
+61,Email,Brand Awareness,14680.69,0.17,33225
+62,Email,Brand Awareness,12617.63,0.15,3404
+63,Email,Seasonal,2980.69,0.05,13293
+64,Email,Seasonal,7368.75,0.09,2891
+65,Google,Brand Awareness,1624.09,0.04,11090
+66,Meta,Seasonal,11588.8,0.14,19104
+67,Email,Flash Sale,9969.27,0.12,22786
+68,TikTok,Brand Awareness,6173.74,0.08,31996
+69,Email,Seasonal,2978.06,0.05,48346
+70,Email,Flash Sale,2651.58,0.05,42077
+71,Google,Flash Sale,8214.16,0.1,11902
+72,Email,Brand Awareness,4460.04,0.06,45682
+73,Email,Brand Awareness,16629.09,0.19,17644
+74,TikTok,Brand Awareness,13635.7,0.16,28807
+75,TikTok,Brand Awareness,2296.74,0.04,20348
+76,TikTok,Seasonal,12306.48,0.14,42721
+77,Meta,Seasonal,2442.73,0.04,20340
+78,TikTok,Brand Awareness,14757.96,0.17,23198
+79,TikTok,Brand Awareness,11790.96,0.14,9099
+80,TikTok,Brand Awareness,3290.77,0.05,15507
+81,Google,Seasonal,12701.4,0.15,16387
+82,Email,Flash Sale,8937.57,0.11,3144
+83,Email,Flash Sale,3079.88,0.05,13439
+84,Meta,Seasonal,5382.73,0.07,37320
+85,Meta,Seasonal,8528.6,0.11,44323
+86,Meta,Brand Awareness,10056.86,0.12,28588
+87,Google,Brand Awareness,10421.64,0.12,44181
+88,Google,Flash Sale,7346.17,0.09,40865
+89,Email,Brand Awareness,7367.26,0.09,40677
+90,Google,Flash Sale,6383.52,0.08,28968
+91,TikTok,Seasonal,14455.27,0.16,37462
+92,Google,Brand Awareness,16608.75,0.19,34253
+93,Google,Brand Awareness,6669.11,0.09,44111
+94,Email,Seasonal,19695.58,0.22,10297
+95,TikTok,Brand Awareness,4870.32,0.07,40074
+96,Email,Flash Sale,12538.82,0.15,18902
+97,Google,Seasonal,8457.38,0.1,14397
+98,Meta,Flash Sale,14346.83,0.16,35903
+99,Email,Brand Awareness,4816.32,0.07,27504
+100,Email,Seasonal,16232.83,0.18,16945
+101,Google,Brand Awareness,14771.7,0.17,34420
+102,Google,Seasonal,5340.64,0.07,42153
+103,TikTok,Flash Sale,15111.42,0.17,39759
+104,Google,Brand Awareness,13445.18,0.15,39933
+105,Email,Seasonal,19456.51,0.21,23507
+106,Email,Flash Sale,13478.0,0.15,23175
+107,Meta,Flash Sale,9186.86,0.11,6341
+108,TikTok,Seasonal,11604.66,0.14,44916
+109,Meta,Seasonal,12108.74,0.14,11154
+110,Meta,Brand Awareness,13795.22,0.16,29683
+111,TikTok,Flash Sale,16786.67,0.19,13715
+112,Google,Brand Awareness,1916.03,0.04,32495
+113,Google,Seasonal,18126.14,0.2,30565
+114,Google,Flash Sale,5513.34,0.08,7493
+115,Google,Seasonal,1487.2,0.03,2245
+116,Email,Seasonal,19138.54,0.21,8265
+117,Email,Seasonal,11244.06,0.13,44540
+118,Email,Flash Sale,4519.34,0.07,17623
+119,TikTok,Brand Awareness,5333.52,0.07,12474
+120,Google,Flash Sale,15566.47,0.18,21321
+121,Google,Flash Sale,11387.25,0.13,29636
+122,Email,Brand Awareness,16555.43,0.19,12826
+123,Email,Flash Sale,2319.05,0.04,30303
+124,Meta,Seasonal,7895.94,0.1,10357
+125,Meta,Brand Awareness,9557.05,0.12,30486
+126,Google,Seasonal,15970.14,0.18,49213
+127,Google,Seasonal,11522.24,0.14,5853
+128,TikTok,Seasonal,12931.05,0.15,47649
+129,TikTok,Flash Sale,19536.59,0.22,37152
+130,TikTok,Brand Awareness,2295.27,0.04,5860
+131,Google,Brand Awareness,5104.73,0.07,11028
+132,TikTok,Seasonal,3306.31,0.05,41961
+133,Google,Seasonal,17112.3,0.19,43038
+134,Meta,Brand Awareness,15445.51,0.17,27613
+135,Meta,Flash Sale,13275.71,0.15,48078
+136,TikTok,Flash Sale,6992.73,0.09,17247
+137,Meta,Flash Sale,5312.33,0.07,34733
+138,TikTok,Seasonal,19173.53,0.21,4312
+139,TikTok,Seasonal,2305.54,0.04,27252
+140,Google,Flash Sale,6563.62,0.09,25457
+141,TikTok,Flash Sale,9209.46,0.11,35034
+142,Email,Brand Awareness,5200.2,0.07,37891
+143,Email,Flash Sale,14020.66,0.16,43964
+144,Google,Seasonal,13089.54,0.15,2241
+145,Meta,Brand Awareness,14928.35,0.17,14588
+146,TikTok,Brand Awareness,16997.44,0.19,32731
+147,Email,Flash Sale,1061.15,0.03,37732
+148,Google,Flash Sale,12388.01,0.14,47801
+149,Google,Brand Awareness,9363.78,0.11,49555
+150,TikTok,Brand Awareness,14032.31,0.16,31959
+151,Google,Seasonal,6188.35,0.08,43749
+152,Google,Flash Sale,14860.66,0.17,38221
+153,TikTok,Seasonal,6238.68,0.08,8382
+154,Email,Flash Sale,11115.99,0.13,34769
+155,Meta,Flash Sale,12864.08,0.15,18497
+156,Email,Brand Awareness,11663.23,0.14,33933
+157,TikTok,Flash Sale,18968.26,0.21,47002
+158,Google,Seasonal,5913.8,0.08,36890
+159,Email,Seasonal,15263.86,0.17,30716
+160,Meta,Brand Awareness,4547.74,0.07,5786
+161,Meta,Brand Awareness,16071.97,0.18,48794
+162,Meta,Brand Awareness,19387.36,0.21,26759
+163,Meta,Flash Sale,9122.3,0.11,23685
+164,Google,Brand Awareness,19773.25,0.22,3200
+165,TikTok,Seasonal,5557.61,0.08,48940
+166,Meta,Brand Awareness,3020.53,0.05,45482
+167,Meta,Flash Sale,7847.18,0.1,25671
+168,Meta,Flash Sale,9746.81,0.12,16915
+169,Google,Seasonal,19482.75,0.21,13331
+170,Email,Seasonal,2834.15,0.05,46588
+171,TikTok,Flash Sale,17667.97,0.2,34607
+172,Meta,Seasonal,10979.56,0.13,18090
+173,Email,Brand Awareness,17957.94,0.2,43054
+174,Google,Brand Awareness,15128.28,0.17,3216
+175,Email,Flash Sale,9986.46,0.12,4961
+176,TikTok,Brand Awareness,5151.69,0.07,19788
+177,TikTok,Flash Sale,19863.52,0.22,27011
+178,Email,Flash Sale,14633.87,0.17,25718
+179,Google,Brand Awareness,2349.15,0.04,3788
+180,Meta,Brand Awareness,15078.64,0.17,10449
+181,Email,Brand Awareness,5104.98,0.07,10171
+182,Google,Brand Awareness,17293.68,0.19,18912
+183,TikTok,Seasonal,13269.07,0.15,47734
+184,Google,Seasonal,7927.28,0.1,21202
+185,Google,Seasonal,1588.16,0.04,6873
+186,Meta,Brand Awareness,11362.24,0.13,25951
+187,TikTok,Flash Sale,16839.35,0.19,6041
+188,Email,Flash Sale,3859.91,0.06,41644
+189,TikTok,Seasonal,14506.81,0.17,27099
+190,Meta,Brand Awareness,19422.55,0.21,37051
+191,TikTok,Brand Awareness,18455.96,0.2,11101
+192,Email,Brand Awareness,5567.27,0.08,3409
+193,Email,Seasonal,3554.27,0.06,1691
+194,Google,Flash Sale,16848.75,0.19,28261
+195,Email,Brand Awareness,6326.35,0.08,46663
+196,Meta,Brand Awareness,16095.8,0.18,16985
+197,Email,Flash Sale,1418.51,0.03,2913
+198,Google,Brand Awareness,11538.49,0.14,13252
+199,Email,Brand Awareness,10437.21,0.12,8486
+200,Google,Seasonal,18868.52,0.21,21013
+201,Meta,Flash Sale,8169.04,0.1,42648
+202,Google,Flash Sale,3462.41,0.05,9947
+203,Google,Seasonal,9696.29,0.12,20142
+204,Google,Flash Sale,16128.57,0.18,36593
+205,TikTok,Flash Sale,2621.49,0.05,6700
+206,Meta,Seasonal,12307.5,0.14,38360
+207,Email,Seasonal,11931.75,0.14,19174
+208,TikTok,Brand Awareness,13282.72,0.15,28146
+209,Google,Brand Awareness,18810.19,0.21,7104
+210,TikTok,Flash Sale,14786.92,0.17,36868
+211,Email,Flash Sale,7558.65,0.1,1044
+212,Meta,Seasonal,15460.68,0.17,26974
+213,Meta,Brand Awareness,10145.33,0.12,45563
+214,Google,Seasonal,4345.81,0.06,21535
+215,TikTok,Brand Awareness,15688.69,0.18,14962
+216,Email,Flash Sale,16353.51,0.18,10163
+217,TikTok,Seasonal,19142.09,0.21,34931
+218,Google,Brand Awareness,5567.58,0.08,1790
+219,Google,Seasonal,9196.23,0.11,18182
+220,Meta,Flash Sale,11345.61,0.13,6478
+221,Meta,Seasonal,16880.69,0.19,17022
+222,Meta,Brand Awareness,12218.19,0.14,1743
+223,TikTok,Flash Sale,5261.58,0.07,18824
+224,Meta,Flash Sale,15330.72,0.17,7743
+225,Meta,Seasonal,6041.2,0.08,37232
+226,Google,Seasonal,16266.84,0.18,15626
+227,TikTok,Seasonal,15529.66,0.18,20109
+228,Google,Seasonal,17022.28,0.19,36490
+229,Email,Seasonal,14573.8,0.17,10330
+230,Google,Brand Awareness,16823.78,0.19,9749
+231,TikTok,Flash Sale,8686.02,0.11,30671
+232,TikTok,Flash Sale,15920.11,0.18,8912
+233,Google,Seasonal,15019.81,0.17,22482
+234,Email,Flash Sale,18584.92,0.21,37434
+235,Email,Flash Sale,14425.97,0.16,45976
+236,Google,Seasonal,12878.89,0.15,31211
+237,Meta,Flash Sale,13776.75,0.16,19340
+238,Email,Seasonal,5354.27,0.07,28474
+239,Email,Flash Sale,6145.32,0.08,12784
+240,Google,Seasonal,15948.62,0.18,44048
+241,TikTok,Brand Awareness,8000.53,0.1,2848
+242,Meta,Brand Awareness,12378.06,0.14,15339
+243,Meta,Brand Awareness,4030.35,0.06,47182
+244,Meta,Seasonal,16742.56,0.19,48995
+245,TikTok,Brand Awareness,2475.17,0.04,46121
+246,Meta,Brand Awareness,8311.27,0.1,38063
+247,TikTok,Flash Sale,17751.59,0.2,1746
+248,Email,Seasonal,8879.98,0.11,28133
+249,Google,Flash Sale,3192.5,0.05,2315
+250,Email,Brand Awareness,17288.87,0.19,3031
+251,TikTok,Flash Sale,10216.8,0.12,16567
+252,Email,Seasonal,1797.72,0.04,7356
+253,TikTok,Seasonal,11622.13,0.14,43065
+254,TikTok,Seasonal,10195.8,0.12,18600
+255,Google,Flash Sale,3666.17,0.06,35247
+256,Meta,Seasonal,15407.08,0.17,30428
+257,TikTok,Flash Sale,4570.49,0.07,48651
+258,Email,Seasonal,9799.18,0.12,28160
+259,Email,Brand Awareness,3861.55,0.06,40908
+260,Meta,Seasonal,5731.17,0.08,49873
+261,Meta,Flash Sale,6776.58,0.09,49740
+262,Email,Brand Awareness,12771.0,0.15,25504
+263,Meta,Seasonal,12340.19,0.14,4776
+264,Google,Brand Awareness,16823.81,0.19,3002
+265,Google,Flash Sale,13082.87,0.15,2798
+266,Google,Brand Awareness,14028.31,0.16,1583
+267,Email,Flash Sale,1987.8,0.04,15300
+268,Google,Flash Sale,4810.51,0.07,19119
+269,Email,Brand Awareness,17198.4,0.19,21944
+270,Meta,Flash Sale,19387.47,0.21,48615
+271,Meta,Brand Awareness,19532.09,0.22,17951
+272,TikTok,Brand Awareness,10604.67,0.13,20270
+273,Google,Brand Awareness,14775.12,0.17,26013
+274,TikTok,Brand Awareness,13465.05,0.15,12819
+275,Meta,Seasonal,19077.45,0.21,38767
+276,Email,Seasonal,5155.49,0.07,3472
+277,TikTok,Flash Sale,17057.3,0.19,9449
+278,TikTok,Flash Sale,3888.92,0.06,46008
+279,Google,Brand Awareness,9859.69,0.12,34071
+280,Google,Brand Awareness,10701.03,0.13,2293
+281,Google,Flash Sale,9531.74,0.12,28582
+282,Email,Seasonal,5004.85,0.07,40911
+283,Email,Flash Sale,19268.35,0.21,16368
+284,Google,Flash Sale,9656.76,0.12,43227
+285,TikTok,Flash Sale,16856.86,0.19,49400
+286,Google,Flash Sale,18190.56,0.2,23460
+287,Meta,Brand Awareness,8645.72,0.11,48606
+288,Google,Brand Awareness,10363.57,0.12,48662
+289,Meta,Brand Awareness,17587.37,0.2,23170
+290,Email,Flash Sale,5299.23,0.07,11839
+291,Meta,Seasonal,16556.06,0.19,31087
+292,Google,Brand Awareness,2452.36,0.04,36985
+293,TikTok,Brand Awareness,16359.71,0.18,41616
+294,TikTok,Brand Awareness,13429.04,0.15,7967
+295,Google,Flash Sale,5398.12,0.07,15128
+296,Email,Seasonal,8509.93,0.11,35757
+297,TikTok,Brand Awareness,5984.52,0.08,26209
+298,TikTok,Brand Awareness,1153.12,0.03,49288
+299,Meta,Brand Awareness,7179.01,0.09,36552
+300,Email,Seasonal,13530.61,0.16,35257
+301,TikTok,Seasonal,8944.75,0.11,5065
+302,TikTok,Brand Awareness,6787.44,0.09,44548
+303,Email,Seasonal,15850.69,0.18,42535
+304,Google,Flash Sale,2770.73,0.05,3663
+305,Meta,Flash Sale,2586.97,0.05,40117
+306,Meta,Flash Sale,11400.88,0.13,36591
+307,Email,Brand Awareness,5936.73,0.08,43552
+308,Google,Flash Sale,11167.89,0.13,17815
+309,Google,Seasonal,17455.93,0.19,11970
+310,Email,Brand Awareness,12460.65,0.14,5726
+311,Google,Brand Awareness,6468.79,0.08,15918
+312,Google,Brand Awareness,14154.73,0.16,48204
+313,Email,Flash Sale,4485.6,0.06,26894
+314,Meta,Flash Sale,16304.99,0.18,45386
+315,TikTok,Seasonal,8725.22,0.11,49590
+316,Google,Seasonal,5139.94,0.07,44973
+317,TikTok,Seasonal,18560.83,0.21,44994
+318,TikTok,Brand Awareness,11265.69,0.13,39284
+319,TikTok,Seasonal,10120.9,0.12,45536
+320,Meta,Brand Awareness,6989.55,0.09,13873
+321,TikTok,Brand Awareness,15826.61,0.18,36368
+322,Email,Flash Sale,3004.19,0.05,33910
+323,Google,Seasonal,3924.47,0.06,32958
+324,Google,Seasonal,2080.75,0.04,43501
+325,Google,Brand Awareness,19417.11,0.21,17487
+326,Meta,Seasonal,1003.54,0.03,6052
+327,TikTok,Brand Awareness,10979.91,0.13,8427
+328,Meta,Seasonal,7564.14,0.1,42257
+329,TikTok,Seasonal,2531.69,0.05,15194
+330,Meta,Brand Awareness,19767.24,0.22,45930
+331,Email,Seasonal,1419.26,0.03,40682
+332,Google,Brand Awareness,4740.87,0.07,43548
+333,Google,Flash Sale,19200.97,0.21,9774
+334,Google,Brand Awareness,12881.27,0.15,35245
+335,TikTok,Flash Sale,10608.24,0.13,36134
+336,Email,Flash Sale,1866.12,0.04,21096
+337,Email,Flash Sale,14001.97,0.16,37082
+338,Google,Flash Sale,1787.13,0.04,15533
+339,Google,Seasonal,10026.71,0.12,44049
+340,Google,Flash Sale,12633.24,0.15,16679
+341,Google,Brand Awareness,3659.76,0.06,47112
+342,Google,Flash Sale,19839.12,0.22,12471
+343,Email,Seasonal,6985.2,0.09,23260
+344,Meta,Flash Sale,10275.38,0.12,28028
+345,TikTok,Flash Sale,12111.73,0.14,15323
+346,Meta,Seasonal,12173.78,0.14,41540
+347,TikTok,Brand Awareness,6821.89,0.09,21671
+348,Email,Brand Awareness,13338.2,0.15,3134
+349,Meta,Flash Sale,1359.96,0.03,39076
+350,Meta,Flash Sale,18322.79,0.2,28783
+351,TikTok,Seasonal,14141.46,0.16,37394
+352,TikTok,Flash Sale,8567.33,0.11,20663
+353,TikTok,Flash Sale,8156.85,0.1,24656
+354,TikTok,Flash Sale,14116.13,0.16,22305
+355,Email,Seasonal,19095.35,0.21,6184
+356,Email,Flash Sale,13128.66,0.15,39464
+357,Google,Seasonal,12481.95,0.14,11938
+358,TikTok,Brand Awareness,17841.23,0.2,11176
+359,Google,Seasonal,19914.01,0.22,44486
+360,Email,Brand Awareness,2393.92,0.04,42671
+361,TikTok,Seasonal,1875.2,0.04,20894
+362,Email,Flash Sale,18385.03,0.2,40125
+363,Meta,Flash Sale,2387.07,0.04,6191
+364,Meta,Flash Sale,9439.48,0.11,8232
+365,Google,Seasonal,6309.46,0.08,7702
+366,TikTok,Flash Sale,19845.89,0.22,21419
+367,Google,Brand Awareness,10366.18,0.12,31811
+368,Email,Brand Awareness,1394.4,0.03,7157
+369,TikTok,Flash Sale,15619.41,0.18,42846
+370,TikTok,Brand Awareness,4691.2,0.07,8841
+371,Meta,Flash Sale,19157.34,0.21,6990
+372,TikTok,Brand Awareness,13032.0,0.15,43247
+373,Email,Brand Awareness,16671.33,0.19,20314
+374,Meta,Flash Sale,9911.77,0.12,20377
+375,Meta,Flash Sale,5575.27,0.08,48251
+376,Google,Brand Awareness,12049.72,0.14,44181
+377,Email,Brand Awareness,15436.65,0.17,33106
+378,Email,Brand Awareness,10291.92,0.12,4978
+379,Google,Seasonal,12426.3,0.14,48524
+380,Google,Brand Awareness,15238.02,0.17,38785
+381,Email,Flash Sale,6693.7,0.09,21653
+382,Email,Brand Awareness,15025.2,0.17,49796
+383,Google,Flash Sale,3268.24,0.05,15541
+384,TikTok,Seasonal,16725.83,0.19,10070
+385,Google,Brand Awareness,9272.53,0.11,22279
+386,Google,Flash Sale,14441.1,0.16,23801
+387,Google,Flash Sale,6313.09,0.08,36384
+388,Email,Seasonal,8368.85,0.1,9663
+389,Meta,Seasonal,2622.66,0.05,32517
+390,Email,Flash Sale,8181.89,0.1,45874
+391,Meta,Flash Sale,8471.97,0.1,41384
+392,Google,Seasonal,6407.41,0.08,41698
+393,Meta,Seasonal,11399.17,0.13,36810
+394,TikTok,Seasonal,13979.17,0.16,46647
+395,Google,Flash Sale,7008.09,0.09,43559
+396,Email,Brand Awareness,19708.44,0.22,47692
+397,TikTok,Flash Sale,1710.54,0.04,41975
+398,Email,Brand Awareness,7311.28,0.09,9995
+399,Meta,Seasonal,18451.91,0.2,43760
+400,Google,Brand Awareness,15105.03,0.17,35928
+401,TikTok,Seasonal,1316.55,0.03,13316
+402,Google,Flash Sale,10536.96,0.13,6208
+403,Meta,Seasonal,17396.23,0.19,15829
+404,Email,Brand Awareness,4337.77,0.06,22292
+405,Google,Brand Awareness,4404.11,0.06,8164
+406,Google,Seasonal,4587.09,0.07,20082
+407,Email,Brand Awareness,8394.96,0.1,30602
+408,Meta,Flash Sale,19090.73,0.21,6910
+409,Email,Brand Awareness,2652.37,0.05,34532
+410,Google,Flash Sale,9548.93,0.12,21189
+411,Email,Brand Awareness,12461.66,0.14,1376
+412,Google,Seasonal,1615.39,0.04,36870
+413,Google,Seasonal,10710.78,0.13,8136
+414,Google,Flash Sale,3364.02,0.05,22156
+415,Email,Brand Awareness,14992.99,0.17,14752
+416,TikTok,Flash Sale,8697.05,0.11,35432
+417,TikTok,Seasonal,17032.44,0.19,1103
+418,Meta,Seasonal,8811.74,0.11,42983
+419,TikTok,Flash Sale,6088.06,0.08,26955
+420,Meta,Brand Awareness,9439.5,0.11,31187
+421,Meta,Brand Awareness,8539.0,0.11,45924
+422,Google,Flash Sale,13397.04,0.15,47220
+423,TikTok,Seasonal,9334.33,0.11,8355
+424,TikTok,Flash Sale,16105.22,0.18,10390
+425,Google,Flash Sale,2430.3,0.04,31597
+426,TikTok,Flash Sale,17305.93,0.19,44982
+427,TikTok,Flash Sale,1411.27,0.03,10277
+428,Email,Brand Awareness,9727.53,0.12,4306
+429,TikTok,Seasonal,13574.4,0.16,47720
+430,Meta,Seasonal,10385.6,0.12,10418
+431,Email,Seasonal,18311.29,0.2,24032
+432,Google,Flash Sale,8535.22,0.11,35914
+433,Meta,Brand Awareness,16929.59,0.19,39729
+434,Google,Flash Sale,16444.17,0.18,12545
+435,Meta,Seasonal,19201.45,0.21,39061
+436,TikTok,Flash Sale,5424.7,0.07,38373
+437,TikTok,Brand Awareness,2053.46,0.04,4481
+438,Email,Flash Sale,6730.15,0.09,26006
+439,Meta,Seasonal,16960.36,0.19,1760
+440,Email,Brand Awareness,10699.88,0.13,12783
+441,Meta,Brand Awareness,5248.64,0.07,33881
+442,Google,Seasonal,17638.02,0.2,48853
+443,TikTok,Brand Awareness,5465.59,0.07,4458
+444,TikTok,Seasonal,19781.32,0.22,3315
+445,Google,Flash Sale,12963.99,0.15,32769
+446,Google,Brand Awareness,2200.48,0.04,12443
+447,Google,Seasonal,9209.28,0.11,40029
+448,TikTok,Seasonal,7560.03,0.1,4442
+449,TikTok,Seasonal,12145.43,0.14,35763
+450,TikTok,Flash Sale,2316.85,0.04,41008
+451,Meta,Brand Awareness,10123.49,0.12,23112
+452,Email,Flash Sale,9800.79,0.12,15379
+453,Google,Brand Awareness,4126.76,0.06,8862
+454,Email,Flash Sale,19484.04,0.21,28982
+455,TikTok,Seasonal,13070.03,0.15,29873
+456,Google,Flash Sale,16011.58,0.18,47884
+457,Google,Seasonal,1705.15,0.04,44555
+458,Google,Brand Awareness,1322.41,0.03,15801
+459,Google,Flash Sale,10480.39,0.12,36037
+460,Email,Seasonal,15488.15,0.17,42328
+461,Meta,Flash Sale,16485.29,0.18,26478
+462,Google,Seasonal,15499.85,0.17,43850
+463,Meta,Seasonal,4641.76,0.07,12288
+464,Meta,Seasonal,10346.63,0.12,14280
+465,Meta,Flash Sale,9499.66,0.11,5143
+466,Google,Seasonal,2455.83,0.04,7551
+467,Email,Brand Awareness,17613.56,0.2,9316
+468,Email,Brand Awareness,1658.36,0.04,6768
+469,TikTok,Brand Awareness,17440.6,0.19,34262
+470,Google,Seasonal,9861.12,0.12,43261
+471,Meta,Seasonal,1956.14,0.04,2904
+472,TikTok,Seasonal,9551.22,0.12,8217
+473,Email,Seasonal,4756.12,0.07,29564
+474,Meta,Flash Sale,4781.21,0.07,9336
+475,Meta,Brand Awareness,13354.85,0.15,41077
+476,Email,Brand Awareness,1290.9,0.03,17164
+477,Google,Flash Sale,11992.71,0.14,35807
+478,Meta,Flash Sale,10505.52,0.13,20384
+479,Email,Seasonal,12772.07,0.15,47080
+480,Google,Flash Sale,18639.08,0.21,28911
+481,TikTok,Flash Sale,2186.44,0.04,41575
+482,Google,Brand Awareness,13769.0,0.16,32358
+483,TikTok,Flash Sale,10992.98,0.13,30649
+484,Google,Flash Sale,2457.74,0.04,12718
+485,Google,Flash Sale,2793.55,0.05,28298
+486,TikTok,Flash Sale,12328.91,0.14,38925
+487,Email,Flash Sale,2233.09,0.04,19883
+488,Meta,Seasonal,13871.8,0.16,47406
+489,Meta,Seasonal,12941.57,0.15,37863
+490,Google,Flash Sale,11426.82,0.13,33729
+491,TikTok,Brand Awareness,3386.7,0.05,44705
+492,Meta,Flash Sale,15570.13,0.18,24422
+493,Email,Brand Awareness,1399.7,0.03,45011
+494,Meta,Brand Awareness,4633.6,0.07,29025
+495,Email,Brand Awareness,2340.45,0.04,28237
+496,Email,Brand Awareness,8710.43,0.11,22981
+497,Meta,Seasonal,19354.41,0.21,13190
+498,Google,Seasonal,6307.56,0.08,11094
+499,Google,Flash Sale,12918.97,0.15,33312
+500,Google,Flash Sale,2432.83,0.04,11672
+501,Email,Brand Awareness,13767.55,0.16,24329
+502,TikTok,Flash Sale,5562.88,0.08,45921
+503,TikTok,Seasonal,4219.03,0.06,7712
+504,Google,Seasonal,5747.86,0.08,2138
+505,Google,Seasonal,12331.48,0.14,9435
+506,Google,Flash Sale,14841.38,0.17,29262
+507,Google,Flash Sale,14164.69,0.16,44750
+508,TikTok,Brand Awareness,5307.95,0.07,23795
+509,Meta,Brand Awareness,7091.78,0.09,1283
+510,TikTok,Flash Sale,7308.01,0.09,28793
+511,TikTok,Brand Awareness,17615.03,0.2,48325
+512,Email,Flash Sale,5137.84,0.07,29046
+513,Google,Seasonal,5316.95,0.07,10395
+514,Meta,Flash Sale,2697.46,0.05,48526
+515,Email,Seasonal,17297.52,0.19,9007
+516,Google,Seasonal,15010.09,0.17,26076
+517,Email,Flash Sale,16900.41,0.19,34082
+518,Google,Seasonal,13086.01,0.15,12591
+519,Email,Brand Awareness,14855.56,0.17,37292
+520,TikTok,Flash Sale,2875.02,0.05,22003
+521,TikTok,Flash Sale,1989.38,0.04,27996
+522,Google,Flash Sale,5447.95,0.07,12126
+523,Email,Brand Awareness,3015.74,0.05,2457
+524,TikTok,Seasonal,18282.15,0.2,41293
+525,TikTok,Brand Awareness,10558.38,0.13,27347
+526,Google,Brand Awareness,17234.65,0.19,20781
+527,Google,Brand Awareness,18028.49,0.2,47093
+528,Meta,Flash Sale,8166.4,0.1,31309
+529,Meta,Flash Sale,17454.44,0.19,46013
+530,Email,Flash Sale,10028.25,0.12,43396
+531,Email,Seasonal,3793.28,0.06,4625
+532,Google,Brand Awareness,19120.37,0.21,49134
+533,Meta,Flash Sale,17147.01,0.19,15287
+534,Google,Flash Sale,9943.41,0.12,36765
+535,Google,Brand Awareness,16595.96,0.19,44399
+536,Meta,Flash Sale,10581.01,0.13,26458
+537,Email,Seasonal,1761.31,0.04,18959
+538,TikTok,Brand Awareness,15895.47,0.18,5349
+539,Meta,Seasonal,6750.9,0.09,27257
+540,Email,Flash Sale,12418.19,0.14,49180
+541,Meta,Seasonal,13110.69,0.15,2505
+542,TikTok,Seasonal,3414.95,0.05,6836
+543,Meta,Seasonal,6942.08,0.09,18445
+544,Meta,Flash Sale,18241.8,0.2,10564
+545,Meta,Flash Sale,11528.4,0.14,46417
+546,TikTok,Seasonal,14679.23,0.17,31863
+547,Google,Brand Awareness,14887.63,0.17,12755
+548,TikTok,Seasonal,17849.8,0.2,9380
+549,Email,Seasonal,6981.3,0.09,37416
+550,Email,Flash Sale,18716.44,0.21,8603
+551,TikTok,Seasonal,18148.14,0.2,14351
+552,Meta,Flash Sale,18006.62,0.2,6035
+553,Meta,Seasonal,3713.66,0.06,6312
+554,Meta,Seasonal,7126.55,0.09,4190
+555,Meta,Seasonal,16523.01,0.19,27143
+556,Email,Brand Awareness,12514.26,0.15,21322
+557,Email,Seasonal,19275.43,0.21,28691
+558,Meta,Flash Sale,1771.13,0.04,35555
+559,Email,Flash Sale,19479.91,0.21,38259
+560,TikTok,Brand Awareness,11896.34,0.14,6358
+561,Email,Brand Awareness,10672.55,0.13,30487
+562,Google,Seasonal,4200.37,0.06,26882
+563,Email,Flash Sale,10371.7,0.12,6743
+564,Meta,Flash Sale,13993.66,0.16,42029
+565,Email,Flash Sale,1469.25,0.03,31899
+566,Email,Flash Sale,10750.23,0.13,33486
+567,Google,Flash Sale,4454.36,0.06,38775
+568,Meta,Flash Sale,5106.39,0.07,48592
+569,TikTok,Brand Awareness,3549.85,0.06,47621
+570,Meta,Seasonal,12547.49,0.15,11244
+571,TikTok,Brand Awareness,16827.12,0.19,11394
+572,TikTok,Flash Sale,3626.67,0.06,24281
+573,Email,Seasonal,4234.92,0.06,7939
+574,Email,Brand Awareness,16901.63,0.19,33662
+575,Email,Flash Sale,13497.99,0.15,19792
+576,Meta,Seasonal,14324.57,0.16,29103
+577,Email,Seasonal,5530.12,0.08,29447
+578,TikTok,Flash Sale,14974.89,0.17,1517
+579,Email,Seasonal,3813.92,0.06,20761
+580,TikTok,Brand Awareness,8275.81,0.1,23328
+581,Google,Brand Awareness,1223.82,0.03,4928
+582,TikTok,Seasonal,6620.63,0.09,49874
+583,Meta,Seasonal,14121.83,0.16,22485
+584,Meta,Flash Sale,3446.2,0.05,15076
+585,Email,Flash Sale,12244.35,0.14,46155
+586,Google,Brand Awareness,6271.11,0.08,14935
+587,TikTok,Seasonal,10931.88,0.13,35260
+588,Email,Seasonal,5876.57,0.08,20999
+589,TikTok,Brand Awareness,14201.72,0.16,30646
+590,Email,Flash Sale,13155.73,0.15,16258
+591,Google,Brand Awareness,11021.67,0.13,37657
+592,Meta,Brand Awareness,19805.0,0.22,38981
+593,Google,Brand Awareness,15219.13,0.17,21799
+594,Meta,Flash Sale,7436.25,0.09,27691
+595,Email,Flash Sale,1585.67,0.04,17903
+596,Google,Flash Sale,4864.85,0.07,4973
+597,Google,Seasonal,14669.74,0.17,37353
+598,Meta,Brand Awareness,12989.65,0.15,28771
+599,TikTok,Brand Awareness,8855.85,0.11,17442
+600,Google,Flash Sale,17006.68,0.19,6879
+601,TikTok,Brand Awareness,8749.77,0.11,30669
+602,Google,Brand Awareness,12606.34,0.15,32229
+603,Google,Brand Awareness,16630.31,0.19,30175
+604,Meta,Flash Sale,8893.34,0.11,1613
+605,Email,Flash Sale,17732.36,0.2,3411
+606,Meta,Brand Awareness,7004.09,0.09,13698
+607,Google,Brand Awareness,3149.58,0.05,45416
+608,Email,Flash Sale,6298.57,0.08,24689
+609,TikTok,Seasonal,12142.73,0.14,38474
+610,Google,Seasonal,10808.71,0.13,32455
+611,Meta,Seasonal,15895.1,0.18,40319
+612,Google,Seasonal,14973.3,0.17,5063
+613,Google,Flash Sale,13097.17,0.15,25999
+614,Google,Flash Sale,5057.78,0.07,43658
+615,Meta,Brand Awareness,16425.9,0.18,9256
+616,Google,Seasonal,8555.06,0.11,21425
+617,TikTok,Seasonal,5523.62,0.08,34926
+618,Meta,Seasonal,6961.86,0.09,23383
+619,Google,Flash Sale,5376.51,0.07,3765
+620,TikTok,Brand Awareness,19283.71,0.21,25635
+621,TikTok,Flash Sale,5601.49,0.08,13740
+622,Meta,Seasonal,11775.45,0.14,13844
+623,Email,Seasonal,1687.94,0.04,25224
+624,Email,Brand Awareness,8643.6,0.11,25527
+625,Google,Brand Awareness,12767.62,0.15,19354
+626,TikTok,Flash Sale,19920.24,0.22,35006
+627,Email,Brand Awareness,7664.01,0.1,39271
+628,Meta,Flash Sale,6802.86,0.09,17680
+629,TikTok,Flash Sale,18645.86,0.21,30566
+630,TikTok,Brand Awareness,3109.66,0.05,5973
+631,Meta,Flash Sale,7838.37,0.1,13887
+632,Google,Flash Sale,16077.21,0.18,19471
+633,Meta,Flash Sale,16494.27,0.18,16317
+634,Google,Flash Sale,12168.11,0.14,10106
+635,Email,Brand Awareness,16773.66,0.19,36232
+636,Google,Brand Awareness,12712.76,0.15,26325
+637,Email,Seasonal,4915.4,0.07,13235
+638,Google,Seasonal,16609.98,0.19,22415
+639,Meta,Seasonal,16848.63,0.19,14479
+640,Meta,Seasonal,15508.6,0.18,10351
+641,Google,Flash Sale,6269.59,0.08,43355
+642,Email,Brand Awareness,12514.29,0.15,13022
+643,Meta,Flash Sale,17149.76,0.19,27953
+644,Google,Flash Sale,15732.78,0.18,2750
+645,Meta,Flash Sale,17558.64,0.2,44928
+646,Email,Flash Sale,13426.44,0.15,11575
+647,Google,Brand Awareness,18442.2,0.2,18907
+648,Google,Flash Sale,10883.43,0.13,46242
+649,Google,Flash Sale,3957.31,0.06,2831
+650,Google,Flash Sale,19891.47,0.22,22147
+651,Google,Flash Sale,7843.08,0.1,43860
+652,Google,Seasonal,9063.39,0.11,27941
+653,Meta,Brand Awareness,15959.63,0.18,46064
+654,Google,Seasonal,16248.73,0.18,2390
+655,Email,Flash Sale,15668.6,0.18,14239
+656,Google,Brand Awareness,4774.36,0.07,28190
+657,Meta,Brand Awareness,16288.19,0.18,46631
+658,Meta,Seasonal,10889.89,0.13,9228
+659,Meta,Seasonal,8023.22,0.1,28788
+660,Email,Seasonal,13092.15,0.15,31848
+661,Meta,Flash Sale,16370.58,0.18,25933
+662,Email,Seasonal,8747.05,0.11,11140
+663,Google,Flash Sale,9240.75,0.11,3544
+664,Google,Brand Awareness,18183.63,0.2,26253
+665,Meta,Flash Sale,13507.39,0.16,17214
+666,Meta,Flash Sale,10615.58,0.13,17572
+667,Meta,Brand Awareness,8382.09,0.1,27081
+668,TikTok,Brand Awareness,9511.91,0.12,29242
+669,Meta,Seasonal,3347.88,0.05,14168
+670,Email,Seasonal,16314.22,0.18,19137
+671,Google,Seasonal,8816.81,0.11,14832
+672,TikTok,Flash Sale,13695.43,0.16,16702
+673,Meta,Seasonal,10360.81,0.12,40446
+674,TikTok,Seasonal,13437.8,0.15,42535
+675,Google,Brand Awareness,8917.2,0.11,26222
+676,Email,Brand Awareness,1934.01,0.04,36433
+677,TikTok,Flash Sale,9935.63,0.12,19373
+678,Google,Brand Awareness,4815.75,0.07,23493
+679,Meta,Brand Awareness,8097.76,0.1,8609
+680,Email,Flash Sale,10554.02,0.13,21948
+681,Meta,Flash Sale,12945.71,0.15,45563
+682,Google,Flash Sale,17379.98,0.19,47302
+683,Meta,Brand Awareness,4255.17,0.06,49216
+684,Email,Flash Sale,5087.29,0.07,26648
+685,Google,Brand Awareness,17178.2,0.19,20927
+686,Google,Flash Sale,13889.97,0.16,48576
+687,Google,Seasonal,13111.46,0.15,34779
+688,Email,Flash Sale,19083.54,0.21,46087
+689,Google,Seasonal,4070.36,0.06,8998
+690,Email,Flash Sale,17559.37,0.2,38448
+691,Email,Seasonal,16832.21,0.19,35006
+692,Meta,Brand Awareness,10831.22,0.13,14515
+693,Email,Brand Awareness,4822.29,0.07,1005
+694,TikTok,Brand Awareness,16885.51,0.19,36272
+695,Meta,Brand Awareness,8581.77,0.11,24531
+696,TikTok,Brand Awareness,4003.75,0.06,28875
+697,Meta,Flash Sale,9759.64,0.12,11059
+698,Email,Seasonal,12114.86,0.14,22584
+699,Email,Seasonal,12729.73,0.15,9093
+700,Meta,Flash Sale,16547.99,0.19,26530
+701,Email,Brand Awareness,19240.23,0.21,49196
+702,Email,Brand Awareness,11699.41,0.14,19797
+703,Meta,Seasonal,16803.4,0.19,11820
+704,Google,Flash Sale,2445.61,0.04,1910
+705,Meta,Seasonal,18305.1,0.2,5923
+706,Meta,Brand Awareness,2872.21,0.05,8724
+707,Google,Flash Sale,10756.46,0.13,41484
+708,TikTok,Brand Awareness,5601.72,0.08,13200
+709,Google,Seasonal,3774.32,0.06,44033
+710,Email,Brand Awareness,16681.1,0.19,29793
+711,Email,Flash Sale,11736.4,0.14,49753
+712,Meta,Flash Sale,10377.09,0.12,27206
+713,Meta,Seasonal,13322.15,0.15,45453
+714,Meta,Brand Awareness,18221.44,0.2,34504
+715,Google,Brand Awareness,8275.28,0.1,48871
+716,Email,Seasonal,14048.59,0.16,41400
+717,Email,Seasonal,13021.22,0.15,34414
+718,Meta,Seasonal,18337.22,0.2,1035
+719,TikTok,Flash Sale,3451.7,0.05,20946
+720,Email,Seasonal,3097.49,0.05,7970
+721,Email,Seasonal,1576.45,0.04,35967
+722,Email,Brand Awareness,1017.21,0.03,48010
+723,Meta,Flash Sale,16060.87,0.18,3978
+724,Email,Brand Awareness,10253.3,0.12,26575
+725,TikTok,Flash Sale,12283.6,0.14,15439
+726,Meta,Flash Sale,10525.67,0.13,4376
+727,TikTok,Brand Awareness,19627.87,0.22,9756
+728,Google,Brand Awareness,10322.3,0.12,49874
+729,Email,Seasonal,7899.52,0.1,48828
+730,Email,Brand Awareness,9567.24,0.12,12823
+731,Email,Seasonal,12149.59,0.14,30820
+732,Google,Brand Awareness,4922.46,0.07,3866
+733,TikTok,Brand Awareness,18931.99,0.21,6568
+734,TikTok,Brand Awareness,5596.21,0.08,36626
+735,Google,Seasonal,17324.59,0.19,28992
+736,Meta,Seasonal,15090.46,0.17,19468
+737,TikTok,Brand Awareness,6235.58,0.08,12885
+738,Google,Seasonal,6459.28,0.08,10741
+739,TikTok,Seasonal,17537.52,0.2,6927
+740,TikTok,Seasonal,7249.48,0.09,43857
+741,Email,Brand Awareness,3078.6,0.05,38871
+742,Google,Seasonal,7576.04,0.1,23894
+743,Meta,Seasonal,5086.62,0.07,46598
+744,Meta,Seasonal,9693.81,0.12,10626
+745,Meta,Brand Awareness,1626.56,0.04,35566
+746,Google,Brand Awareness,19720.13,0.22,3104
+747,Meta,Flash Sale,1849.43,0.04,11276
+748,Google,Brand Awareness,14217.17,0.16,31699
+749,Google,Seasonal,11889.84,0.14,24770
+750,Meta,Brand Awareness,1298.98,0.03,14220
+751,Google,Flash Sale,13091.08,0.15,1555
+752,Google,Brand Awareness,18412.02,0.2,10842
+753,Meta,Seasonal,17111.46,0.19,45660
+754,Email,Seasonal,17131.66,0.19,14685
+755,TikTok,Seasonal,14531.58,0.17,20372
+756,Email,Brand Awareness,13794.44,0.16,10204
+757,TikTok,Flash Sale,13916.54,0.16,6471
+758,Google,Seasonal,1348.43,0.03,7900
+759,Email,Seasonal,12493.88,0.14,6624
+760,Email,Seasonal,9983.07,0.12,19243
+761,TikTok,Flash Sale,18359.72,0.2,32025
+762,TikTok,Flash Sale,11843.1,0.14,6354
+763,Meta,Seasonal,18717.34,0.21,23890
+764,Meta,Flash Sale,10105.11,0.12,44520
+765,Google,Flash Sale,8552.27,0.11,9239
+766,TikTok,Seasonal,18628.39,0.21,13527
+767,Email,Flash Sale,1229.19,0.03,27895
+768,Email,Flash Sale,18517.16,0.21,19679
+769,Email,Brand Awareness,18171.58,0.2,41883
+770,Meta,Flash Sale,13942.98,0.16,9155
+771,Email,Brand Awareness,11987.48,0.14,16830
+772,Email,Seasonal,4066.92,0.06,37420
+773,TikTok,Brand Awareness,5014.42,0.07,11383
+774,Meta,Seasonal,12639.26,0.15,7112
+775,TikTok,Seasonal,13273.32,0.15,16710
+776,Google,Brand Awareness,12873.53,0.15,38968
+777,Google,Flash Sale,5895.48,0.08,24684
+778,Email,Flash Sale,9774.85,0.12,21551
+779,Email,Brand Awareness,8370.07,0.1,40321
+780,Meta,Flash Sale,15128.94,0.17,8522
+781,TikTok,Brand Awareness,1540.69,0.04,37142
+782,TikTok,Flash Sale,1350.67,0.03,7743
+783,Google,Brand Awareness,2593.07,0.05,26103
+784,Email,Flash Sale,18697.02,0.21,40576
+785,Meta,Brand Awareness,13712.52,0.16,25357
+786,TikTok,Seasonal,12114.84,0.14,37807
+787,Email,Brand Awareness,1137.18,0.03,29521
+788,Email,Seasonal,14555.78,0.17,40415
+789,Google,Brand Awareness,10079.66,0.12,35571
+790,Email,Seasonal,12019.28,0.14,37467
+791,Meta,Seasonal,9653.95,0.12,1681
+792,Google,Flash Sale,15937.47,0.18,3823
+793,Email,Seasonal,7427.43,0.09,9276
+794,Email,Flash Sale,14452.45,0.16,22096
+795,Google,Seasonal,1972.92,0.04,33414
+796,TikTok,Flash Sale,1797.44,0.04,47433
+797,TikTok,Flash Sale,11626.74,0.14,11760
+798,Google,Flash Sale,13736.72,0.16,44377
+799,Email,Brand Awareness,6066.47,0.08,22871
+800,Email,Seasonal,12049.08,0.14,39931
+801,TikTok,Seasonal,9284.79,0.11,5315
+802,TikTok,Flash Sale,2564.5,0.05,14481
+803,Email,Brand Awareness,15196.31,0.17,21009
+804,Email,Flash Sale,13291.99,0.15,22892
+805,Meta,Flash Sale,17430.36,0.19,8168
+806,TikTok,Flash Sale,8779.94,0.11,33156
+807,Email,Seasonal,14490.56,0.16,18690
+808,Email,Flash Sale,18213.09,0.2,14520
+809,TikTok,Flash Sale,4059.88,0.06,26626
+810,Email,Brand Awareness,11712.26,0.14,23740
+811,Meta,Flash Sale,3661.23,0.06,32904
+812,Google,Flash Sale,16925.02,0.19,24085
+813,Meta,Flash Sale,15527.76,0.18,39353
+814,TikTok,Flash Sale,17044.1,0.19,40127
+815,TikTok,Seasonal,14530.24,0.17,20486
+816,TikTok,Flash Sale,6420.28,0.08,24212
+817,TikTok,Seasonal,1733.72,0.04,39032
+818,Google,Seasonal,12902.81,0.15,4584
+819,Google,Brand Awareness,11991.16,0.14,14439
+820,Meta,Seasonal,17194.94,0.19,5400
+821,Google,Seasonal,11006.2,0.13,20655
+822,Meta,Brand Awareness,1909.45,0.04,2419
+823,Google,Brand Awareness,15657.17,0.18,33306
+824,Email,Seasonal,2615.83,0.05,37976
+825,Email,Flash Sale,5796.19,0.08,1597
+826,TikTok,Flash Sale,13242.95,0.15,47870
+827,TikTok,Seasonal,19138.11,0.21,46728
+828,Email,Flash Sale,11924.12,0.14,16173
+829,Google,Brand Awareness,13825.89,0.16,5776
+830,TikTok,Flash Sale,7451.05,0.09,29672
+831,Google,Seasonal,6336.78,0.08,3178
+832,Meta,Seasonal,13251.93,0.15,38379
+833,Google,Seasonal,19160.79,0.21,34898
+834,TikTok,Flash Sale,4846.78,0.07,47089
+835,Google,Brand Awareness,3027.56,0.05,31866
+836,TikTok,Brand Awareness,1385.32,0.03,5084
+837,TikTok,Brand Awareness,5950.56,0.08,3735
+838,Google,Seasonal,14712.08,0.17,36008
+839,Meta,Seasonal,11661.28,0.14,29701
+840,Email,Brand Awareness,7829.46,0.1,36141
+841,TikTok,Flash Sale,13841.95,0.16,40479
+842,TikTok,Brand Awareness,1798.11,0.04,14491
+843,TikTok,Flash Sale,16176.66,0.18,46729
+844,Meta,Flash Sale,8720.14,0.11,49621
+845,Google,Flash Sale,3054.86,0.05,3212
+846,Email,Flash Sale,16564.13,0.19,3910
+847,Google,Brand Awareness,16096.49,0.18,23034
+848,Email,Brand Awareness,2977.44,0.05,45431
+849,TikTok,Seasonal,8661.95,0.11,17379
+850,Google,Seasonal,15737.44,0.18,21112
+851,Email,Brand Awareness,3211.65,0.05,37477
+852,TikTok,Flash Sale,4413.04,0.06,33435
+853,Email,Brand Awareness,12892.73,0.15,21796
+854,Google,Seasonal,16116.02,0.18,34222
+855,Meta,Seasonal,4584.77,0.07,22400
+856,TikTok,Seasonal,1471.38,0.03,39746
+857,Google,Brand Awareness,6432.49,0.08,48596
+858,Google,Brand Awareness,12926.92,0.15,31954
+859,Email,Flash Sale,5335.38,0.07,8563
+860,Meta,Flash Sale,18020.18,0.2,28449
+861,Google,Seasonal,11124.92,0.13,27771
+862,Email,Brand Awareness,1156.49,0.03,7618
+863,Email,Brand Awareness,1212.79,0.03,37499
+864,TikTok,Flash Sale,2290.6,0.04,27796
+865,Meta,Seasonal,17351.43,0.19,39899
+866,Email,Flash Sale,6940.47,0.09,4164
+867,TikTok,Brand Awareness,17007.08,0.19,41335
+868,TikTok,Flash Sale,9148.23,0.11,40725
+869,Meta,Seasonal,3569.33,0.06,33005
+870,TikTok,Seasonal,9288.75,0.11,47940
+871,Google,Brand Awareness,11364.27,0.13,15577
+872,Email,Seasonal,2876.61,0.05,47209
+873,Meta,Flash Sale,2512.71,0.05,31809
+874,Email,Seasonal,17909.35,0.2,33157
+875,TikTok,Flash Sale,16700.9,0.19,35764
+876,Email,Flash Sale,7391.01,0.09,7326
+877,TikTok,Brand Awareness,8735.69,0.11,8440
+878,Meta,Flash Sale,14735.39,0.17,4984
+879,Email,Brand Awareness,17805.43,0.2,15348
+880,TikTok,Seasonal,12926.31,0.15,40646
+881,Meta,Flash Sale,16928.42,0.19,36092
+882,Google,Seasonal,6730.34,0.09,35508
+883,TikTok,Brand Awareness,17357.68,0.19,9103
+884,Google,Brand Awareness,10890.02,0.13,36500
+885,TikTok,Flash Sale,15057.45,0.17,14281
+886,TikTok,Brand Awareness,5895.47,0.08,35944
+887,Google,Flash Sale,18167.63,0.2,16211
+888,Email,Brand Awareness,12435.18,0.14,17381
+889,TikTok,Brand Awareness,8241.08,0.1,23142
+890,Email,Brand Awareness,6437.54,0.08,33755
+891,Google,Flash Sale,17308.77,0.19,9341
+892,Email,Seasonal,11995.64,0.14,36853
+893,TikTok,Brand Awareness,13416.29,0.15,43612
+894,TikTok,Brand Awareness,11582.17,0.14,48194
+895,TikTok,Brand Awareness,6105.82,0.08,13299
+896,Meta,Flash Sale,6024.97,0.08,42210
+897,Meta,Seasonal,7124.33,0.09,39839
+898,TikTok,Brand Awareness,16393.91,0.18,41362
+899,Google,Flash Sale,1194.44,0.03,6097
+900,Email,Brand Awareness,15047.54,0.17,32095
+901,Email,Flash Sale,3519.06,0.06,46554
+902,Email,Seasonal,15372.46,0.17,41434
+903,Google,Brand Awareness,16008.33,0.18,21341
+904,Email,Flash Sale,15789.52,0.18,3878
+905,Google,Seasonal,18569.47,0.21,25217
+906,Google,Brand Awareness,16372.96,0.18,19184
+907,Email,Flash Sale,1631.84,0.04,44759
+908,Meta,Brand Awareness,8561.19,0.11,34126
+909,Email,Seasonal,11008.16,0.13,8619
+910,Google,Brand Awareness,3181.12,0.05,17169
+911,Meta,Seasonal,17276.41,0.19,18878
+912,Email,Brand Awareness,3449.81,0.05,46025
+913,TikTok,Brand Awareness,17053.37,0.19,34014
+914,Meta,Flash Sale,9432.44,0.11,10162
+915,Meta,Flash Sale,3694.75,0.06,32162
+916,Email,Brand Awareness,8711.87,0.11,38746
+917,Google,Seasonal,18631.41,0.21,34224
+918,Meta,Brand Awareness,14403.25,0.16,10145
+919,Meta,Seasonal,15383.23,0.17,12276
+920,Email,Seasonal,13896.85,0.16,23591
+921,TikTok,Seasonal,11724.39,0.14,27206
+922,Meta,Seasonal,5672.06,0.08,25191
+923,TikTok,Flash Sale,2412.29,0.04,7085
+924,Meta,Seasonal,13528.58,0.16,27097
+925,Meta,Brand Awareness,15692.25,0.18,34224
+926,Google,Brand Awareness,10841.33,0.13,30508
+927,Google,Seasonal,1676.5,0.04,1455
+928,TikTok,Seasonal,3622.52,0.06,40277
+929,Email,Seasonal,12628.94,0.15,30279
+930,Google,Seasonal,10210.78,0.12,48630
+931,TikTok,Seasonal,18216.12,0.2,10617
+932,TikTok,Brand Awareness,1239.26,0.03,43788
+933,Email,Seasonal,13967.1,0.16,29635
+934,Meta,Seasonal,5362.16,0.07,28153
+935,TikTok,Seasonal,3534.54,0.06,5176
+936,TikTok,Flash Sale,16645.61,0.19,23699
+937,Email,Seasonal,4184.82,0.06,44299
+938,Email,Seasonal,6544.64,0.09,11217
+939,Meta,Flash Sale,14337.12,0.16,40788
+940,Email,Brand Awareness,1325.88,0.03,27772
+941,Email,Seasonal,19417.64,0.21,27474
+942,Meta,Brand Awareness,8767.46,0.11,7443
+943,Email,Seasonal,1983.89,0.04,22300
+944,Meta,Flash Sale,1954.05,0.04,25186
+945,Email,Flash Sale,18772.52,0.21,17059
+946,Google,Seasonal,13955.59,0.16,3118
+947,Google,Flash Sale,15131.0,0.17,32510
+948,Meta,Flash Sale,8614.22,0.11,38998
+949,Google,Flash Sale,9404.16,0.11,43076
+950,TikTok,Brand Awareness,10709.17,0.13,19041
+951,TikTok,Flash Sale,16520.35,0.19,47913
+952,TikTok,Brand Awareness,3597.21,0.06,15936
+953,Meta,Brand Awareness,9643.29,0.12,33839
+954,Google,Flash Sale,7382.36,0.09,15734
+955,Google,Brand Awareness,8139.43,0.1,35348
+956,Google,Seasonal,17575.85,0.2,30270
+957,TikTok,Brand Awareness,4591.32,0.07,19184
+958,Google,Brand Awareness,12892.1,0.15,4347
+959,Meta,Brand Awareness,12649.32,0.15,32931
+960,TikTok,Flash Sale,18111.72,0.2,42361
+961,TikTok,Brand Awareness,2920.45,0.05,29838
+962,TikTok,Seasonal,2704.45,0.05,30045
+963,Google,Brand Awareness,16592.83,0.19,20664
+964,Email,Brand Awareness,3957.85,0.06,40008
+965,TikTok,Brand Awareness,6451.17,0.08,21666
+966,TikTok,Seasonal,5578.23,0.08,47159
+967,Email,Flash Sale,14983.71,0.17,8001
+968,Email,Seasonal,12456.0,0.14,19359
+969,Email,Seasonal,17866.48,0.2,5848
+970,TikTok,Brand Awareness,3865.06,0.06,35801
+971,TikTok,Flash Sale,9682.63,0.12,15921
+972,Email,Flash Sale,4276.53,0.06,26972
+973,Email,Flash Sale,18686.03,0.21,38671
+974,Meta,Seasonal,16236.98,0.18,45823
+975,Email,Seasonal,15471.82,0.17,27310
+976,TikTok,Brand Awareness,4920.44,0.07,30999
+977,Google,Seasonal,4086.74,0.06,36394
+978,Meta,Seasonal,12262.67,0.14,24287
+979,Email,Flash Sale,19267.19,0.21,14017
+980,Email,Brand Awareness,18988.66,0.21,40639
+981,Email,Seasonal,11312.7,0.13,1475
+982,Google,Brand Awareness,13419.97,0.15,43177
+983,Google,Seasonal,14541.64,0.17,34988
+984,Email,Seasonal,19292.07,0.21,12445
+985,TikTok,Flash Sale,3031.59,0.05,41757
+986,Email,Brand Awareness,13719.93,0.16,48351
+987,Email,Flash Sale,17546.92,0.2,36174
+988,Google,Flash Sale,13501.07,0.16,33296
+989,Email,Flash Sale,11030.29,0.13,41305
+990,TikTok,Seasonal,19554.32,0.22,22492
+991,Google,Seasonal,16485.15,0.18,11609
+992,TikTok,Brand Awareness,18095.72,0.2,29826
+993,TikTok,Brand Awareness,7962.68,0.1,18227
+994,TikTok,Seasonal,17086.24,0.19,23781
+995,Meta,Brand Awareness,13831.74,0.16,49797
+996,Meta,Brand Awareness,16725.91,0.19,42570
+997,Email,Flash Sale,8739.36,0.11,22097
+998,Email,Seasonal,12426.15,0.14,10423
+999,Meta,Flash Sale,6137.95,0.08,10203
+1000,TikTok,Brand Awareness,4226.95,0.06,7724
+1001,TikTok,Flash Sale,8124.85,0.1,3685
+1002,Google,Seasonal,11306.47,0.13,48956
+1003,TikTok,Flash Sale,18572.77,0.21,44711
+1004,TikTok,Seasonal,8258.66,0.1,47434
+1005,Meta,Flash Sale,5587.82,0.08,39018
+1006,Google,Seasonal,9250.5,0.11,38154
+1007,TikTok,Flash Sale,18657.62,0.21,17298
+1008,TikTok,Brand Awareness,10654.99,0.13,27300
+1009,Google,Brand Awareness,18182.73,0.2,27611
+1010,Meta,Flash Sale,18046.88,0.2,2043
+1011,Email,Flash Sale,9227.09,0.11,10552
+1012,Meta,Flash Sale,6049.18,0.08,3672
+1013,Google,Flash Sale,19216.95,0.21,16969
+1014,Email,Brand Awareness,8134.65,0.1,38713
+1015,Meta,Flash Sale,2186.08,0.04,47034
+1016,Meta,Flash Sale,6809.43,0.09,18637
+1017,Google,Flash Sale,7602.96,0.1,32236
+1018,Email,Flash Sale,6890.31,0.09,47151
+1019,Email,Seasonal,7917.19,0.1,36364
+1020,Email,Brand Awareness,7767.17,0.1,11564
+1021,Email,Brand Awareness,17284.85,0.19,46936
+1022,Meta,Brand Awareness,4518.14,0.07,29204
+1023,Email,Seasonal,1137.8,0.03,35332
+1024,TikTok,Flash Sale,14295.61,0.16,21071
+1025,Google,Brand Awareness,17525.43,0.2,11136
+1026,Google,Flash Sale,17252.91,0.19,20099
+1027,Email,Flash Sale,13304.07,0.15,8627
+1028,Google,Flash Sale,7115.94,0.09,44231
+1029,TikTok,Seasonal,1508.64,0.04,30353
+1030,TikTok,Brand Awareness,10452.88,0.12,32726
+1031,Meta,Brand Awareness,5293.75,0.07,21555
+1032,Meta,Brand Awareness,3359.56,0.05,25302
+1033,Meta,Brand Awareness,6358.8,0.08,42970
+1034,Email,Seasonal,17893.75,0.2,25365
+1035,TikTok,Flash Sale,2000.46,0.04,46238
+1036,Email,Seasonal,18856.55,0.21,44447
+1037,TikTok,Brand Awareness,17829.47,0.2,47859
+1038,Email,Seasonal,9976.75,0.12,9330
+1039,Google,Seasonal,11136.12,0.13,29570
+1040,Google,Seasonal,17963.07,0.2,23370
+1041,Google,Seasonal,13806.44,0.16,13056
+1042,TikTok,Seasonal,12236.08,0.14,8298
+1043,Google,Brand Awareness,5833.99,0.08,16313
+1044,Google,Brand Awareness,15999.33,0.18,32223
+1045,Email,Flash Sale,10422.78,0.12,11036
+1046,Google,Flash Sale,18801.81,0.21,20651
+1047,Email,Flash Sale,15214.09,0.17,28376
+1048,Meta,Seasonal,3583.01,0.06,47700
+1049,Email,Seasonal,9540.12,0.12,36574
+1050,Email,Seasonal,1259.5,0.03,30031
+1051,Email,Flash Sale,15596.71,0.18,31708
+1052,Google,Seasonal,16567.36,0.19,1568
+1053,TikTok,Brand Awareness,18264.46,0.2,21676
+1054,Meta,Flash Sale,9826.14,0.12,8762
+1055,Meta,Flash Sale,2121.2,0.04,31986
+1056,TikTok,Flash Sale,9807.49,0.12,6571
+1057,TikTok,Flash Sale,3655.66,0.06,47622
+1058,TikTok,Brand Awareness,16176.23,0.18,2536
+1059,TikTok,Brand Awareness,6015.37,0.08,44037
+1060,Email,Flash Sale,16957.33,0.19,26453
+1061,TikTok,Brand Awareness,16924.83,0.19,13642
+1062,Meta,Seasonal,4289.38,0.06,16922
+1063,TikTok,Brand Awareness,4999.17,0.07,5612
+1064,Google,Brand Awareness,18435.03,0.2,7002
+1065,Email,Seasonal,15089.26,0.17,47415
+1066,Google,Seasonal,4881.08,0.07,13957
+1067,TikTok,Brand Awareness,16904.41,0.19,28019
+1068,Meta,Seasonal,18398.14,0.2,5038
+1069,TikTok,Brand Awareness,16199.01,0.18,45635
+1070,Meta,Seasonal,12124.77,0.14,39484
+1071,Meta,Brand Awareness,12284.81,0.14,26268
+1072,Meta,Seasonal,1366.68,0.03,39858
+1073,Email,Seasonal,3778.21,0.06,20891
+1074,Google,Flash Sale,3775.72,0.06,7947
+1075,TikTok,Brand Awareness,15207.54,0.17,11394
+1076,Meta,Flash Sale,7532.45,0.1,38049
+1077,Email,Flash Sale,7145.88,0.09,37372
+1078,Email,Seasonal,8881.78,0.11,21542
+1079,Email,Flash Sale,5264.08,0.07,13660
+1080,Email,Brand Awareness,17731.07,0.2,10576
+1081,Google,Brand Awareness,7696.79,0.1,13775
+1082,Google,Seasonal,19421.87,0.21,43705
+1083,Email,Flash Sale,11735.34,0.14,8061
+1084,Google,Seasonal,17743.81,0.2,4435
+1085,TikTok,Flash Sale,10914.5,0.13,12665
+1086,Google,Seasonal,16915.1,0.19,10169
+1087,Email,Flash Sale,19915.44,0.22,36724
+1088,Meta,Seasonal,14864.05,0.17,43254
+1089,TikTok,Flash Sale,10291.33,0.12,26396
+1090,Google,Seasonal,1240.21,0.03,16040
+1091,Google,Brand Awareness,9192.81,0.11,49775
+1092,TikTok,Flash Sale,3404.01,0.05,8809
+1093,Email,Seasonal,3895.73,0.06,49681
+1094,Meta,Brand Awareness,4540.34,0.07,17536
+1095,TikTok,Flash Sale,19089.11,0.21,26608
+1096,Google,Brand Awareness,18560.52,0.21,4278
+1097,Meta,Brand Awareness,18572.57,0.21,13503
+1098,TikTok,Flash Sale,1989.0,0.04,14412
+1099,Google,Brand Awareness,14798.29,0.17,37911
+1100,Email,Seasonal,8230.94,0.1,1869
+1101,Meta,Brand Awareness,4247.2,0.06,30359
+1102,TikTok,Flash Sale,3733.01,0.06,31964
+1103,Meta,Brand Awareness,15694.95,0.18,27331
+1104,TikTok,Seasonal,16300.3,0.18,22810
+1105,Meta,Brand Awareness,4985.04,0.07,10143
+1106,Google,Flash Sale,1284.2,0.03,37074
+1107,Email,Seasonal,5391.88,0.07,38815
+1108,Google,Flash Sale,12064.87,0.14,10460
+1109,Google,Flash Sale,7214.89,0.09,8934
+1110,TikTok,Flash Sale,17164.83,0.19,26411
+1111,Email,Flash Sale,4553.66,0.07,24035
+1112,Email,Seasonal,3481.14,0.05,32945
+1113,TikTok,Seasonal,14943.42,0.17,40558
+1114,Meta,Brand Awareness,9056.99,0.11,45252
+1115,Google,Brand Awareness,19561.62,0.22,34864
+1116,Meta,Seasonal,17706.18,0.2,14049
+1117,TikTok,Brand Awareness,15400.82,0.17,39244
+1118,Email,Flash Sale,1438.89,0.03,46804
+1119,Google,Seasonal,13325.72,0.15,18221
+1120,Meta,Brand Awareness,13972.3,0.16,13878
+1121,Meta,Seasonal,13492.39,0.15,20683
+1122,TikTok,Seasonal,9961.4,0.12,21940
+1123,Google,Seasonal,16068.17,0.18,44717
+1124,TikTok,Seasonal,4050.6,0.06,18201
+1125,Meta,Brand Awareness,5706.88,0.08,9344
+1126,Google,Brand Awareness,1730.23,0.04,6560
+1127,TikTok,Flash Sale,13913.18,0.16,31796
+1128,Google,Flash Sale,10949.53,0.13,42230
+1129,TikTok,Brand Awareness,14880.64,0.17,45308
+1130,TikTok,Brand Awareness,7892.0,0.1,36571
+1131,TikTok,Seasonal,18698.42,0.21,43433
+1132,TikTok,Brand Awareness,8502.28,0.11,5721
+1133,Email,Seasonal,13269.53,0.15,18412
+1134,TikTok,Seasonal,1420.66,0.03,3689
+1135,Google,Brand Awareness,6349.37,0.08,38130
+1136,TikTok,Brand Awareness,2303.42,0.04,24170
+1137,Google,Seasonal,11358.3,0.13,6975
+1138,Meta,Flash Sale,12188.77,0.14,8037
+1139,Email,Brand Awareness,8334.59,0.1,30106
+1140,TikTok,Seasonal,9589.78,0.12,33704
+1141,Meta,Flash Sale,5594.57,0.08,24151
+1142,Google,Flash Sale,4094.08,0.06,47731
+1143,Google,Flash Sale,9601.78,0.12,17706
+1144,Meta,Seasonal,8533.03,0.11,25998
+1145,TikTok,Flash Sale,12476.34,0.14,10766
+1146,Google,Brand Awareness,2898.8,0.05,4417
+1147,Google,Flash Sale,5391.49,0.07,12713
+1148,Meta,Flash Sale,10417.57,0.12,34636
+1149,TikTok,Brand Awareness,3089.61,0.05,19302
+1150,Google,Flash Sale,18703.98,0.21,31197
+1151,Meta,Brand Awareness,11539.14,0.14,33750
+1152,TikTok,Seasonal,2874.75,0.05,21614
+1153,Meta,Seasonal,15140.47,0.17,2073
+1154,Google,Seasonal,5242.99,0.07,10537
+1155,Email,Seasonal,1522.22,0.04,32421
+1156,Google,Brand Awareness,14390.9,0.16,15332
+1157,TikTok,Seasonal,14943.34,0.17,34881
+1158,Email,Brand Awareness,14572.04,0.17,48352
+1159,Google,Flash Sale,3958.79,0.06,1793
+1160,Meta,Seasonal,13101.08,0.15,18400
+1161,TikTok,Flash Sale,6543.35,0.09,17913
+1162,Google,Flash Sale,3804.53,0.06,32679
+1163,Meta,Seasonal,9334.52,0.11,17301
+1164,Meta,Brand Awareness,12069.82,0.14,32534
+1165,TikTok,Seasonal,9854.07,0.12,21185
+1166,Meta,Flash Sale,3930.23,0.06,11432
+1167,Email,Seasonal,19511.69,0.22,46703
+1168,Google,Seasonal,5338.08,0.07,11827
+1169,Email,Seasonal,6300.34,0.08,18519
+1170,Email,Brand Awareness,10274.96,0.12,15666
+1171,TikTok,Flash Sale,8479.6,0.1,43827
+1172,Meta,Seasonal,18613.23,0.21,6207
+1173,TikTok,Brand Awareness,15864.58,0.18,16679
+1174,Google,Flash Sale,14550.12,0.17,11258
+1175,Email,Brand Awareness,18485.15,0.2,22206
+1176,Email,Seasonal,4375.46,0.06,32909
+1177,Meta,Flash Sale,7758.06,0.1,3519
+1178,Meta,Seasonal,2272.5,0.04,22791
+1179,TikTok,Flash Sale,9693.36,0.12,2174
+1180,TikTok,Flash Sale,5334.33,0.07,43733
+1181,Meta,Flash Sale,16026.89,0.18,1147
+1182,Meta,Brand Awareness,4624.26,0.07,44338
+1183,TikTok,Brand Awareness,16385.32,0.18,17095
+1184,Meta,Flash Sale,17985.59,0.2,14375
+1185,Google,Seasonal,18181.9,0.2,5324
+1186,TikTok,Seasonal,13424.93,0.15,24347
+1187,Meta,Seasonal,5606.02,0.08,23419
+1188,Meta,Seasonal,16162.89,0.18,41702
+1189,Google,Seasonal,13534.63,0.16,30681
+1190,Meta,Seasonal,2439.05,0.04,39970
+1191,TikTok,Seasonal,4829.01,0.07,21451
+1192,Meta,Flash Sale,7702.6,0.1,23278
+1193,TikTok,Flash Sale,10030.77,0.12,13109
+1194,Meta,Brand Awareness,16854.55,0.19,6166
+1195,Email,Seasonal,8625.98,0.11,21440
+1196,Email,Seasonal,8195.12,0.1,31751
+1197,Meta,Brand Awareness,8114.55,0.1,38290
+1198,TikTok,Brand Awareness,5407.71,0.07,48831
+1199,TikTok,Seasonal,10523.0,0.13,27510
+1200,Google,Flash Sale,1652.52,0.04,39714
+1201,Meta,Brand Awareness,14737.65,0.17,4051
+1202,Google,Brand Awareness,14540.56,0.17,1901
+1203,Email,Brand Awareness,18280.07,0.2,35004
+1204,Email,Flash Sale,2585.59,0.05,29668
+1205,Email,Seasonal,13970.19,0.16,19822
+1206,TikTok,Brand Awareness,5193.31,0.07,15700
+1207,Meta,Brand Awareness,3679.94,0.06,32844
+1208,TikTok,Brand Awareness,4900.33,0.07,27457
+1209,Google,Seasonal,6682.52,0.09,2282
+1210,TikTok,Brand Awareness,6669.43,0.09,14072
+1211,TikTok,Flash Sale,17167.22,0.19,16805
+1212,Email,Seasonal,9709.58,0.12,14432
+1213,TikTok,Seasonal,4429.18,0.06,3399
+1214,Google,Seasonal,3364.38,0.05,17404
+1215,TikTok,Seasonal,4883.67,0.07,6813
+1216,Google,Brand Awareness,6522.66,0.09,38467
+1217,Meta,Flash Sale,8720.22,0.11,31202
+1218,Google,Seasonal,18778.79,0.21,32046
+1219,Meta,Seasonal,2131.34,0.04,11075
+1220,Meta,Flash Sale,8651.32,0.11,28845
+1221,Email,Brand Awareness,7296.47,0.09,31465
+1222,Meta,Brand Awareness,15273.64,0.17,16191
+1223,Google,Flash Sale,12557.99,0.15,18114
+1224,Meta,Brand Awareness,13405.25,0.15,29989
+1225,Google,Brand Awareness,8255.56,0.1,2988
+1226,TikTok,Seasonal,19921.41,0.22,42343
+1227,Google,Brand Awareness,3427.88,0.05,10695
+1228,Email,Flash Sale,4345.27,0.06,3646
+1229,TikTok,Seasonal,10162.03,0.12,24689
+1230,Meta,Flash Sale,13263.9,0.15,25219
+1231,Email,Seasonal,2161.16,0.04,27655
+1232,TikTok,Seasonal,11508.39,0.14,9022
+1233,Email,Flash Sale,3823.16,0.06,17319
+1234,Google,Seasonal,4539.88,0.07,46655
+1235,Email,Seasonal,8375.44,0.1,7821
+1236,TikTok,Seasonal,17342.29,0.19,13228
+1237,Google,Flash Sale,16833.38,0.19,25724
+1238,Meta,Brand Awareness,5299.37,0.07,46705
+1239,TikTok,Brand Awareness,13265.15,0.15,42882
+1240,Google,Flash Sale,18823.51,0.21,48739
+1241,Google,Brand Awareness,17286.75,0.19,14016
+1242,Google,Brand Awareness,1981.19,0.04,6035
+1243,Google,Seasonal,19160.42,0.21,39410
+1244,Email,Brand Awareness,14591.85,0.17,47061
+1245,TikTok,Seasonal,5390.83,0.07,4797
+1246,Meta,Flash Sale,3837.62,0.06,35726
+1247,Google,Seasonal,12295.47,0.14,30575
+1248,Email,Brand Awareness,18597.31,0.21,3808
+1249,Google,Seasonal,7555.39,0.1,49912
+1250,Google,Seasonal,7863.23,0.1,26315
+1251,Google,Flash Sale,8852.94,0.11,34362
+1252,TikTok,Flash Sale,11513.51,0.14,3643
+1253,Meta,Flash Sale,19504.87,0.22,4022
+1254,TikTok,Brand Awareness,13388.28,0.15,39066
+1255,Email,Brand Awareness,14579.72,0.17,38533
+1256,Meta,Seasonal,14784.61,0.17,22650
+1257,Meta,Seasonal,18226.71,0.2,20295
+1258,Email,Brand Awareness,4222.86,0.06,8714
+1259,TikTok,Brand Awareness,1311.16,0.03,16988
+1260,Google,Brand Awareness,19750.66,0.22,10649
+1261,Email,Brand Awareness,6738.93,0.09,5771
+1262,TikTok,Seasonal,9729.39,0.12,18501
+1263,Google,Brand Awareness,13006.73,0.15,34678
+1264,Meta,Brand Awareness,8478.32,0.1,22944
+1265,Google,Brand Awareness,3470.13,0.05,22062
+1266,Meta,Seasonal,15021.74,0.17,48839
+1267,Email,Seasonal,17159.92,0.19,48580
+1268,Google,Seasonal,19084.34,0.21,38055
+1269,Email,Seasonal,13995.63,0.16,6844
+1270,Google,Seasonal,5062.87,0.07,11765
+1271,TikTok,Seasonal,6569.67,0.09,31653
+1272,Google,Brand Awareness,17061.37,0.19,12055
+1273,Google,Seasonal,17555.79,0.2,30605
+1274,Meta,Seasonal,14648.84,0.17,5926
+1275,Meta,Brand Awareness,18679.14,0.21,36790
+1276,TikTok,Flash Sale,3852.54,0.06,2910
+1277,Email,Brand Awareness,19498.55,0.21,5003
+1278,Google,Brand Awareness,8110.04,0.1,12202
+1279,Email,Seasonal,7084.78,0.09,46006
+1280,Google,Brand Awareness,1059.36,0.03,39707
+1281,TikTok,Seasonal,10866.0,0.13,40660
+1282,Google,Brand Awareness,2735.64,0.05,6505
+1283,Email,Flash Sale,10391.97,0.12,26591
+1284,Email,Flash Sale,2458.57,0.04,41005
+1285,TikTok,Brand Awareness,2342.7,0.04,38801
+1286,Google,Brand Awareness,14012.21,0.16,18650
+1287,Google,Seasonal,5066.75,0.07,19323
+1288,Meta,Flash Sale,6516.86,0.09,41067
+1289,Google,Flash Sale,6102.53,0.08,27535
+1290,Meta,Brand Awareness,16396.32,0.18,12262
+1291,Email,Flash Sale,11643.66,0.14,24973
+1292,Meta,Seasonal,7978.59,0.1,13724
+1293,TikTok,Brand Awareness,18892.09,0.21,16467
+1294,TikTok,Flash Sale,14076.33,0.16,14257
+1295,TikTok,Seasonal,5920.66,0.08,2052
+1296,Google,Brand Awareness,2580.07,0.05,39779
+1297,TikTok,Flash Sale,13574.61,0.16,11668
+1298,TikTok,Flash Sale,10399.75,0.12,11983
+1299,TikTok,Brand Awareness,17909.33,0.2,41216
+1300,Google,Seasonal,17892.42,0.2,3809
+1301,TikTok,Seasonal,10726.78,0.13,14654
+1302,Google,Flash Sale,12605.93,0.15,20874
+1303,TikTok,Brand Awareness,12167.6,0.14,28084
+1304,Meta,Seasonal,1591.06,0.04,47371
+1305,TikTok,Brand Awareness,11375.74,0.13,7068
+1306,Email,Flash Sale,9308.26,0.11,2587
+1307,Email,Flash Sale,13977.95,0.16,22027
+1308,Google,Brand Awareness,9661.9,0.12,44894
+1309,Email,Seasonal,6283.02,0.08,5149
+1310,Meta,Seasonal,2162.42,0.04,38791
+1311,Meta,Seasonal,5449.21,0.07,11915
+1312,Email,Brand Awareness,12192.8,0.14,49736
+1313,Email,Brand Awareness,8611.61,0.11,47890
+1314,Google,Seasonal,19843.94,0.22,4633
+1315,Meta,Seasonal,17828.69,0.2,2840
+1316,TikTok,Brand Awareness,2526.14,0.05,33043
+1317,Email,Seasonal,11675.24,0.14,3650
+1318,TikTok,Seasonal,19115.11,0.21,14765
+1319,TikTok,Seasonal,2836.63,0.05,32324
+1320,Google,Seasonal,4367.23,0.06,27071
+1321,Meta,Seasonal,19256.39,0.21,8547
+1322,Google,Flash Sale,16385.9,0.18,9912
+1323,Email,Flash Sale,14787.65,0.17,14657
+1324,Google,Seasonal,12111.58,0.14,19641
+1325,Meta,Seasonal,15937.2,0.18,39758
+1326,Google,Seasonal,5072.23,0.07,30735
+1327,Meta,Seasonal,6091.93,0.08,17997
+1328,Meta,Brand Awareness,13369.97,0.15,33430
+1329,Meta,Seasonal,3666.5,0.06,9289
+1330,Meta,Seasonal,10240.08,0.12,9171
+1331,Email,Brand Awareness,6546.28,0.09,45372
+1332,Email,Flash Sale,13247.0,0.15,1179
+1333,Meta,Seasonal,19921.84,0.22,30447
+1334,TikTok,Flash Sale,14037.72,0.16,8038
+1335,Email,Seasonal,2233.23,0.04,17154
+1336,Email,Seasonal,10025.32,0.12,8484
+1337,Email,Brand Awareness,17488.82,0.19,17630
+1338,Email,Flash Sale,13063.37,0.15,29670
+1339,Google,Seasonal,17200.01,0.19,18432
+1340,Email,Brand Awareness,7356.6,0.09,31628
+1341,TikTok,Brand Awareness,18683.38,0.21,1198
+1342,Email,Flash Sale,4932.11,0.07,40721
+1343,TikTok,Seasonal,11028.56,0.13,27927
+1344,Meta,Seasonal,3068.75,0.05,22123
+1345,TikTok,Seasonal,12687.51,0.15,29232
+1346,Google,Seasonal,3783.56,0.06,44303
+1347,Email,Seasonal,12563.05,0.15,48903
+1348,TikTok,Brand Awareness,9453.1,0.11,34629
+1349,Google,Flash Sale,6295.81,0.08,32084
+1350,Google,Seasonal,18370.4,0.2,34482
+1351,Google,Flash Sale,11315.73,0.13,3826
+1352,Email,Brand Awareness,19142.78,0.21,43095
+1353,Google,Flash Sale,3371.54,0.05,39078
+1354,Meta,Brand Awareness,4735.15,0.07,18355
+1355,TikTok,Seasonal,6834.57,0.09,26292
+1356,Meta,Flash Sale,7517.45,0.1,36036
+1357,Google,Flash Sale,14811.71,0.17,2445
+1358,Email,Seasonal,13173.93,0.15,16246
+1359,Email,Flash Sale,9342.98,0.11,46896
+1360,TikTok,Brand Awareness,14777.57,0.17,3068
+1361,Google,Brand Awareness,18433.28,0.2,9308
+1362,TikTok,Flash Sale,12919.41,0.15,34880
+1363,Meta,Brand Awareness,7945.89,0.1,39126
+1364,Google,Seasonal,19361.97,0.21,9134
+1365,Google,Seasonal,18533.67,0.21,32095
+1366,Email,Brand Awareness,6671.39,0.09,43442
+1367,TikTok,Seasonal,3962.8,0.06,20576
+1368,Email,Flash Sale,11091.9,0.13,4276
+1369,Google,Brand Awareness,7400.33,0.09,30531
+1370,TikTok,Flash Sale,6115.95,0.08,25986
+1371,TikTok,Seasonal,3543.59,0.06,4519
+1372,Email,Flash Sale,11933.38,0.14,27295
+1373,TikTok,Brand Awareness,15349.49,0.17,17462
+1374,Meta,Seasonal,14288.55,0.16,6186
+1375,Email,Seasonal,3900.19,0.06,10651
+1376,TikTok,Brand Awareness,14148.58,0.16,39583
+1377,Meta,Seasonal,10397.61,0.12,45023
+1378,TikTok,Flash Sale,17851.74,0.2,43743
+1379,Email,Brand Awareness,17334.81,0.19,41684
+1380,Meta,Seasonal,3806.84,0.06,13558
+1381,Google,Flash Sale,4669.09,0.07,22558
+1382,Meta,Flash Sale,8228.44,0.1,1774
+1383,TikTok,Flash Sale,8395.94,0.1,17671
+1384,Meta,Flash Sale,3617.92,0.06,47175
+1385,TikTok,Brand Awareness,18358.55,0.2,49191
+1386,Email,Brand Awareness,19904.05,0.22,10013
+1387,TikTok,Seasonal,19706.21,0.22,14351
+1388,Email,Seasonal,9218.73,0.11,26683
+1389,Google,Seasonal,13176.58,0.15,1976
+1390,Google,Seasonal,13543.57,0.16,34287
+1391,TikTok,Seasonal,3421.42,0.05,48481
+1392,Meta,Seasonal,16568.03,0.19,21634
+1393,Google,Flash Sale,7196.84,0.09,19281
+1394,TikTok,Seasonal,12210.24,0.14,5838
+1395,TikTok,Seasonal,15765.73,0.18,27137
+1396,Meta,Flash Sale,3749.93,0.06,37304
+1397,Google,Flash Sale,19049.55,0.21,35677
+1398,Email,Flash Sale,6018.1,0.08,2531
+1399,Meta,Flash Sale,7511.95,0.1,1962
+1400,Email,Flash Sale,10577.35,0.13,30944
+1401,Meta,Flash Sale,15413.69,0.17,7022
+1402,Google,Flash Sale,7912.82,0.1,4499
+1403,TikTok,Flash Sale,10598.0,0.13,34147
+1404,Email,Seasonal,7390.46,0.09,47145
+1405,Meta,Brand Awareness,13307.36,0.15,41044
+1406,Email,Seasonal,8188.72,0.1,6904
+1407,Google,Seasonal,6873.55,0.09,8613
+1408,Google,Brand Awareness,12256.35,0.14,24771
+1409,Google,Seasonal,17812.32,0.2,32710
+1410,Email,Brand Awareness,8022.48,0.1,37394
+1411,Google,Brand Awareness,7019.3,0.09,48248
+1412,Google,Seasonal,6034.86,0.08,24055
+1413,Meta,Flash Sale,5976.29,0.08,10921
+1414,Meta,Brand Awareness,3810.31,0.06,17473
+1415,Google,Flash Sale,15139.79,0.17,22888
+1416,Google,Flash Sale,14628.68,0.17,27022
+1417,TikTok,Brand Awareness,10860.91,0.13,2805
+1418,TikTok,Flash Sale,14439.55,0.16,47147
+1419,Google,Brand Awareness,19889.3,0.22,12608
+1420,Google,Seasonal,10633.83,0.13,21939
+1421,Email,Flash Sale,3161.12,0.05,3872
+1422,Google,Seasonal,2113.96,0.04,44674
+1423,Google,Seasonal,8516.41,0.11,19181
+1424,TikTok,Brand Awareness,1849.79,0.04,41201
+1425,Google,Flash Sale,14566.05,0.17,26422
+1426,Google,Seasonal,7992.57,0.1,36830
+1427,Meta,Brand Awareness,3944.21,0.06,13703
+1428,TikTok,Flash Sale,5110.08,0.07,1527
+1429,Meta,Flash Sale,19822.82,0.22,7931
+1430,TikTok,Seasonal,15166.57,0.17,5570
+1431,Email,Brand Awareness,14294.2,0.16,17598
+1432,TikTok,Flash Sale,16836.73,0.19,22894
+1433,Google,Seasonal,9627.24,0.12,16746
+1434,Email,Seasonal,3305.54,0.05,46541
+1435,Meta,Flash Sale,5595.52,0.08,46902
+1436,TikTok,Brand Awareness,17451.84,0.19,7190
+1437,Email,Brand Awareness,9234.19,0.11,31831
+1438,Email,Brand Awareness,17569.2,0.2,11130
+1439,Email,Seasonal,5974.01,0.08,1079
+1440,TikTok,Flash Sale,17721.46,0.2,32934
+1441,Meta,Brand Awareness,1174.32,0.03,42110
+1442,Email,Flash Sale,6986.25,0.09,24538
+1443,TikTok,Seasonal,11483.76,0.13,27683
+1444,TikTok,Flash Sale,7311.41,0.09,39309
+1445,TikTok,Flash Sale,13677.93,0.16,40853
+1446,Meta,Seasonal,5687.4,0.08,38190
+1447,Email,Flash Sale,9685.29,0.12,3659
+1448,TikTok,Flash Sale,18177.55,0.2,20693
+1449,Email,Flash Sale,10510.25,0.13,1559
+1450,TikTok,Seasonal,15557.28,0.18,17759
+1451,Google,Brand Awareness,17742.23,0.2,49165
+1452,Meta,Seasonal,3367.62,0.05,37680
+1453,Meta,Seasonal,8344.6,0.1,18087
+1454,TikTok,Flash Sale,1175.22,0.03,31599
+1455,TikTok,Seasonal,10806.14,0.13,29612
+1456,TikTok,Seasonal,19283.1,0.21,6182
+1457,Google,Flash Sale,19631.61,0.22,13148
+1458,Meta,Seasonal,6181.76,0.08,30700
+1459,TikTok,Seasonal,17203.32,0.19,44758
+1460,Email,Seasonal,5225.34,0.07,44108
+1461,Meta,Seasonal,6453.0,0.08,8880
+1462,Meta,Flash Sale,1858.01,0.04,34127
+1463,Meta,Brand Awareness,18336.34,0.2,45348
+1464,TikTok,Flash Sale,18831.41,0.21,13340
+1465,Google,Seasonal,3452.4,0.05,25083
+1466,TikTok,Flash Sale,5491.68,0.07,44422
+1467,Google,Flash Sale,12559.66,0.15,11779
+1468,Google,Brand Awareness,7193.96,0.09,43262
+1469,Meta,Seasonal,14650.52,0.17,10881
+1470,Meta,Flash Sale,15458.77,0.17,15778
+1471,Email,Seasonal,10155.93,0.12,34518
+1472,Google,Seasonal,7200.86,0.09,26980
+1473,TikTok,Flash Sale,8658.44,0.11,32357
+1474,Google,Brand Awareness,16862.62,0.19,7955
+1475,Google,Flash Sale,15630.75,0.18,12995
+1476,Google,Brand Awareness,16948.66,0.19,4632
+1477,TikTok,Seasonal,9330.9,0.11,1888
+1478,Email,Brand Awareness,18960.63,0.21,24945
+1479,Google,Flash Sale,8218.29,0.1,6667
+1480,Google,Brand Awareness,18401.79,0.2,48244
+1481,Google,Flash Sale,17660.94,0.2,12057
+1482,TikTok,Seasonal,15770.09,0.18,14224
+1483,Email,Seasonal,18007.8,0.2,5862
+1484,Google,Flash Sale,9755.44,0.12,23224
+1485,Google,Brand Awareness,9028.13,0.11,26049
+1486,Meta,Seasonal,19034.38,0.21,11390
+1487,Email,Seasonal,5192.27,0.07,47593
+1488,Email,Flash Sale,1463.87,0.03,38512
+1489,TikTok,Seasonal,8701.68,0.11,2510
+1490,Email,Brand Awareness,6311.85,0.08,13220
+1491,Google,Brand Awareness,18376.61,0.2,25311
+1492,Meta,Flash Sale,5852.82,0.08,20641
+1493,TikTok,Flash Sale,15021.01,0.17,44087
+1494,Google,Flash Sale,6355.98,0.08,38315
+1495,TikTok,Seasonal,12342.08,0.14,35460
+1496,Meta,Brand Awareness,10109.01,0.12,44844
+1497,Meta,Seasonal,4667.74,0.07,32374
+1498,TikTok,Flash Sale,7333.97,0.09,39378
+1499,Meta,Brand Awareness,15813.19,0.18,41038
+1500,Email,Flash Sale,15170.22,0.17,35653
+1501,TikTok,Brand Awareness,9558.94,0.12,24625
+1502,TikTok,Seasonal,5317.19,0.07,14415
+1503,TikTok,Seasonal,9192.5,0.11,18375
+1504,Google,Seasonal,12420.84,0.14,37186
+1505,TikTok,Seasonal,14222.0,0.16,31527
+1506,Meta,Seasonal,1812.15,0.04,37640
+1507,Meta,Brand Awareness,11259.64,0.13,16320
+1508,Google,Seasonal,16665.03,0.19,13928
+1509,Email,Flash Sale,9809.92,0.12,10305
+1510,Google,Seasonal,16952.5,0.19,12340
+1511,TikTok,Flash Sale,8934.5,0.11,5463
+1512,Google,Flash Sale,2066.86,0.04,48330
+1513,Meta,Flash Sale,2766.63,0.05,4279
+1514,Meta,Seasonal,12330.47,0.14,21752
+1515,Email,Seasonal,15656.22,0.18,42104
+1516,Google,Seasonal,7867.62,0.1,46671
+1517,Meta,Flash Sale,17230.27,0.19,7787
+1518,Email,Flash Sale,14318.66,0.16,17680
+1519,Meta,Flash Sale,7258.06,0.09,45507
+1520,TikTok,Flash Sale,2565.25,0.05,2213
+1521,TikTok,Seasonal,10532.77,0.13,41113
+1522,Meta,Seasonal,6140.16,0.08,40173
+1523,TikTok,Brand Awareness,4652.99,0.07,11067
+1524,Meta,Seasonal,7741.23,0.1,39831
+1525,Email,Seasonal,3276.82,0.05,31361
+1526,Google,Flash Sale,15621.34,0.18,44466
+1527,Meta,Brand Awareness,10919.59,0.13,11291
+1528,TikTok,Brand Awareness,2332.09,0.04,11069
+1529,Google,Flash Sale,19027.22,0.21,21270
+1530,Meta,Flash Sale,13602.33,0.16,35129
+1531,Meta,Seasonal,16086.07,0.18,20411
+1532,TikTok,Brand Awareness,3041.96,0.05,5191
+1533,Email,Brand Awareness,15288.89,0.17,30262
+1534,Meta,Flash Sale,13483.23,0.15,28672
+1535,Email,Seasonal,6574.81,0.09,7315
+1536,Meta,Flash Sale,6433.25,0.08,41366
+1537,Meta,Brand Awareness,8781.62,0.11,14553
+1538,Email,Seasonal,15579.8,0.18,27060
+1539,Meta,Seasonal,19025.47,0.21,15785
+1540,Google,Flash Sale,16805.54,0.19,32606
+1541,Google,Brand Awareness,17057.54,0.19,18458
+1542,Email,Brand Awareness,12658.36,0.15,35946
+1543,Email,Flash Sale,17087.78,0.19,25159
+1544,TikTok,Brand Awareness,17875.06,0.2,34241
+1545,TikTok,Seasonal,8065.73,0.1,38967
+1546,Email,Brand Awareness,12362.87,0.14,41549
+1547,TikTok,Flash Sale,3310.08,0.05,19074
+1548,Email,Brand Awareness,15610.7,0.18,39110
+1549,Meta,Brand Awareness,3969.98,0.06,42943
+1550,Email,Flash Sale,11898.51,0.14,19997
+1551,Meta,Brand Awareness,5373.32,0.07,3696
+1552,Meta,Seasonal,5310.09,0.07,10789
+1553,Email,Seasonal,3976.77,0.06,39808
+1554,TikTok,Flash Sale,15475.05,0.17,30414
+1555,Google,Brand Awareness,10514.81,0.13,14372
+1556,Email,Flash Sale,1034.77,0.03,44598
+1557,TikTok,Brand Awareness,4394.42,0.06,40148
+1558,Meta,Seasonal,6773.86,0.09,42628
+1559,TikTok,Flash Sale,1129.68,0.03,40143
+1560,Meta,Flash Sale,18486.34,0.2,22824
+1561,Meta,Brand Awareness,5255.03,0.07,13113
+1562,Meta,Brand Awareness,14747.63,0.17,23708
+1563,TikTok,Seasonal,4669.98,0.07,27612
+1564,Google,Flash Sale,6634.15,0.09,21218
+1565,Meta,Flash Sale,10667.61,0.13,29728
+1566,Meta,Seasonal,12487.41,0.14,22847
+1567,Meta,Seasonal,7533.98,0.1,43225
+1568,Meta,Flash Sale,2307.88,0.04,36606
+1569,Email,Brand Awareness,9100.07,0.11,21036
+1570,Google,Flash Sale,14155.83,0.16,28843
+1571,Email,Brand Awareness,3421.01,0.05,5279
+1572,TikTok,Seasonal,1429.81,0.03,40950
+1573,Google,Brand Awareness,5672.61,0.08,16332
+1574,TikTok,Seasonal,6971.13,0.09,43634
+1575,Meta,Brand Awareness,14118.17,0.16,25309
+1576,Meta,Seasonal,4394.0,0.06,29908
+1577,TikTok,Brand Awareness,16764.03,0.19,35676
+1578,Google,Seasonal,6239.61,0.08,12942
+1579,Email,Brand Awareness,6487.67,0.08,6228
+1580,Google,Flash Sale,1193.33,0.03,21684
+1581,Google,Brand Awareness,3335.61,0.05,31453
+1582,Google,Seasonal,1753.56,0.04,17293
+1583,Google,Brand Awareness,14933.85,0.17,35807
+1584,Email,Seasonal,15720.52,0.18,23495
+1585,Email,Brand Awareness,16287.83,0.18,17078
+1586,TikTok,Flash Sale,9965.62,0.12,44624
+1587,Google,Flash Sale,6923.52,0.09,20017
+1588,Email,Brand Awareness,8164.58,0.1,25786
+1589,Email,Seasonal,3195.69,0.05,3291
+1590,Google,Seasonal,10604.88,0.13,44861
+1591,Meta,Brand Awareness,13790.9,0.16,7714
+1592,Email,Brand Awareness,8086.72,0.1,3942
+1593,TikTok,Brand Awareness,12759.98,0.15,34367
+1594,Email,Flash Sale,6639.13,0.09,13880
+1595,Google,Brand Awareness,5347.42,0.07,33336
+1596,Google,Flash Sale,18037.03,0.2,7179
+1597,Meta,Flash Sale,5752.55,0.08,9732
+1598,TikTok,Flash Sale,4265.02,0.06,31266
+1599,Meta,Seasonal,17351.31,0.19,18742
+1600,TikTok,Brand Awareness,11604.06,0.14,31514
+1601,Email,Flash Sale,18949.48,0.21,10447
+1602,Google,Seasonal,10830.22,0.13,13610
+1603,Email,Flash Sale,13493.01,0.15,46512
+1604,Meta,Seasonal,10583.08,0.13,38436
+1605,Email,Seasonal,2258.94,0.04,9949
+1606,Meta,Seasonal,9650.7,0.12,8153
+1607,TikTok,Flash Sale,4109.02,0.06,47526
+1608,TikTok,Flash Sale,10959.95,0.13,17048
+1609,Email,Seasonal,6101.65,0.08,10441
+1610,Meta,Flash Sale,19176.84,0.21,41437
+1611,Email,Seasonal,5991.64,0.08,43699
+1612,Meta,Seasonal,2845.16,0.05,7966
+1613,TikTok,Flash Sale,9852.72,0.12,37438
+1614,Google,Brand Awareness,12092.91,0.14,16120
+1615,Google,Seasonal,12050.17,0.14,27454
+1616,Email,Seasonal,5031.39,0.07,34041
+1617,Google,Seasonal,15882.02,0.18,14061
+1618,Google,Brand Awareness,13750.79,0.16,35012
+1619,Google,Seasonal,5097.6,0.07,17523
+1620,Email,Seasonal,14459.39,0.16,30933
+1621,TikTok,Flash Sale,9990.14,0.12,17052
+1622,Google,Seasonal,1789.17,0.04,35300
+1623,Google,Seasonal,19699.36,0.22,42675
+1624,TikTok,Flash Sale,6049.02,0.08,38667
+1625,Meta,Flash Sale,1214.12,0.03,43202
+1626,TikTok,Seasonal,15278.64,0.17,10783
+1627,TikTok,Brand Awareness,11212.27,0.13,13625
+1628,Google,Brand Awareness,12605.55,0.15,10141
+1629,Google,Flash Sale,10885.31,0.13,44618
+1630,Email,Seasonal,19009.39,0.21,4524
+1631,Email,Seasonal,19247.87,0.21,23993
+1632,TikTok,Seasonal,18285.26,0.2,48874
+1633,Meta,Brand Awareness,13157.03,0.15,20650
+1634,TikTok,Flash Sale,1353.61,0.03,10758
+1635,Meta,Flash Sale,17389.46,0.19,44789
+1636,Meta,Flash Sale,11914.12,0.14,6019
+1637,Meta,Brand Awareness,9204.75,0.11,4938
+1638,Meta,Seasonal,14923.14,0.17,16420
+1639,Meta,Seasonal,5041.15,0.07,23038
+1640,TikTok,Flash Sale,16294.59,0.18,43127
+1641,Meta,Flash Sale,5420.71,0.07,17323
+1642,TikTok,Brand Awareness,11926.63,0.14,28510
+1643,Meta,Flash Sale,19646.37,0.22,21381
+1644,Email,Seasonal,15807.95,0.18,16710
+1645,Email,Brand Awareness,14233.47,0.16,39812
+1646,Google,Brand Awareness,3671.71,0.06,33530
+1647,Google,Brand Awareness,12724.01,0.15,34248
+1648,TikTok,Seasonal,17340.95,0.19,23131
+1649,Meta,Flash Sale,19452.79,0.21,40239
+1650,Email,Seasonal,12859.73,0.15,9505
+1651,Email,Flash Sale,2721.86,0.05,37677
+1652,Google,Seasonal,17561.07,0.2,12122
+1653,Google,Flash Sale,7403.62,0.09,40483
+1654,Email,Brand Awareness,17088.58,0.19,46225
+1655,Email,Seasonal,12774.53,0.15,1289
+1656,Google,Brand Awareness,5156.99,0.07,36271
+1657,Google,Brand Awareness,19742.67,0.22,28858
+1658,TikTok,Brand Awareness,15735.73,0.18,37048
+1659,Google,Flash Sale,4376.54,0.06,2119
+1660,Meta,Brand Awareness,7900.86,0.1,23083
+1661,Email,Brand Awareness,19515.35,0.22,7452
+1662,Email,Seasonal,14443.5,0.16,11060
+1663,Email,Seasonal,8570.72,0.11,2790
+1664,Google,Seasonal,4718.49,0.07,7403
+1665,TikTok,Brand Awareness,19584.98,0.22,31082
+1666,Meta,Flash Sale,1419.78,0.03,13185
+1667,Meta,Seasonal,3159.61,0.05,32341
+1668,Meta,Seasonal,4060.6,0.06,35669
+1669,Google,Brand Awareness,2843.68,0.05,22928
+1670,Email,Brand Awareness,13941.45,0.16,6492
+1671,Email,Brand Awareness,16738.2,0.19,40018
+1672,Meta,Seasonal,18106.45,0.2,32251
+1673,Google,Seasonal,10675.35,0.13,5915
+1674,TikTok,Seasonal,15067.49,0.17,41421
+1675,Google,Flash Sale,2123.65,0.04,38918
+1676,Email,Flash Sale,13404.59,0.15,33470
+1677,Email,Seasonal,3394.12,0.05,30206
+1678,Meta,Flash Sale,14611.34,0.17,19327
+1679,Meta,Brand Awareness,5143.13,0.07,3130
+1680,Meta,Seasonal,14073.69,0.16,31278
+1681,Google,Flash Sale,18423.98,0.2,37910
+1682,Email,Seasonal,12472.53,0.14,37239
+1683,Google,Brand Awareness,16932.21,0.19,36791
+1684,Google,Brand Awareness,9710.57,0.12,47849
+1685,TikTok,Brand Awareness,6404.76,0.08,38514
+1686,TikTok,Seasonal,14536.56,0.17,3669
+1687,Google,Seasonal,8006.15,0.1,27530
+1688,Email,Seasonal,5242.3,0.07,1474
+1689,TikTok,Brand Awareness,14667.13,0.17,26743
+1690,TikTok,Brand Awareness,4053.29,0.06,25359
+1691,TikTok,Brand Awareness,1643.04,0.04,7408
+1692,Email,Seasonal,9531.85,0.12,28757
+1693,Meta,Brand Awareness,2548.97,0.05,2664
+1694,TikTok,Seasonal,1194.96,0.03,18726
+1695,TikTok,Seasonal,14614.43,0.17,48172
+1696,Meta,Flash Sale,8775.32,0.11,31548
+1697,TikTok,Brand Awareness,4226.11,0.06,36369
+1698,Email,Brand Awareness,8401.4,0.1,13994
+1699,TikTok,Flash Sale,13499.41,0.15,19018
+1700,Email,Seasonal,14803.57,0.17,2178
+1701,TikTok,Brand Awareness,10659.84,0.13,25460
+1702,Email,Seasonal,14472.65,0.16,20652
+1703,Meta,Flash Sale,15913.33,0.18,6714
+1704,Meta,Flash Sale,7226.36,0.09,27116
+1705,Google,Seasonal,17262.11,0.19,48000
+1706,Meta,Flash Sale,13279.36,0.15,31387
+1707,Email,Brand Awareness,13282.02,0.15,3442
+1708,TikTok,Seasonal,13092.46,0.15,47446
+1709,Google,Flash Sale,6124.31,0.08,28892
+1710,Google,Flash Sale,4012.39,0.06,20639
+1711,Email,Brand Awareness,9768.37,0.12,26451
+1712,Email,Seasonal,17280.87,0.19,32023
+1713,Meta,Seasonal,8356.53,0.1,12055
+1714,Email,Flash Sale,5462.91,0.07,13869
+1715,Meta,Flash Sale,13651.16,0.16,9966
+1716,TikTok,Seasonal,10045.8,0.12,33824
+1717,TikTok,Brand Awareness,12659.87,0.15,40544
+1718,Email,Brand Awareness,12190.53,0.14,7151
+1719,Email,Brand Awareness,19345.58,0.21,24029
+1720,TikTok,Brand Awareness,9938.48,0.12,6710
+1721,TikTok,Flash Sale,5826.53,0.08,3687
+1722,Meta,Brand Awareness,13653.35,0.16,17251
+1723,Email,Flash Sale,5381.39,0.07,46930
+1724,Google,Brand Awareness,8937.03,0.11,30630
+1725,Email,Seasonal,6883.53,0.09,20967
+1726,Meta,Seasonal,9675.95,0.12,8729
+1727,Email,Seasonal,11303.51,0.13,27681
+1728,Meta,Brand Awareness,9048.82,0.11,41351
+1729,Google,Flash Sale,16552.45,0.19,49335
+1730,Meta,Seasonal,11526.04,0.14,45208
+1731,Email,Flash Sale,17066.38,0.19,2755
+1732,TikTok,Seasonal,3547.57,0.06,37792
+1733,Google,Flash Sale,19673.95,0.22,42550
+1734,TikTok,Brand Awareness,15095.76,0.17,48363
+1735,Meta,Flash Sale,12018.21,0.14,42340
+1736,Meta,Flash Sale,9986.69,0.12,10844
+1737,Meta,Brand Awareness,14589.62,0.17,34268
+1738,Google,Brand Awareness,16128.06,0.18,40311
+1739,Meta,Brand Awareness,6917.82,0.09,8867
+1740,Email,Brand Awareness,8944.05,0.11,43661
+1741,Meta,Brand Awareness,14245.75,0.16,25506
+1742,TikTok,Brand Awareness,12876.8,0.15,30579
+1743,Meta,Brand Awareness,18437.4,0.2,21207
+1744,TikTok,Flash Sale,17079.27,0.19,45542
+1745,Meta,Brand Awareness,18749.69,0.21,25211
+1746,Email,Flash Sale,11717.08,0.14,39358
+1747,Email,Seasonal,8551.27,0.11,11864
+1748,Email,Brand Awareness,12028.17,0.14,39666
+1749,Meta,Flash Sale,4210.18,0.06,29431
+1750,TikTok,Seasonal,8896.92,0.11,40526
+1751,Google,Brand Awareness,12637.51,0.15,44137
+1752,Google,Seasonal,19161.2,0.21,20694
+1753,TikTok,Brand Awareness,13733.78,0.16,26149
+1754,Meta,Flash Sale,10427.91,0.12,16212
+1755,TikTok,Flash Sale,16640.72,0.19,35992
+1756,Google,Brand Awareness,13329.9,0.15,29220
+1757,TikTok,Seasonal,4922.34,0.07,47584
+1758,Google,Flash Sale,15502.28,0.18,33125
+1759,Meta,Brand Awareness,18870.99,0.21,22857
+1760,TikTok,Flash Sale,6637.24,0.09,30396
+1761,Google,Seasonal,15705.85,0.18,46339
+1762,Email,Brand Awareness,15661.39,0.18,16656
+1763,TikTok,Brand Awareness,3285.05,0.05,1095
+1764,Google,Flash Sale,11776.29,0.14,4073
+1765,TikTok,Seasonal,1235.44,0.03,36361
+1766,Meta,Brand Awareness,2786.58,0.05,48932
+1767,Meta,Flash Sale,5261.96,0.07,22082
+1768,Email,Seasonal,1250.42,0.03,14112
+1769,Email,Seasonal,13233.4,0.15,40097
+1770,Meta,Flash Sale,4668.37,0.07,25810
+1771,Meta,Brand Awareness,12427.87,0.14,8818
+1772,Email,Brand Awareness,4364.84,0.06,1459
+1773,Meta,Seasonal,6161.18,0.08,30084
+1774,TikTok,Flash Sale,10427.16,0.12,32845
+1775,Google,Seasonal,7699.37,0.1,26189
+1776,Email,Seasonal,2536.58,0.05,22669
+1777,Meta,Brand Awareness,7492.27,0.09,35793
+1778,Google,Brand Awareness,7089.3,0.09,8750
+1779,Meta,Flash Sale,10181.49,0.12,25315
+1780,Google,Seasonal,9993.46,0.12,31373
+1781,TikTok,Brand Awareness,3510.97,0.06,19698
+1782,Meta,Flash Sale,12418.19,0.14,19546
+1783,Email,Seasonal,6314.21,0.08,21637
+1784,Google,Flash Sale,11413.68,0.13,1687
+1785,TikTok,Seasonal,16536.29,0.19,5653
+1786,Google,Flash Sale,11801.77,0.14,35508
+1787,Email,Brand Awareness,2226.9,0.04,18389
+1788,Email,Seasonal,15568.79,0.18,38530
+1789,Google,Brand Awareness,8962.29,0.11,16404
+1790,Email,Seasonal,11102.47,0.13,13172
+1791,Google,Brand Awareness,4183.14,0.06,24585
+1792,Email,Flash Sale,11015.94,0.13,17978
+1793,Meta,Flash Sale,15016.16,0.17,32024
+1794,Google,Flash Sale,14258.58,0.16,46137
+1795,Email,Brand Awareness,2097.8,0.04,5626
+1796,Email,Seasonal,16162.81,0.18,30003
+1797,Meta,Seasonal,9187.8,0.11,45134
+1798,Email,Brand Awareness,9213.58,0.11,34176
+1799,TikTok,Seasonal,12160.4,0.14,16600
+1800,Google,Brand Awareness,6605.71,0.09,31993
+1801,Meta,Flash Sale,19207.88,0.21,30716
+1802,TikTok,Brand Awareness,6188.41,0.08,27446
+1803,Meta,Seasonal,7037.13,0.09,35256
+1804,Google,Flash Sale,15300.43,0.17,40139
+1805,TikTok,Flash Sale,11370.51,0.13,7647
+1806,TikTok,Seasonal,9193.5,0.11,1267
+1807,TikTok,Flash Sale,7943.63,0.1,20672
+1808,Meta,Seasonal,3014.73,0.05,14436
+1809,Google,Brand Awareness,3261.1,0.05,14102
+1810,TikTok,Brand Awareness,12785.45,0.15,29074
+1811,Meta,Flash Sale,14846.99,0.17,8820
+1812,TikTok,Flash Sale,14651.01,0.17,49002
+1813,TikTok,Seasonal,18396.28,0.2,12281
+1814,Meta,Flash Sale,19840.0,0.22,45780
+1815,TikTok,Flash Sale,8553.75,0.11,5503
+1816,Meta,Flash Sale,10664.82,0.13,31798
+1817,Meta,Seasonal,5161.67,0.07,34599
+1818,Google,Brand Awareness,6819.45,0.09,19217
+1819,Email,Brand Awareness,2965.96,0.05,32771
+1820,TikTok,Brand Awareness,8765.54,0.11,1863
+1821,TikTok,Flash Sale,7319.87,0.09,42957
+1822,Meta,Brand Awareness,14018.39,0.16,41435
+1823,Google,Flash Sale,6975.46,0.09,13531
+1824,TikTok,Brand Awareness,7117.88,0.09,29625
+1825,Meta,Seasonal,13789.3,0.16,1242
+1826,Meta,Seasonal,9412.33,0.11,29138
+1827,Email,Seasonal,17793.82,0.2,46861
+1828,Meta,Flash Sale,18698.87,0.21,10612
+1829,Meta,Flash Sale,19343.86,0.21,48509
+1830,Email,Brand Awareness,5819.85,0.08,38565
+1831,Email,Brand Awareness,5848.33,0.08,22165
+1832,Google,Flash Sale,15978.22,0.18,14771
+1833,Email,Seasonal,14509.37,0.17,27541
+1834,Google,Seasonal,6856.48,0.09,16584
+1835,Google,Seasonal,12559.77,0.15,38163
+1836,Google,Flash Sale,5413.57,0.07,39413
+1837,Email,Brand Awareness,12060.05,0.14,20909
+1838,Email,Brand Awareness,3151.08,0.05,48815
+1839,Google,Seasonal,5431.42,0.07,44135
+1840,Meta,Brand Awareness,10664.98,0.13,7135
+1841,Meta,Seasonal,14808.83,0.17,6003
+1842,Meta,Flash Sale,17086.01,0.19,36111
+1843,Email,Brand Awareness,15776.43,0.18,4502
+1844,TikTok,Seasonal,15201.41,0.17,16197
+1845,Meta,Flash Sale,18401.62,0.2,34163
+1846,Email,Seasonal,7645.05,0.1,7845
+1847,Meta,Seasonal,9919.9,0.12,15853
+1848,Meta,Brand Awareness,11731.5,0.14,29367
+1849,Meta,Brand Awareness,16888.85,0.19,9017
+1850,Google,Flash Sale,1921.73,0.04,1860
+1851,TikTok,Brand Awareness,2038.79,0.04,32425
+1852,Meta,Brand Awareness,1367.75,0.03,27546
+1853,Meta,Seasonal,11624.85,0.14,37557
+1854,Google,Seasonal,13267.29,0.15,10145
+1855,Google,Seasonal,4322.63,0.06,14681
+1856,Google,Flash Sale,18268.18,0.2,10812
+1857,Google,Flash Sale,9717.45,0.12,20925
+1858,Email,Seasonal,8782.94,0.11,25878
+1859,Email,Flash Sale,12957.66,0.15,18216
+1860,Google,Brand Awareness,18773.51,0.21,48317
+1861,Google,Flash Sale,12175.42,0.14,31724
+1862,Meta,Seasonal,13733.28,0.16,24435
+1863,Google,Flash Sale,14627.96,0.17,1915
+1864,TikTok,Brand Awareness,6102.0,0.08,4381
+1865,TikTok,Seasonal,15930.46,0.18,29385
+1866,Email,Brand Awareness,1108.08,0.03,35373
+1867,Meta,Seasonal,3579.59,0.06,48283
+1868,Meta,Seasonal,18797.08,0.21,13125
+1869,TikTok,Seasonal,18286.42,0.2,2789
+1870,Google,Flash Sale,14359.98,0.16,28814
+1871,Meta,Seasonal,13803.9,0.16,44570
+1872,TikTok,Brand Awareness,8194.86,0.1,21102
+1873,Meta,Seasonal,1246.27,0.03,16942
+1874,Email,Flash Sale,2352.5,0.04,20526
+1875,Meta,Brand Awareness,19350.78,0.21,4572
+1876,Email,Seasonal,18993.68,0.21,24344
+1877,Meta,Flash Sale,12981.99,0.15,17140
+1878,TikTok,Seasonal,6084.21,0.08,19909
+1879,Email,Seasonal,6867.56,0.09,42536
+1880,Email,Seasonal,8270.61,0.1,11266
+1881,TikTok,Flash Sale,18016.98,0.2,36948
+1882,Meta,Brand Awareness,3990.9,0.06,40873
+1883,Meta,Brand Awareness,18276.02,0.2,31271
+1884,Meta,Seasonal,6872.97,0.09,7253
+1885,Meta,Seasonal,7858.9,0.1,19708
+1886,TikTok,Flash Sale,16302.91,0.18,27572
+1887,TikTok,Brand Awareness,17413.83,0.19,44577
+1888,Google,Flash Sale,9400.02,0.11,45690
+1889,TikTok,Brand Awareness,16394.72,0.18,2804
+1890,TikTok,Seasonal,11188.7,0.13,32210
+1891,TikTok,Seasonal,12606.55,0.15,48734
+1892,Email,Seasonal,10900.83,0.13,19541
+1893,Google,Flash Sale,5489.58,0.07,36670
+1894,TikTok,Seasonal,8858.87,0.11,4926
+1895,Email,Seasonal,14267.12,0.16,6232
+1896,Meta,Flash Sale,5244.49,0.07,31404
+1897,Meta,Flash Sale,10650.73,0.13,46691
+1898,Google,Seasonal,17827.53,0.2,37314
+1899,Meta,Brand Awareness,9192.11,0.11,10945
+1900,Email,Brand Awareness,2158.68,0.04,44480
+1901,Email,Brand Awareness,18128.07,0.2,21439
+1902,TikTok,Brand Awareness,19412.49,0.21,35453
+1903,TikTok,Flash Sale,19644.5,0.22,30584
+1904,Meta,Flash Sale,14678.09,0.17,27490
+1905,TikTok,Brand Awareness,4758.71,0.07,18986
+1906,Google,Seasonal,9772.74,0.12,1224
+1907,Email,Flash Sale,1227.28,0.03,12042
+1908,Meta,Brand Awareness,19609.32,0.22,11159
+1909,Google,Flash Sale,13683.03,0.16,7046
+1910,Google,Flash Sale,1194.04,0.03,13729
+1911,TikTok,Flash Sale,13596.04,0.16,37472
+1912,TikTok,Brand Awareness,6328.88,0.08,22589
+1913,Email,Flash Sale,5651.07,0.08,19863
+1914,TikTok,Flash Sale,16002.27,0.18,37650
+1915,Email,Flash Sale,18891.21,0.21,16699
+1916,Google,Brand Awareness,1008.53,0.03,19235
+1917,Email,Seasonal,9161.36,0.11,25724
+1918,Google,Seasonal,11113.29,0.13,27153
+1919,TikTok,Seasonal,17544.52,0.2,42616
+1920,TikTok,Flash Sale,4157.63,0.06,31135
+1921,Meta,Seasonal,12999.35,0.15,20757
+1922,Meta,Flash Sale,17799.12,0.2,40344
+1923,Email,Seasonal,19074.03,0.21,11626
+1924,TikTok,Flash Sale,11026.86,0.13,12880
+1925,Email,Flash Sale,8624.94,0.11,13046
+1926,Google,Flash Sale,14781.94,0.17,31409
+1927,Google,Flash Sale,4663.79,0.07,15502
+1928,Google,Seasonal,4812.25,0.07,10910
+1929,Meta,Flash Sale,18968.52,0.21,40596
+1930,Meta,Seasonal,16876.57,0.19,23315
+1931,Meta,Seasonal,2216.15,0.04,1030
+1932,TikTok,Flash Sale,11024.63,0.13,25696
+1933,Google,Seasonal,6428.51,0.08,44914
+1934,Email,Seasonal,15648.3,0.18,9193
+1935,Meta,Seasonal,15380.13,0.17,5538
+1936,Email,Seasonal,14410.71,0.16,22974
+1937,Meta,Flash Sale,2228.28,0.04,42665
+1938,Google,Seasonal,14549.93,0.17,2895
+1939,Meta,Flash Sale,13663.1,0.16,29662
+1940,Meta,Brand Awareness,16248.3,0.18,33566
+1941,Google,Flash Sale,15594.9,0.18,24140
+1942,Meta,Flash Sale,19927.76,0.22,21704
+1943,TikTok,Brand Awareness,14077.85,0.16,29920
+1944,Email,Brand Awareness,12460.06,0.14,10049
+1945,Google,Flash Sale,12517.68,0.15,9282
+1946,Email,Brand Awareness,9958.98,0.12,15123
+1947,Meta,Seasonal,11548.86,0.14,13837
+1948,TikTok,Brand Awareness,11738.99,0.14,43954
+1949,Meta,Seasonal,9357.85,0.11,13652
+1950,Email,Seasonal,1227.83,0.03,27672
+1951,TikTok,Brand Awareness,15201.42,0.17,18591
+1952,Email,Flash Sale,4927.97,0.07,48433
+1953,TikTok,Flash Sale,1552.12,0.04,19345
+1954,Google,Brand Awareness,18473.57,0.2,1059
+1955,Google,Flash Sale,12672.26,0.15,17730
+1956,TikTok,Seasonal,16526.14,0.19,46030
+1957,Google,Seasonal,1332.18,0.03,3756
+1958,TikTok,Seasonal,2019.04,0.04,6977
+1959,Google,Seasonal,6894.29,0.09,24973
+1960,Meta,Brand Awareness,11512.88,0.14,14055
+1961,Meta,Flash Sale,3666.39,0.06,24366
+1962,Meta,Brand Awareness,10666.57,0.13,44000
+1963,Google,Seasonal,19541.84,0.22,45650
+1964,TikTok,Seasonal,17196.89,0.19,11327
+1965,TikTok,Brand Awareness,8092.29,0.1,47538
+1966,Email,Seasonal,11121.36,0.13,1501
+1967,Email,Brand Awareness,2303.27,0.04,8599
+1968,Google,Seasonal,5422.06,0.07,30005
+1969,Meta,Brand Awareness,3288.04,0.05,4396
+1970,Email,Flash Sale,18478.8,0.2,27133
+1971,TikTok,Flash Sale,8798.93,0.11,2053
+1972,Meta,Brand Awareness,14214.81,0.16,12947
+1973,Meta,Flash Sale,18061.0,0.2,4281
+1974,Google,Flash Sale,8923.76,0.11,47454
+1975,TikTok,Flash Sale,15360.92,0.17,23037
+1976,Meta,Seasonal,11337.02,0.13,19591
+1977,Meta,Seasonal,10771.26,0.13,2503
+1978,TikTok,Flash Sale,10116.82,0.12,36305
+1979,Email,Brand Awareness,19165.81,0.21,4252
+1980,Email,Seasonal,10258.36,0.12,27256
+1981,Google,Seasonal,1256.45,0.03,4726
+1982,Google,Seasonal,3968.91,0.06,35519
+1983,Meta,Seasonal,3372.26,0.05,18203
+1984,Google,Brand Awareness,12796.88,0.15,6396
+1985,Meta,Seasonal,3554.56,0.06,6785
+1986,TikTok,Seasonal,8906.86,0.11,7203
+1987,Google,Brand Awareness,2879.17,0.05,7805
+1988,Meta,Flash Sale,5658.41,0.08,16478
+1989,Meta,Seasonal,10090.82,0.12,28860
+1990,Meta,Seasonal,13891.6,0.16,37064
+1991,Email,Flash Sale,5150.7,0.07,31464
+1992,Google,Flash Sale,12918.31,0.15,2921
+1993,TikTok,Flash Sale,2340.6,0.04,23997
+1994,TikTok,Seasonal,8481.14,0.1,1285
+1995,Email,Seasonal,10714.11,0.13,42055
+1996,Email,Brand Awareness,7730.79,0.1,3367
+1997,Meta,Flash Sale,2093.07,0.04,40631
+1998,Meta,Flash Sale,16118.63,0.18,43677
+1999,TikTok,Flash Sale,5532.84,0.08,46244
+2000,Email,Brand Awareness,4659.36,0.07,33305
+2001,Email,Brand Awareness,6528.8,0.09,29123
+2002,TikTok,Brand Awareness,2078.83,0.04,36850
+2003,Email,Flash Sale,3816.95,0.06,24915
+2004,Meta,Brand Awareness,18750.82,0.21,29221
+2005,Meta,Brand Awareness,4264.87,0.06,18638
+2006,Google,Brand Awareness,17265.7,0.19,31634
+2007,Google,Seasonal,10090.14,0.12,28637
+2008,Meta,Brand Awareness,17480.4,0.19,7174
+2009,Email,Brand Awareness,13274.84,0.15,22666
+2010,TikTok,Seasonal,7429.96,0.09,31193
+2011,TikTok,Flash Sale,9330.69,0.11,15643
+2012,Meta,Flash Sale,7536.2,0.1,7145
+2013,Meta,Flash Sale,9011.43,0.11,13220
+2014,TikTok,Flash Sale,1171.31,0.03,25546
+2015,Email,Flash Sale,14898.49,0.17,11471
+2016,Email,Brand Awareness,7281.65,0.09,33379
+2017,Meta,Brand Awareness,3659.62,0.06,7550
+2018,TikTok,Brand Awareness,15056.51,0.17,10978
+2019,Meta,Seasonal,3018.75,0.05,17142
+2020,TikTok,Flash Sale,9092.59,0.11,39697
+2021,TikTok,Seasonal,19137.63,0.21,6541
+2022,Google,Brand Awareness,14471.5,0.16,31651
+2023,Google,Brand Awareness,19226.09,0.21,4511
+2024,Email,Seasonal,8704.76,0.11,45524
+2025,TikTok,Flash Sale,2946.34,0.05,39984
+2026,Meta,Brand Awareness,16510.43,0.19,25725
+2027,TikTok,Brand Awareness,14322.73,0.16,27199
+2028,Email,Brand Awareness,1521.15,0.04,23805
+2029,Meta,Flash Sale,18545.29,0.21,12306
+2030,Meta,Seasonal,9226.6,0.11,1191
+2031,Email,Brand Awareness,9180.73,0.11,8966
+2032,Email,Brand Awareness,18367.65,0.2,1827
+2033,TikTok,Brand Awareness,12747.83,0.15,48007
+2034,TikTok,Seasonal,15009.74,0.17,12816
+2035,TikTok,Flash Sale,13823.51,0.16,28545
+2036,Google,Seasonal,1481.87,0.03,29782
+2037,Email,Flash Sale,15861.03,0.18,29876
+2038,Email,Brand Awareness,17715.68,0.2,19775
+2039,Email,Flash Sale,1651.81,0.04,12528
+2040,TikTok,Seasonal,2819.54,0.05,42039
+2041,Email,Flash Sale,4232.54,0.06,32404
+2042,Meta,Seasonal,18807.97,0.21,2855
+2043,Meta,Brand Awareness,8575.38,0.11,39919
+2044,Google,Flash Sale,8018.14,0.1,49681
+2045,Meta,Seasonal,6564.94,0.09,6734
+2046,TikTok,Brand Awareness,17545.3,0.2,32264
+2047,Email,Flash Sale,4012.74,0.06,28361
+2048,Email,Seasonal,3634.31,0.06,7168
+2049,Email,Seasonal,4142.02,0.06,32981
+2050,Google,Seasonal,9810.33,0.12,14577
+2051,Meta,Flash Sale,2240.17,0.04,8899
+2052,Google,Seasonal,1882.01,0.04,32209
+2053,Google,Seasonal,9836.99,0.12,32577
+2054,Meta,Flash Sale,4762.01,0.07,37546
+2055,Google,Seasonal,1674.71,0.04,46627
+2056,TikTok,Flash Sale,2544.85,0.05,15262
+2057,Email,Brand Awareness,17394.85,0.19,44358
+2058,Email,Brand Awareness,18488.23,0.2,13332
+2059,Email,Flash Sale,1685.14,0.04,2886
+2060,Meta,Brand Awareness,2464.56,0.04,12189
+2061,Google,Seasonal,1184.94,0.03,36669
+2062,TikTok,Seasonal,12239.73,0.14,25107
+2063,Email,Flash Sale,19427.64,0.21,1528
+2064,TikTok,Flash Sale,17474.93,0.19,42699
+2065,Google,Seasonal,3907.71,0.06,43139
+2066,Email,Flash Sale,6577.23,0.09,47604
+2067,TikTok,Seasonal,3022.24,0.05,5287
+2068,Email,Brand Awareness,6990.99,0.09,12644
+2069,Email,Flash Sale,6507.3,0.09,7719
+2070,Meta,Brand Awareness,13729.46,0.16,37832
+2071,TikTok,Seasonal,5574.33,0.08,37663
+2072,TikTok,Seasonal,9818.64,0.12,22149
+2073,Google,Seasonal,19911.5,0.22,39791
+2074,Email,Brand Awareness,6391.4,0.08,29418
+2075,TikTok,Brand Awareness,6437.84,0.08,29856
+2076,Email,Flash Sale,12013.74,0.14,48703
+2077,Email,Brand Awareness,19627.19,0.22,20171
+2078,Google,Flash Sale,14983.23,0.17,22247
+2079,Meta,Brand Awareness,6682.54,0.09,18320
+2080,Google,Seasonal,6230.28,0.08,22655
+2081,Email,Seasonal,10109.18,0.12,34901
+2082,Google,Brand Awareness,3545.83,0.06,6543
+2083,TikTok,Brand Awareness,8116.12,0.1,34011
+2084,TikTok,Flash Sale,4229.07,0.06,10612
+2085,Email,Brand Awareness,19792.83,0.22,49414
+2086,Email,Seasonal,2266.46,0.04,32246
+2087,Meta,Brand Awareness,16616.14,0.19,28097
+2088,TikTok,Flash Sale,3550.41,0.06,25532
+2089,Email,Flash Sale,19854.17,0.22,2802
+2090,Google,Flash Sale,5201.01,0.07,28607
+2091,Email,Seasonal,11297.33,0.13,43712
+2092,TikTok,Flash Sale,16570.89,0.19,24400
+2093,Meta,Flash Sale,2422.5,0.04,12815
+2094,Google,Seasonal,12593.1,0.15,4927
+2095,Google,Brand Awareness,11005.37,0.13,21858
+2096,Google,Brand Awareness,14416.87,0.16,43128
+2097,Meta,Brand Awareness,13561.57,0.16,41246
+2098,Google,Flash Sale,19960.07,0.22,48076
+2099,Google,Flash Sale,14150.25,0.16,19234
+2100,Google,Brand Awareness,3123.9,0.05,26463
+2101,TikTok,Seasonal,11017.93,0.13,18114
+2102,Meta,Brand Awareness,17728.71,0.2,15806
+2103,Google,Seasonal,9295.92,0.11,6909
+2104,TikTok,Brand Awareness,6027.39,0.08,6146
+2105,TikTok,Brand Awareness,10278.63,0.12,45395
+2106,Meta,Seasonal,14673.42,0.17,36260
+2107,Google,Flash Sale,11565.56,0.14,26243
+2108,Meta,Seasonal,10855.99,0.13,39510
+2109,TikTok,Brand Awareness,11117.12,0.13,27317
+2110,Meta,Seasonal,16195.88,0.18,13439
+2111,TikTok,Brand Awareness,14215.09,0.16,21503
+2112,Google,Seasonal,13283.75,0.15,27647
+2113,Email,Seasonal,19221.76,0.21,46532
+2114,Google,Flash Sale,1204.22,0.03,36097
+2115,Email,Seasonal,6824.6,0.09,2997
+2116,Meta,Seasonal,6903.98,0.09,44388
+2117,Google,Brand Awareness,18633.0,0.21,44319
+2118,TikTok,Seasonal,13584.97,0.16,20348
+2119,Google,Flash Sale,13770.95,0.16,3878
+2120,Email,Brand Awareness,16377.03,0.18,40779
+2121,TikTok,Seasonal,18550.09,0.21,3311
+2122,Email,Brand Awareness,11031.46,0.13,25963
+2123,Google,Brand Awareness,8939.78,0.11,13683
+2124,Google,Seasonal,10574.07,0.13,22579
+2125,Email,Brand Awareness,19824.38,0.22,48911
+2126,Meta,Brand Awareness,1498.38,0.03,4689
+2127,Email,Brand Awareness,8912.7,0.11,35650
+2128,Meta,Seasonal,2416.51,0.04,35441
+2129,TikTok,Flash Sale,8221.64,0.1,36073
+2130,TikTok,Brand Awareness,15702.22,0.18,15339
+2131,Meta,Seasonal,11799.23,0.14,32298
+2132,Google,Brand Awareness,4175.24,0.06,5218
+2133,TikTok,Flash Sale,14458.59,0.16,15681
+2134,Email,Seasonal,19581.38,0.22,48357
+2135,Google,Brand Awareness,14992.58,0.17,22448
+2136,Meta,Flash Sale,11106.56,0.13,26006
+2137,Meta,Flash Sale,10903.12,0.13,37277
+2138,TikTok,Flash Sale,14664.53,0.17,18118
+2139,TikTok,Brand Awareness,12115.8,0.14,27404
+2140,Google,Seasonal,15657.23,0.18,40275
+2141,Google,Flash Sale,11932.0,0.14,22035
+2142,Meta,Flash Sale,10023.46,0.12,12953
+2143,Email,Brand Awareness,3765.05,0.06,40944
+2144,Email,Flash Sale,19979.74,0.22,25552
+2145,Google,Flash Sale,8786.96,0.11,19061
+2146,Email,Flash Sale,5299.0,0.07,39164
+2147,Email,Brand Awareness,10898.93,0.13,31851
+2148,Google,Flash Sale,11860.71,0.14,27536
+2149,Google,Seasonal,17327.87,0.19,9065
+2150,TikTok,Brand Awareness,9293.37,0.11,36163
+2151,TikTok,Flash Sale,13959.46,0.16,43477
+2152,TikTok,Seasonal,15915.72,0.18,16583
+2153,TikTok,Brand Awareness,19554.25,0.22,7404
+2154,Meta,Seasonal,3618.07,0.06,49605
+2155,Google,Flash Sale,1277.21,0.03,48810
+2156,Meta,Flash Sale,15831.87,0.18,19572
+2157,Email,Flash Sale,11971.99,0.14,41355
+2158,Google,Flash Sale,3256.42,0.05,36585
+2159,Meta,Brand Awareness,18463.18,0.2,37023
+2160,TikTok,Brand Awareness,3214.34,0.05,35549
+2161,Meta,Flash Sale,16966.16,0.19,7977
+2162,TikTok,Brand Awareness,10199.55,0.12,15857
+2163,Google,Seasonal,13156.96,0.15,47110
+2164,Google,Brand Awareness,16915.98,0.19,12410
+2165,Email,Flash Sale,14791.99,0.17,39225
+2166,Google,Seasonal,15245.58,0.17,39376
+2167,Meta,Seasonal,11247.94,0.13,25561
+2168,Email,Seasonal,16198.91,0.18,34502
+2169,TikTok,Seasonal,11121.66,0.13,36196
+2170,Meta,Seasonal,10649.05,0.13,16920
+2171,Google,Brand Awareness,3509.08,0.06,32567
+2172,Google,Brand Awareness,6623.82,0.09,16547
+2173,Google,Brand Awareness,13683.52,0.16,28265
+2174,TikTok,Seasonal,6586.69,0.09,33833
+2175,Email,Flash Sale,4128.82,0.06,20563
+2176,Google,Brand Awareness,19031.56,0.21,48141
+2177,Google,Seasonal,2634.35,0.05,37196
+2178,TikTok,Seasonal,4314.68,0.06,8724
+2179,Meta,Seasonal,1605.34,0.04,28750
+2180,Meta,Brand Awareness,15970.47,0.18,20532
+2181,TikTok,Flash Sale,16158.95,0.18,38611
+2182,Meta,Seasonal,18540.97,0.21,6687
+2183,Email,Flash Sale,2096.17,0.04,6337
+2184,Meta,Flash Sale,19011.65,0.21,46786
+2185,Email,Brand Awareness,1623.9,0.04,17965
+2186,TikTok,Flash Sale,9342.52,0.11,43995
+2187,Email,Brand Awareness,9860.13,0.12,48353
+2188,Google,Brand Awareness,15940.31,0.18,20888
+2189,Email,Seasonal,11315.41,0.13,30819
+2190,TikTok,Flash Sale,2523.44,0.05,24727
+2191,Meta,Flash Sale,15245.32,0.17,34220
+2192,TikTok,Brand Awareness,5950.51,0.08,28319
+2193,Email,Seasonal,2921.32,0.05,41946
+2194,Email,Seasonal,7277.94,0.09,25657
+2195,TikTok,Seasonal,16019.07,0.18,9520
+2196,Meta,Seasonal,1633.27,0.04,45853
+2197,Email,Brand Awareness,14848.96,0.17,2804
+2198,TikTok,Flash Sale,6069.48,0.08,36237
+2199,Google,Seasonal,16734.57,0.19,26070
+2200,Google,Flash Sale,11039.29,0.13,11926
+2201,TikTok,Flash Sale,16035.47,0.18,2957
+2202,Google,Seasonal,8039.62,0.1,5925
+2203,Email,Seasonal,14207.62,0.16,35039
+2204,Email,Flash Sale,11738.08,0.14,20688
+2205,TikTok,Seasonal,6318.55,0.08,46978
+2206,Google,Seasonal,15560.61,0.18,48392
+2207,Google,Seasonal,16720.44,0.19,18633
+2208,Email,Flash Sale,5553.85,0.08,19073
+2209,Meta,Seasonal,16719.65,0.19,38543
+2210,TikTok,Flash Sale,9389.34,0.11,30191
+2211,Email,Seasonal,8902.52,0.11,7268
+2212,Google,Brand Awareness,18916.52,0.21,9565
+2213,TikTok,Brand Awareness,9513.32,0.12,43430
+2214,Google,Seasonal,13830.83,0.16,29138
+2215,Google,Flash Sale,11625.9,0.14,13027
+2216,Google,Seasonal,1473.17,0.03,20685
+2217,TikTok,Seasonal,12718.23,0.15,42265
+2218,TikTok,Seasonal,5459.87,0.07,34982
+2219,TikTok,Flash Sale,7450.92,0.09,39088
+2220,TikTok,Flash Sale,2407.82,0.04,15945
+2221,Meta,Seasonal,12234.69,0.14,15471
+2222,Google,Brand Awareness,13083.66,0.15,8448
+2223,Google,Seasonal,11742.71,0.14,42558
+2224,Meta,Brand Awareness,15453.84,0.17,36304
+2225,Google,Seasonal,6681.17,0.09,11889
+2226,Google,Brand Awareness,11049.28,0.13,3486
+2227,Email,Seasonal,1505.92,0.04,49335
+2228,Email,Brand Awareness,18959.41,0.21,10411
+2229,Email,Brand Awareness,16876.17,0.19,2259
+2230,Email,Seasonal,10924.92,0.13,17260
+2231,Meta,Seasonal,16887.95,0.19,28728
+2232,Google,Seasonal,16235.2,0.18,16083
+2233,Email,Brand Awareness,9395.12,0.11,6883
+2234,TikTok,Flash Sale,4609.59,0.07,26773
+2235,Email,Brand Awareness,9218.65,0.11,5939
+2236,Email,Seasonal,17242.47,0.19,22835
+2237,Meta,Flash Sale,10833.29,0.13,27842
+2238,TikTok,Seasonal,14060.9,0.16,1606
+2239,Email,Brand Awareness,5536.56,0.08,24494
+2240,Google,Brand Awareness,12365.2,0.14,39853
+2241,Google,Brand Awareness,7808.56,0.1,39921
+2242,TikTok,Seasonal,11041.54,0.13,35566
+2243,Meta,Flash Sale,7947.34,0.1,32367
+2244,TikTok,Flash Sale,19738.08,0.22,11114
+2245,Google,Brand Awareness,18858.03,0.21,15545
+2246,Email,Flash Sale,4525.91,0.07,6205
+2247,TikTok,Flash Sale,1838.09,0.04,7617
+2248,Meta,Seasonal,18149.64,0.2,34015
+2249,TikTok,Seasonal,13434.32,0.15,16743
+2250,Meta,Flash Sale,19945.19,0.22,8060
+2251,TikTok,Flash Sale,4161.94,0.06,2558
+2252,Email,Flash Sale,16427.94,0.18,42359
+2253,Meta,Brand Awareness,15598.99,0.18,15402
+2254,Meta,Seasonal,14361.96,0.16,33225
+2255,Email,Brand Awareness,3825.15,0.06,13756
+2256,Google,Seasonal,18900.09,0.21,9348
+2257,TikTok,Seasonal,4761.91,0.07,44207
+2258,Email,Flash Sale,1438.13,0.03,3847
+2259,Google,Brand Awareness,12339.9,0.14,37495
+2260,TikTok,Seasonal,8814.83,0.11,1970
+2261,Email,Seasonal,10381.99,0.12,31279
+2262,Email,Brand Awareness,5561.81,0.08,39480
+2263,TikTok,Flash Sale,9458.36,0.11,7063
+2264,Meta,Flash Sale,15788.25,0.18,5154
+2265,Google,Flash Sale,11931.81,0.14,6631
+2266,Google,Brand Awareness,11303.39,0.13,24668
+2267,Google,Seasonal,11872.0,0.14,7852
+2268,TikTok,Seasonal,3928.87,0.06,30818
+2269,Google,Brand Awareness,15976.9,0.18,15991
+2270,Meta,Flash Sale,14049.23,0.16,30551
+2271,Google,Brand Awareness,8312.82,0.1,40489
+2272,Google,Seasonal,6039.9,0.08,19408
+2273,Google,Flash Sale,9040.32,0.11,1794
+2274,Meta,Brand Awareness,13872.18,0.16,32488
+2275,Email,Seasonal,16334.58,0.18,3392
+2276,TikTok,Seasonal,13689.96,0.16,16228
+2277,Meta,Flash Sale,1434.68,0.03,16977
+2278,Google,Brand Awareness,4358.09,0.06,41201
+2279,Email,Brand Awareness,9692.76,0.12,48367
+2280,Email,Brand Awareness,6132.16,0.08,7061
+2281,Google,Flash Sale,7142.72,0.09,24844
+2282,Meta,Flash Sale,6318.85,0.08,2605
+2283,TikTok,Flash Sale,5582.77,0.08,32850
+2284,Email,Brand Awareness,15003.22,0.17,39220
+2285,Google,Seasonal,9313.91,0.11,4139
+2286,TikTok,Flash Sale,17586.53,0.2,49954
+2287,TikTok,Brand Awareness,5226.07,0.07,25606
+2288,Google,Flash Sale,8941.24,0.11,45319
+2289,Meta,Seasonal,9724.75,0.12,2375
+2290,Meta,Seasonal,19083.72,0.21,28096
+2291,TikTok,Seasonal,16704.78,0.19,16978
+2292,Google,Seasonal,4493.42,0.06,25938
+2293,Email,Flash Sale,17003.21,0.19,17917
+2294,Meta,Seasonal,7838.52,0.1,4036
+2295,TikTok,Brand Awareness,15208.66,0.17,45224
+2296,Google,Brand Awareness,12693.65,0.15,10957
+2297,Google,Seasonal,9285.15,0.11,10552
+2298,Meta,Brand Awareness,17406.4,0.19,30843
+2299,Google,Seasonal,4098.86,0.06,5219
+2300,Email,Flash Sale,11659.74,0.14,7820
+2301,TikTok,Flash Sale,8008.54,0.1,17334
+2302,Google,Flash Sale,10417.53,0.12,45757
+2303,TikTok,Seasonal,13497.79,0.15,13051
+2304,TikTok,Brand Awareness,4747.3,0.07,5545
+2305,TikTok,Seasonal,15553.84,0.18,45854
+2306,Meta,Seasonal,19064.55,0.21,29132
+2307,TikTok,Seasonal,17338.29,0.19,11062
+2308,Meta,Brand Awareness,17349.92,0.19,8518
+2309,Email,Brand Awareness,11689.34,0.14,31883
+2310,Email,Seasonal,19380.15,0.21,29566
+2311,Google,Seasonal,1748.15,0.04,22574
+2312,Meta,Flash Sale,8664.94,0.11,7284
+2313,TikTok,Seasonal,14695.65,0.17,47422
+2314,Meta,Flash Sale,19431.89,0.21,43462
+2315,TikTok,Brand Awareness,12574.49,0.15,45326
+2316,Email,Seasonal,18740.99,0.21,31343
+2317,TikTok,Brand Awareness,14407.54,0.16,34259
+2318,TikTok,Brand Awareness,18038.89,0.2,48896
+2319,Google,Seasonal,7805.2,0.1,45605
+2320,TikTok,Brand Awareness,19869.32,0.22,7820
+2321,Google,Seasonal,5787.84,0.08,14200
+2322,Meta,Seasonal,8136.13,0.1,46013
+2323,Google,Brand Awareness,3025.22,0.05,22519
+2324,Email,Brand Awareness,15149.69,0.17,43726
+2325,Meta,Flash Sale,17920.88,0.2,39494
+2326,Email,Brand Awareness,16881.36,0.19,12164
+2327,Google,Brand Awareness,12728.56,0.15,26624
+2328,Email,Flash Sale,5129.63,0.07,34179
+2329,TikTok,Seasonal,1547.87,0.04,21092
+2330,Meta,Flash Sale,7747.58,0.1,44095
+2331,TikTok,Seasonal,11965.08,0.14,16485
+2332,Email,Flash Sale,3051.14,0.05,13816
+2333,TikTok,Brand Awareness,11648.03,0.14,46218
+2334,TikTok,Seasonal,17143.68,0.19,39349
+2335,Google,Flash Sale,6241.15,0.08,17480
+2336,Google,Brand Awareness,6889.51,0.09,37943
+2337,Email,Seasonal,13130.35,0.15,11080
+2338,Google,Flash Sale,11252.3,0.13,25312
+2339,Email,Flash Sale,4818.54,0.07,36319
+2340,Email,Seasonal,4901.49,0.07,2915
+2341,Google,Brand Awareness,15966.08,0.18,30106
+2342,Google,Flash Sale,17026.03,0.19,45447
+2343,Email,Brand Awareness,6081.44,0.08,32170
+2344,Meta,Brand Awareness,3225.97,0.05,49148
+2345,Email,Seasonal,13284.99,0.15,11460
+2346,TikTok,Seasonal,2429.79,0.04,30755
+2347,Google,Flash Sale,4475.66,0.06,13682
+2348,Email,Flash Sale,1351.64,0.03,33982
+2349,Email,Flash Sale,17137.06,0.19,29833
+2350,Email,Brand Awareness,12705.49,0.15,36149
+2351,Email,Seasonal,5759.31,0.08,29441
+2352,Meta,Flash Sale,13992.1,0.16,46024
+2353,Email,Seasonal,8573.04,0.11,22934
+2354,Google,Seasonal,17775.99,0.2,31553
+2355,TikTok,Seasonal,16001.9,0.18,27142
+2356,Google,Flash Sale,9949.52,0.12,1076
+2357,Google,Flash Sale,18719.8,0.21,19692
+2358,Meta,Brand Awareness,10653.78,0.13,20246
+2359,Google,Flash Sale,14794.27,0.17,37390
+2360,Email,Seasonal,10534.68,0.13,45962
+2361,Email,Brand Awareness,1924.77,0.04,46404
+2362,Meta,Flash Sale,15561.33,0.18,44457
+2363,TikTok,Seasonal,19975.66,0.22,45560
+2364,Email,Flash Sale,18319.61,0.2,35968
+2365,TikTok,Brand Awareness,14411.08,0.16,48421
+2366,Email,Seasonal,12706.75,0.15,19562
+2367,TikTok,Seasonal,6281.68,0.08,21797
+2368,TikTok,Flash Sale,13317.33,0.15,45395
+2369,Meta,Seasonal,7755.74,0.1,44193
+2370,Email,Brand Awareness,13135.76,0.15,9798
+2371,Meta,Seasonal,4119.25,0.06,19475
+2372,Google,Flash Sale,12803.41,0.15,48255
+2373,Google,Flash Sale,2386.71,0.04,23553
+2374,Email,Flash Sale,1640.11,0.04,22669
+2375,Meta,Brand Awareness,18257.03,0.2,39092
+2376,Google,Brand Awareness,8339.36,0.1,39104
+2377,TikTok,Flash Sale,11556.4,0.14,40586
+2378,Meta,Seasonal,12833.6,0.15,31496
+2379,Meta,Flash Sale,12712.54,0.15,42658
+2380,Meta,Flash Sale,15639.67,0.18,20546
+2381,Google,Flash Sale,7924.93,0.1,36686
+2382,Email,Flash Sale,17424.38,0.19,16181
+2383,Meta,Brand Awareness,7729.42,0.1,35295
+2384,Meta,Brand Awareness,12177.87,0.14,35905
+2385,Email,Seasonal,8083.46,0.1,49076
+2386,Email,Brand Awareness,16798.32,0.19,26506
+2387,Google,Brand Awareness,6066.61,0.08,32661
+2388,Meta,Flash Sale,13861.33,0.16,42794
+2389,Email,Brand Awareness,2861.55,0.05,47782
+2390,Google,Seasonal,16570.71,0.19,31296
+2391,Meta,Flash Sale,13805.99,0.16,23425
+2392,Email,Flash Sale,12674.69,0.15,37563
+2393,TikTok,Flash Sale,17004.22,0.19,40893
+2394,Meta,Brand Awareness,15215.95,0.17,5623
+2395,Email,Seasonal,1947.88,0.04,16673
+2396,TikTok,Seasonal,2284.9,0.04,4876
+2397,Google,Flash Sale,8839.95,0.11,10422
+2398,Google,Seasonal,4621.26,0.07,24984
+2399,Email,Flash Sale,16105.74,0.18,11859
+2400,Email,Flash Sale,16723.25,0.19,38247
+2401,Google,Flash Sale,16340.59,0.18,34681
+2402,Google,Flash Sale,16263.1,0.18,44826
+2403,Email,Flash Sale,12695.82,0.15,47565
+2404,Meta,Seasonal,14659.18,0.17,34612
+2405,TikTok,Flash Sale,7063.67,0.09,1629
+2406,Google,Brand Awareness,2768.01,0.05,3541
+2407,Email,Brand Awareness,10678.78,0.13,17572
+2408,Meta,Flash Sale,14041.15,0.16,49563
+2409,Email,Brand Awareness,5958.72,0.08,28263
+2410,Google,Brand Awareness,10027.3,0.12,47383
+2411,Google,Brand Awareness,9992.52,0.12,36719
+2412,Google,Brand Awareness,6925.19,0.09,11097
+2413,Email,Flash Sale,8713.85,0.11,4528
+2414,Email,Flash Sale,1197.03,0.03,3343
+2415,TikTok,Flash Sale,6692.2,0.09,2822
+2416,Meta,Flash Sale,10867.07,0.13,47365
+2417,Email,Brand Awareness,2641.66,0.05,34018
+2418,Google,Flash Sale,13657.74,0.16,27144
+2419,Meta,Brand Awareness,11397.41,0.13,9973
+2420,Email,Seasonal,10731.47,0.13,18979
+2421,Email,Flash Sale,13303.76,0.15,19698
+2422,Meta,Brand Awareness,15560.97,0.18,22300
+2423,Email,Seasonal,19335.91,0.21,15075
+2424,Meta,Seasonal,6449.0,0.08,16762
+2425,Email,Flash Sale,12206.23,0.14,18922
+2426,Meta,Seasonal,5805.73,0.08,30974
+2427,Google,Brand Awareness,7809.84,0.1,7778
+2428,Meta,Brand Awareness,4616.56,0.07,25854
+2429,Google,Brand Awareness,10939.78,0.13,40817
+2430,Email,Brand Awareness,14459.18,0.16,17174
+2431,TikTok,Flash Sale,19984.33,0.22,23148
+2432,Meta,Seasonal,4368.9,0.06,33541
+2433,Email,Brand Awareness,12486.28,0.14,14609
+2434,Google,Flash Sale,4271.68,0.06,45759
+2435,TikTok,Brand Awareness,4193.39,0.06,18826
+2436,TikTok,Brand Awareness,10778.61,0.13,9133
+2437,Email,Brand Awareness,8866.45,0.11,46754
+2438,Google,Brand Awareness,5376.13,0.07,30283
+2439,TikTok,Brand Awareness,19322.39,0.21,8703
+2440,Google,Seasonal,18384.21,0.2,6930
+2441,Meta,Seasonal,8927.6,0.11,18732
+2442,Meta,Brand Awareness,10075.61,0.12,14976
+2443,Meta,Flash Sale,9497.55,0.11,22345
+2444,Email,Seasonal,10753.59,0.13,45245
+2445,TikTok,Flash Sale,13456.4,0.15,17894
+2446,TikTok,Flash Sale,2910.96,0.05,14951
+2447,Email,Brand Awareness,13595.76,0.16,37733
+2448,Meta,Seasonal,7727.15,0.1,27619
+2449,Meta,Brand Awareness,19105.8,0.21,43374
+2450,Meta,Brand Awareness,11305.22,0.13,49825
+2451,Email,Brand Awareness,6611.24,0.09,47206
+2452,Meta,Brand Awareness,17154.68,0.19,46563
+2453,Google,Flash Sale,9743.52,0.12,19769
+2454,TikTok,Seasonal,8186.72,0.1,40195
+2455,TikTok,Flash Sale,12468.65,0.14,9675
+2456,Email,Brand Awareness,11963.0,0.14,17756
+2457,Email,Seasonal,8407.97,0.1,22955
+2458,Google,Seasonal,2955.54,0.05,23452
+2459,Meta,Seasonal,12457.34,0.14,9913
+2460,Meta,Flash Sale,17255.08,0.19,10162
+2461,Email,Brand Awareness,4981.88,0.07,46807
+2462,TikTok,Seasonal,10811.7,0.13,13523
+2463,Email,Brand Awareness,9659.64,0.12,42021
+2464,Email,Brand Awareness,19643.88,0.22,44170
+2465,TikTok,Flash Sale,8508.36,0.11,44626
+2466,Email,Seasonal,8685.39,0.11,43447
+2467,Email,Brand Awareness,3098.56,0.05,40792
+2468,Email,Flash Sale,13082.98,0.15,24776
+2469,Google,Flash Sale,10107.57,0.12,43351
+2470,TikTok,Brand Awareness,11335.08,0.13,41346
+2471,TikTok,Flash Sale,5631.75,0.08,38092
+2472,TikTok,Brand Awareness,13394.2,0.15,19941
+2473,Google,Flash Sale,5077.61,0.07,4814
+2474,Email,Brand Awareness,18304.85,0.2,25644
+2475,Email,Flash Sale,10078.53,0.12,37980
+2476,Email,Flash Sale,12070.43,0.14,48185
+2477,Email,Brand Awareness,12779.5,0.15,24422
+2478,Google,Flash Sale,19569.34,0.22,20178
+2479,TikTok,Flash Sale,13024.41,0.15,33358
+2480,Email,Flash Sale,11338.46,0.13,6759
+2481,TikTok,Flash Sale,19853.26,0.22,3844
+2482,Google,Brand Awareness,19478.39,0.21,38398
+2483,TikTok,Brand Awareness,16290.43,0.18,27587
+2484,Google,Seasonal,16104.53,0.18,35151
+2485,Google,Seasonal,9920.82,0.12,32256
+2486,Meta,Seasonal,6870.73,0.09,23153
+2487,TikTok,Seasonal,14284.84,0.16,21568
+2488,TikTok,Flash Sale,1093.24,0.03,1021
+2489,TikTok,Flash Sale,1332.43,0.03,31519
+2490,Email,Brand Awareness,13650.0,0.16,48449
+2491,Email,Seasonal,7433.77,0.09,33877
+2492,Meta,Brand Awareness,19472.31,0.21,11678
+2493,Meta,Seasonal,13371.2,0.15,13760
+2494,Google,Flash Sale,19389.16,0.21,33507
+2495,Google,Brand Awareness,13785.9,0.16,12882
+2496,Google,Seasonal,18849.79,0.21,8219
+2497,Meta,Seasonal,5177.57,0.07,4885
+2498,TikTok,Brand Awareness,13626.52,0.16,23337
+2499,Google,Flash Sale,2053.94,0.04,24547
+2500,Email,Flash Sale,5108.51,0.07,7764
+2501,TikTok,Seasonal,14637.0,0.17,37163
+2502,TikTok,Brand Awareness,7872.39,0.1,3276
+2503,Google,Flash Sale,18628.05,0.21,17901
+2504,Email,Flash Sale,2365.2,0.04,12740
+2505,Email,Flash Sale,17210.47,0.19,33464
+2506,Email,Seasonal,13628.17,0.16,40895
+2507,TikTok,Brand Awareness,16840.14,0.19,35215
+2508,Email,Brand Awareness,8808.97,0.11,33182
+2509,Meta,Flash Sale,8705.0,0.11,12751
+2510,TikTok,Brand Awareness,4761.69,0.07,26590
+2511,Meta,Flash Sale,2810.52,0.05,14055
+2512,Meta,Seasonal,3824.95,0.06,10792
+2513,Google,Flash Sale,11070.46,0.13,3029
+2514,Meta,Seasonal,7687.7,0.1,8520
+2515,Google,Seasonal,13430.02,0.15,45634
+2516,Email,Flash Sale,7052.1,0.09,19496
+2517,Meta,Flash Sale,10072.51,0.12,21369
+2518,Google,Flash Sale,2716.23,0.05,4018
+2519,Email,Flash Sale,14707.92,0.17,31986
+2520,Email,Seasonal,6514.27,0.09,48379
+2521,TikTok,Brand Awareness,16282.27,0.18,13424
+2522,TikTok,Seasonal,14213.13,0.16,1248
+2523,TikTok,Brand Awareness,9277.13,0.11,31235
+2524,Meta,Seasonal,15398.41,0.17,19129
+2525,TikTok,Seasonal,19230.38,0.21,20299
+2526,Google,Flash Sale,13420.35,0.15,34537
+2527,Email,Flash Sale,3580.35,0.06,15391
+2528,Meta,Brand Awareness,4325.68,0.06,22069
+2529,Email,Brand Awareness,5003.62,0.07,31364
+2530,TikTok,Flash Sale,7944.0,0.1,1820
+2531,Google,Brand Awareness,3239.37,0.05,14928
+2532,Meta,Seasonal,11496.17,0.13,1727
+2533,TikTok,Seasonal,18218.41,0.2,7193
+2534,TikTok,Flash Sale,11606.99,0.14,24034
+2535,Google,Flash Sale,2415.63,0.04,37641
+2536,TikTok,Flash Sale,6511.45,0.09,49372
+2537,Meta,Brand Awareness,10407.85,0.12,26813
+2538,Meta,Flash Sale,1232.35,0.03,37634
+2539,Google,Brand Awareness,19872.47,0.22,43752
+2540,Google,Flash Sale,14683.36,0.17,2806
+2541,TikTok,Seasonal,2871.83,0.05,14029
+2542,Email,Seasonal,16576.68,0.19,26196
+2543,Google,Flash Sale,6459.52,0.08,30765
+2544,Meta,Flash Sale,7522.67,0.1,12875
+2545,Email,Seasonal,18807.25,0.21,44553
+2546,TikTok,Flash Sale,13949.99,0.16,45422
+2547,TikTok,Flash Sale,8064.23,0.1,34317
+2548,Email,Brand Awareness,13084.6,0.15,20224
+2549,Email,Flash Sale,19879.73,0.22,33295
+2550,TikTok,Brand Awareness,7206.57,0.09,42485
+2551,Google,Brand Awareness,8725.19,0.11,42846
+2552,Email,Flash Sale,3972.76,0.06,15876
+2553,TikTok,Seasonal,5905.7,0.08,35871
+2554,Email,Flash Sale,2918.08,0.05,49518
+2555,Google,Brand Awareness,8164.74,0.1,26318
+2556,Meta,Brand Awareness,5147.76,0.07,30619
+2557,Google,Seasonal,18767.07,0.21,15313
+2558,TikTok,Seasonal,2763.94,0.05,4497
+2559,TikTok,Seasonal,16921.71,0.19,26673
+2560,Google,Flash Sale,11442.72,0.13,17489
+2561,Meta,Flash Sale,9049.38,0.11,3077
+2562,Google,Seasonal,3640.92,0.06,40302
+2563,TikTok,Brand Awareness,18245.03,0.2,43245
+2564,Google,Flash Sale,3526.91,0.06,38930
+2565,Meta,Brand Awareness,14460.78,0.16,45612
+2566,Meta,Flash Sale,10962.75,0.13,22532
+2567,Google,Seasonal,8302.95,0.1,8712
+2568,TikTok,Flash Sale,15163.47,0.17,18508
+2569,TikTok,Seasonal,14956.51,0.17,28743
+2570,Google,Brand Awareness,11765.4,0.14,11822
+2571,TikTok,Seasonal,7865.69,0.1,12796
+2572,TikTok,Seasonal,15296.69,0.17,2441
+2573,Meta,Seasonal,11621.47,0.14,20723
+2574,TikTok,Flash Sale,15752.4,0.18,32812
+2575,TikTok,Seasonal,11303.53,0.13,36113
+2576,TikTok,Seasonal,2902.18,0.05,24746
+2577,Email,Brand Awareness,11063.29,0.13,48626
+2578,TikTok,Brand Awareness,15647.8,0.18,37333
+2579,TikTok,Seasonal,17624.66,0.2,16553
+2580,Google,Seasonal,2205.29,0.04,34278
+2581,TikTok,Flash Sale,7574.03,0.1,38645
+2582,Meta,Flash Sale,1757.29,0.04,40068
+2583,TikTok,Brand Awareness,9040.99,0.11,46088
+2584,Email,Seasonal,11558.67,0.14,11095
+2585,TikTok,Seasonal,2681.27,0.05,11149
+2586,Google,Brand Awareness,1233.43,0.03,42131
+2587,Meta,Flash Sale,11272.14,0.13,24146
+2588,Email,Brand Awareness,9047.7,0.11,28172
+2589,Google,Flash Sale,2803.61,0.05,14167
+2590,Email,Brand Awareness,10091.83,0.12,16172
+2591,TikTok,Brand Awareness,6689.65,0.09,45513
+2592,Meta,Seasonal,18472.9,0.2,3864
+2593,Email,Seasonal,7327.21,0.09,33753
+2594,Google,Brand Awareness,19681.6,0.22,35884
+2595,TikTok,Seasonal,18260.44,0.2,49440
+2596,TikTok,Seasonal,14943.24,0.17,48705
+2597,Email,Flash Sale,6233.1,0.08,16703
+2598,Email,Brand Awareness,14534.14,0.17,6787
+2599,Email,Flash Sale,19194.01,0.21,43833
+2600,Email,Flash Sale,19215.47,0.21,28413
+2601,Email,Seasonal,18225.95,0.2,13172
+2602,Email,Flash Sale,16229.68,0.18,20713
+2603,Email,Brand Awareness,4285.18,0.06,27174
+2604,Meta,Flash Sale,3823.46,0.06,42759
+2605,Email,Seasonal,16854.96,0.19,25093
+2606,Meta,Seasonal,18599.37,0.21,45892
+2607,Google,Brand Awareness,14833.55,0.17,38646
+2608,Google,Brand Awareness,11333.57,0.13,6740
+2609,Meta,Seasonal,3856.53,0.06,33110
+2610,Google,Brand Awareness,11423.16,0.13,33182
+2611,TikTok,Brand Awareness,6700.38,0.09,27635
+2612,Meta,Flash Sale,9487.72,0.11,34017
+2613,Email,Seasonal,2182.83,0.04,1710
+2614,Google,Flash Sale,15697.61,0.18,30295
+2615,Meta,Flash Sale,18811.28,0.21,28851
+2616,Google,Flash Sale,19934.53,0.22,10538
+2617,Email,Brand Awareness,17912.85,0.2,4764
+2618,Email,Brand Awareness,8250.63,0.1,1179
+2619,Meta,Flash Sale,9621.55,0.12,13296
+2620,Email,Flash Sale,10510.68,0.13,32003
+2621,Meta,Flash Sale,11226.0,0.13,45787
+2622,Google,Brand Awareness,3542.23,0.06,5246
+2623,Meta,Seasonal,4922.85,0.07,28305
+2624,Google,Seasonal,2060.37,0.04,38856
+2625,Email,Seasonal,1077.25,0.03,49935
+2626,Email,Brand Awareness,4325.14,0.06,36328
+2627,Meta,Brand Awareness,5853.97,0.08,37883
+2628,Meta,Brand Awareness,12969.77,0.15,43628
+2629,Email,Flash Sale,6353.29,0.08,47150
+2630,Email,Flash Sale,3242.38,0.05,25161
+2631,Meta,Flash Sale,6961.61,0.09,8252
+2632,Google,Brand Awareness,9656.72,0.12,8703
+2633,Google,Brand Awareness,7150.34,0.09,31628
+2634,Email,Flash Sale,11591.65,0.14,33174
+2635,Meta,Seasonal,18525.15,0.21,7893
+2636,TikTok,Flash Sale,7571.67,0.1,46571
+2637,Email,Flash Sale,17325.23,0.19,48881
+2638,Email,Brand Awareness,14031.35,0.16,31990
+2639,TikTok,Flash Sale,18889.63,0.21,30565
+2640,Email,Seasonal,6636.89,0.09,12628
+2641,Google,Seasonal,8344.79,0.1,26003
+2642,Google,Seasonal,16888.65,0.19,42098
+2643,Meta,Seasonal,7455.86,0.09,22589
+2644,Email,Brand Awareness,7355.67,0.09,9119
+2645,Email,Seasonal,7381.18,0.09,38393
+2646,TikTok,Brand Awareness,9112.84,0.11,48265
+2647,Google,Flash Sale,3482.71,0.05,20703
+2648,Google,Seasonal,5667.73,0.08,46215
+2649,Google,Brand Awareness,7237.48,0.09,13327
+2650,Email,Flash Sale,4544.56,0.07,1312
+2651,Google,Seasonal,17355.15,0.19,20650
+2652,Google,Brand Awareness,16981.63,0.19,36762
+2653,TikTok,Brand Awareness,18934.18,0.21,42560
+2654,Google,Brand Awareness,3852.32,0.06,7062
+2655,Google,Seasonal,4674.95,0.07,9089
+2656,Email,Seasonal,6358.87,0.08,30151
+2657,Google,Brand Awareness,10961.01,0.13,44384
+2658,Email,Seasonal,1937.31,0.04,23105
+2659,TikTok,Flash Sale,11021.9,0.13,5415
+2660,Meta,Brand Awareness,5534.07,0.08,13914
+2661,TikTok,Brand Awareness,6147.42,0.08,8639
+2662,Meta,Seasonal,12189.7,0.14,6612
+2663,Google,Flash Sale,6038.39,0.08,1448
+2664,Meta,Flash Sale,5627.4,0.08,22066
+2665,TikTok,Brand Awareness,5698.45,0.08,21134
+2666,Google,Seasonal,7970.26,0.1,44389
+2667,Google,Brand Awareness,16374.92,0.18,43901
+2668,Meta,Seasonal,18933.81,0.21,19993
+2669,Meta,Seasonal,10397.41,0.12,1657
+2670,Email,Seasonal,12425.55,0.14,21377
+2671,Email,Flash Sale,17615.11,0.2,9787
+2672,Google,Seasonal,5733.29,0.08,46083
+2673,Google,Flash Sale,7332.32,0.09,49820
+2674,Google,Brand Awareness,14638.21,0.17,12092
+2675,Google,Flash Sale,1238.61,0.03,12838
+2676,Google,Brand Awareness,2309.12,0.04,28943
+2677,Google,Flash Sale,18650.57,0.21,43955
+2678,Email,Seasonal,13563.32,0.16,23708
+2679,TikTok,Brand Awareness,2703.7,0.05,19315
+2680,Google,Brand Awareness,6652.76,0.09,22456
+2681,Email,Flash Sale,19686.43,0.22,21225
+2682,Google,Flash Sale,3616.04,0.06,16555
+2683,Meta,Brand Awareness,13635.02,0.16,12304
+2684,Email,Brand Awareness,13071.64,0.15,45694
+2685,Email,Seasonal,6908.85,0.09,5609
+2686,Email,Brand Awareness,6009.24,0.08,22910
+2687,TikTok,Brand Awareness,2874.77,0.05,7073
+2688,Google,Flash Sale,11514.62,0.14,3984
+2689,Google,Flash Sale,16695.66,0.19,38216
+2690,Email,Flash Sale,6828.86,0.09,14962
+2691,TikTok,Flash Sale,15871.16,0.18,1127
+2692,TikTok,Seasonal,19499.58,0.21,4101
+2693,Google,Flash Sale,3750.58,0.06,25757
+2694,Email,Flash Sale,16589.71,0.19,44010
+2695,TikTok,Brand Awareness,17569.02,0.2,32231
+2696,Google,Brand Awareness,13476.5,0.15,49270
+2697,Google,Seasonal,13504.46,0.16,42050
+2698,TikTok,Seasonal,1875.61,0.04,44363
+2699,Google,Brand Awareness,12807.61,0.15,37932
+2700,Email,Brand Awareness,6771.66,0.09,5895
+2701,TikTok,Brand Awareness,18225.82,0.2,23057
+2702,Meta,Brand Awareness,1193.09,0.03,47911
+2703,TikTok,Flash Sale,13799.89,0.16,5459
+2704,Google,Seasonal,8456.52,0.1,46485
+2705,TikTok,Flash Sale,13744.92,0.16,33608
+2706,Meta,Seasonal,4910.43,0.07,22384
+2707,Email,Brand Awareness,11083.66,0.13,38112
+2708,Email,Brand Awareness,12766.71,0.15,39980
+2709,Google,Brand Awareness,13466.53,0.15,13559
+2710,Google,Brand Awareness,11560.46,0.14,9172
+2711,Meta,Brand Awareness,14184.62,0.16,11129
+2712,Meta,Seasonal,9530.14,0.12,9091
+2713,Email,Seasonal,12161.22,0.14,33034
+2714,Meta,Brand Awareness,6745.82,0.09,28776
+2715,Google,Flash Sale,13495.08,0.15,8121
+2716,TikTok,Seasonal,10124.68,0.12,29743
+2717,TikTok,Seasonal,6122.96,0.08,12991
+2718,Meta,Brand Awareness,3495.51,0.05,49287
+2719,Email,Seasonal,8025.97,0.1,24639
+2720,TikTok,Brand Awareness,11461.24,0.13,26593
+2721,Meta,Flash Sale,10433.99,0.12,20506
+2722,TikTok,Brand Awareness,19653.22,0.22,20022
+2723,TikTok,Flash Sale,4683.05,0.07,48915
+2724,Google,Flash Sale,18726.17,0.21,37940
+2725,Meta,Seasonal,6401.45,0.08,25361
+2726,TikTok,Seasonal,11954.08,0.14,45936
+2727,TikTok,Brand Awareness,16344.4,0.18,41840
+2728,Meta,Flash Sale,2067.23,0.04,48798
+2729,Meta,Flash Sale,17464.89,0.19,26392
+2730,TikTok,Seasonal,17331.7,0.19,6293
+2731,Meta,Seasonal,7734.13,0.1,32249
+2732,Meta,Seasonal,19650.7,0.22,41956
+2733,Meta,Brand Awareness,3381.07,0.05,28409
+2734,Meta,Seasonal,8740.18,0.11,17872
+2735,Google,Seasonal,16433.72,0.18,24337
+2736,Meta,Seasonal,12915.48,0.15,31610
+2737,TikTok,Seasonal,5112.96,0.07,11479
+2738,Meta,Seasonal,10029.26,0.12,2803
+2739,TikTok,Brand Awareness,15116.87,0.17,28100
+2740,TikTok,Flash Sale,11746.54,0.14,41701
+2741,TikTok,Seasonal,8193.83,0.1,31464
+2742,Email,Brand Awareness,13784.37,0.16,23908
+2743,TikTok,Seasonal,9254.51,0.11,20442
+2744,Email,Flash Sale,19699.56,0.22,7840
+2745,TikTok,Flash Sale,3855.31,0.06,10583
+2746,Email,Brand Awareness,3238.47,0.05,25750
+2747,TikTok,Brand Awareness,12598.8,0.15,21621
+2748,Email,Brand Awareness,17354.95,0.19,16476
+2749,Email,Brand Awareness,9434.57,0.11,18430
+2750,Email,Brand Awareness,12320.4,0.14,39612
+2751,Meta,Brand Awareness,10793.54,0.13,48530
+2752,Meta,Seasonal,17887.51,0.2,1318
+2753,TikTok,Flash Sale,16873.06,0.19,25946
+2754,Meta,Flash Sale,11466.4,0.13,5795
+2755,Email,Brand Awareness,12246.86,0.14,29913
+2756,Meta,Seasonal,17037.54,0.19,30172
+2757,Email,Seasonal,11738.26,0.14,44274
+2758,Google,Brand Awareness,1799.29,0.04,22301
+2759,Meta,Flash Sale,8063.4,0.1,34154
+2760,TikTok,Brand Awareness,12016.08,0.14,38483
+2761,Google,Seasonal,5157.19,0.07,31213
+2762,Email,Flash Sale,9730.59,0.12,32652
+2763,Meta,Brand Awareness,6538.76,0.09,6539
+2764,Email,Flash Sale,19756.82,0.22,27271
+2765,Meta,Brand Awareness,6484.62,0.08,29559
+2766,Email,Brand Awareness,15903.3,0.18,9805
+2767,TikTok,Brand Awareness,17863.95,0.2,3660
+2768,Email,Seasonal,13218.52,0.15,21007
+2769,Meta,Brand Awareness,16576.63,0.19,16667
+2770,TikTok,Flash Sale,6870.48,0.09,35279
+2771,TikTok,Seasonal,8331.9,0.1,28005
+2772,Meta,Brand Awareness,19392.13,0.21,33877
+2773,TikTok,Brand Awareness,7603.95,0.1,49794
+2774,Google,Brand Awareness,18626.19,0.21,41286
+2775,Meta,Flash Sale,11459.02,0.13,45826
+2776,Google,Seasonal,8161.97,0.1,1257
+2777,Email,Seasonal,7261.41,0.09,7609
+2778,TikTok,Flash Sale,13341.47,0.15,46129
+2779,Meta,Brand Awareness,16094.56,0.18,24121
+2780,TikTok,Seasonal,10736.9,0.13,16402
+2781,TikTok,Brand Awareness,1397.68,0.03,20498
+2782,Google,Brand Awareness,19953.03,0.22,42920
+2783,Google,Flash Sale,15046.73,0.17,32733
+2784,Email,Flash Sale,6737.67,0.09,23488
+2785,TikTok,Brand Awareness,11609.82,0.14,7995
+2786,Meta,Brand Awareness,1565.38,0.04,49822
+2787,Google,Seasonal,13557.78,0.16,17690
+2788,Email,Flash Sale,16925.92,0.19,13382
+2789,Meta,Brand Awareness,10767.35,0.13,46666
+2790,Meta,Seasonal,6797.45,0.09,3201
+2791,Email,Flash Sale,18666.13,0.21,20012
+2792,Google,Flash Sale,13454.99,0.15,42238
+2793,Email,Brand Awareness,6404.35,0.08,21945
+2794,Google,Brand Awareness,8945.63,0.11,3843
+2795,Email,Flash Sale,15543.18,0.18,37144
+2796,Email,Brand Awareness,6461.41,0.08,15194
+2797,Email,Brand Awareness,8249.05,0.1,14152
+2798,Email,Flash Sale,2063.57,0.04,47113
+2799,TikTok,Seasonal,4563.09,0.07,12949
+2800,Google,Brand Awareness,6016.22,0.08,18404
+2801,Email,Seasonal,19735.27,0.22,18892
+2802,Meta,Flash Sale,14082.15,0.16,11174
+2803,Meta,Seasonal,7386.48,0.09,40803
+2804,Email,Flash Sale,5134.06,0.07,45359
+2805,Google,Seasonal,12040.79,0.14,29724
+2806,Google,Brand Awareness,19468.99,0.21,38032
+2807,Meta,Flash Sale,1807.0,0.04,42498
+2808,Meta,Flash Sale,8884.49,0.11,17059
+2809,TikTok,Flash Sale,8891.51,0.11,28275
+2810,Email,Brand Awareness,19694.63,0.22,26942
+2811,Email,Brand Awareness,4652.28,0.07,47352
+2812,Meta,Brand Awareness,19156.16,0.21,2812
+2813,Email,Brand Awareness,14350.06,0.16,17233
+2814,Meta,Seasonal,15221.36,0.17,1386
+2815,Meta,Brand Awareness,1730.23,0.04,5362
+2816,Email,Flash Sale,5647.82,0.08,13274
+2817,Google,Seasonal,8898.08,0.11,46819
+2818,TikTok,Seasonal,6566.67,0.09,34443
+2819,Google,Seasonal,9976.03,0.12,31487
+2820,Google,Brand Awareness,3450.78,0.05,16559
+2821,Google,Flash Sale,9351.51,0.11,44651
+2822,Meta,Seasonal,12273.23,0.14,45776
+2823,Google,Seasonal,11245.35,0.13,29616
+2824,Google,Flash Sale,15185.74,0.17,30224
+2825,TikTok,Seasonal,14791.92,0.17,22829
+2826,TikTok,Seasonal,11433.49,0.13,32675
+2827,Google,Seasonal,5488.6,0.07,44564
+2828,Email,Flash Sale,19715.3,0.22,30267
+2829,Meta,Seasonal,16955.91,0.19,43625
+2830,Email,Seasonal,5726.5,0.08,29958
+2831,Meta,Seasonal,5370.23,0.07,24658
+2832,Google,Brand Awareness,16178.1,0.18,40094
+2833,TikTok,Flash Sale,2502.07,0.05,6088
+2834,Email,Seasonal,16681.69,0.19,42337
+2835,Google,Seasonal,19595.93,0.22,36547
+2836,Email,Flash Sale,5173.95,0.07,5667
+2837,Email,Flash Sale,8064.28,0.1,21081
+2838,TikTok,Seasonal,16511.69,0.19,21010
+2839,Meta,Brand Awareness,12909.71,0.15,18548
+2840,TikTok,Brand Awareness,13004.6,0.15,31972
+2841,TikTok,Flash Sale,6323.58,0.08,19755
+2842,TikTok,Seasonal,15547.02,0.18,47537
+2843,TikTok,Seasonal,5654.86,0.08,26587
+2844,Meta,Seasonal,1277.99,0.03,25536
+2845,Meta,Seasonal,10310.95,0.12,24883
+2846,TikTok,Flash Sale,13958.07,0.16,10653
+2847,TikTok,Seasonal,13691.42,0.16,6311
+2848,Google,Seasonal,18794.19,0.21,27730
+2849,Meta,Flash Sale,12276.64,0.14,15051
+2850,TikTok,Brand Awareness,6719.23,0.09,5934
+2851,TikTok,Brand Awareness,18674.55,0.21,13882
+2852,TikTok,Seasonal,17925.05,0.2,49809
+2853,Email,Seasonal,19521.21,0.22,30220
+2854,Email,Seasonal,11752.96,0.14,18449
+2855,Email,Seasonal,6829.67,0.09,1107
+2856,Meta,Seasonal,15607.8,0.18,12314
+2857,Email,Brand Awareness,5262.08,0.07,26888
+2858,TikTok,Seasonal,12293.01,0.14,17868
+2859,TikTok,Seasonal,1892.94,0.04,35001
+2860,Meta,Brand Awareness,5120.98,0.07,16048
+2861,Google,Flash Sale,1788.05,0.04,21439
+2862,Meta,Brand Awareness,3826.9,0.06,4648
+2863,Google,Brand Awareness,4775.19,0.07,28469
+2864,Google,Brand Awareness,3694.03,0.06,20068
+2865,TikTok,Seasonal,11556.5,0.14,33880
+2866,Email,Brand Awareness,8202.94,0.1,39712
+2867,TikTok,Brand Awareness,5736.3,0.08,11139
+2868,Email,Flash Sale,19365.53,0.21,12134
+2869,Email,Flash Sale,14522.99,0.17,17698
+2870,Google,Brand Awareness,3427.79,0.05,18185
+2871,TikTok,Seasonal,9055.04,0.11,47344
+2872,Email,Brand Awareness,3786.03,0.06,11982
+2873,Google,Brand Awareness,14745.84,0.17,40244
+2874,Meta,Brand Awareness,16959.86,0.19,34265
+2875,TikTok,Flash Sale,11891.57,0.14,19439
+2876,Meta,Seasonal,10650.98,0.13,15582
+2877,Email,Flash Sale,10850.63,0.13,30813
+2878,TikTok,Brand Awareness,17580.61,0.2,8263
+2879,Meta,Brand Awareness,17631.79,0.2,21652
+2880,TikTok,Brand Awareness,3831.05,0.06,49837
+2881,Email,Seasonal,12962.86,0.15,28694
+2882,Email,Flash Sale,14535.55,0.17,11301
+2883,TikTok,Seasonal,1095.84,0.03,29624
+2884,Meta,Flash Sale,15703.97,0.18,31283
+2885,TikTok,Seasonal,17912.23,0.2,26171
+2886,Meta,Brand Awareness,4269.37,0.06,1386
+2887,TikTok,Flash Sale,11625.32,0.14,33355
+2888,Email,Seasonal,3037.61,0.05,41374
+2889,TikTok,Brand Awareness,8952.03,0.11,6027
+2890,Meta,Brand Awareness,16776.93,0.19,20534
+2891,TikTok,Brand Awareness,14914.45,0.17,12742
+2892,Email,Brand Awareness,18197.98,0.2,34298
+2893,Email,Flash Sale,10171.92,0.12,37679
+2894,TikTok,Flash Sale,2312.92,0.04,8826
+2895,TikTok,Flash Sale,13053.62,0.15,5891
+2896,Email,Brand Awareness,14944.06,0.17,30559
+2897,Email,Seasonal,3621.62,0.06,4830
+2898,Google,Flash Sale,2175.56,0.04,17412
+2899,Meta,Seasonal,2140.49,0.04,40710
+2900,Email,Seasonal,19828.6,0.22,28529
+2901,TikTok,Flash Sale,7672.7,0.1,30804
+2902,Google,Seasonal,16162.66,0.18,49791
+2903,Email,Seasonal,8668.6,0.11,22291
+2904,Google,Brand Awareness,16184.42,0.18,29132
+2905,Google,Seasonal,5291.9,0.07,43982
+2906,Meta,Flash Sale,18564.97,0.21,43659
+2907,TikTok,Seasonal,12576.92,0.15,13615
+2908,Meta,Flash Sale,8119.07,0.1,42480
+2909,TikTok,Flash Sale,7025.44,0.09,30597
+2910,Google,Flash Sale,17950.18,0.2,5394
+2911,Meta,Brand Awareness,10658.73,0.13,33950
+2912,Google,Seasonal,19060.95,0.21,27211
+2913,TikTok,Brand Awareness,19952.79,0.22,18622
+2914,TikTok,Flash Sale,2101.32,0.04,32474
+2915,Google,Brand Awareness,15956.53,0.18,39182
+2916,TikTok,Brand Awareness,15297.41,0.17,13338
+2917,TikTok,Brand Awareness,9484.03,0.11,16056
+2918,Meta,Brand Awareness,11821.27,0.14,36987
+2919,Meta,Seasonal,13821.67,0.16,14064
+2920,Email,Brand Awareness,15496.19,0.17,7595
+2921,Email,Seasonal,10053.93,0.12,21817
+2922,TikTok,Flash Sale,18187.79,0.2,28899
+2923,Meta,Seasonal,6820.7,0.09,9952
+2924,TikTok,Brand Awareness,12483.74,0.14,4391
+2925,Google,Seasonal,4035.34,0.06,39004
+2926,Meta,Brand Awareness,14610.45,0.17,21252
+2927,Meta,Seasonal,18399.6,0.2,38642
+2928,TikTok,Seasonal,19218.97,0.21,44273
+2929,TikTok,Brand Awareness,3739.65,0.06,1943
+2930,Meta,Seasonal,11250.95,0.13,17181
+2931,TikTok,Seasonal,11872.17,0.14,14239
+2932,TikTok,Brand Awareness,15699.26,0.18,46856
+2933,Email,Brand Awareness,12534.45,0.15,1558
+2934,Google,Brand Awareness,12696.67,0.15,22345
+2935,Email,Flash Sale,9007.43,0.11,33328
+2936,Google,Flash Sale,18157.53,0.2,33996
+2937,Google,Brand Awareness,8827.45,0.11,43166
+2938,Email,Flash Sale,1556.04,0.04,17958
+2939,TikTok,Flash Sale,2555.87,0.05,45428
+2940,TikTok,Seasonal,10910.66,0.13,7751
+2941,Email,Flash Sale,16041.17,0.18,49236
+2942,Meta,Seasonal,10564.15,0.13,39200
+2943,Meta,Brand Awareness,11316.84,0.13,20608
+2944,TikTok,Seasonal,12474.06,0.14,19277
+2945,Meta,Brand Awareness,5871.7,0.08,36646
+2946,Email,Seasonal,19887.05,0.22,47875
+2947,TikTok,Brand Awareness,3661.27,0.06,19291
+2948,TikTok,Seasonal,2481.21,0.04,47709
+2949,TikTok,Flash Sale,2130.41,0.04,23395
+2950,Meta,Flash Sale,13205.02,0.15,27367
+2951,Google,Flash Sale,13334.6,0.15,30279
+2952,Meta,Seasonal,19729.34,0.22,49440
+2953,Meta,Flash Sale,16740.24,0.19,29721
+2954,TikTok,Flash Sale,2169.84,0.04,31594
+2955,Google,Seasonal,7188.73,0.09,31742
+2956,Email,Flash Sale,18832.56,0.21,38418
+2957,Google,Flash Sale,7841.81,0.1,28004
+2958,Google,Brand Awareness,2350.69,0.04,42658
+2959,TikTok,Brand Awareness,13879.36,0.16,28983
+2960,Google,Brand Awareness,11540.7,0.14,7809
+2961,Google,Seasonal,14359.98,0.16,28290
+2962,TikTok,Seasonal,1852.48,0.04,14858
+2963,Email,Seasonal,13224.69,0.15,41405
+2964,Google,Flash Sale,8841.47,0.11,36447
+2965,TikTok,Brand Awareness,16261.94,0.18,5324
+2966,TikTok,Seasonal,1606.04,0.04,8252
+2967,TikTok,Seasonal,9186.86,0.11,32275
+2968,Meta,Flash Sale,1847.25,0.04,4003
+2969,Google,Brand Awareness,10902.63,0.13,16202
+2970,Google,Seasonal,4582.92,0.07,15730
+2971,TikTok,Seasonal,7379.99,0.09,22803
+2972,Email,Flash Sale,8008.3,0.1,12167
+2973,Google,Flash Sale,1569.82,0.04,9183
+2974,TikTok,Brand Awareness,14188.86,0.16,26960
+2975,Meta,Seasonal,1765.36,0.04,26805
+2976,Email,Brand Awareness,16010.99,0.18,39942
+2977,Meta,Flash Sale,6316.39,0.08,8665
+2978,Email,Flash Sale,5868.69,0.08,37742
+2979,TikTok,Brand Awareness,15195.71,0.17,37272
+2980,Meta,Brand Awareness,19114.33,0.21,24455
+2981,TikTok,Brand Awareness,19482.28,0.21,2978
+2982,Email,Flash Sale,8436.19,0.1,3420
+2983,Email,Flash Sale,12388.2,0.14,16270
+2984,Google,Seasonal,3488.67,0.05,35005
+2985,Google,Flash Sale,13017.62,0.15,47754
+2986,Email,Seasonal,13221.28,0.15,16178
+2987,Google,Seasonal,15377.93,0.17,26233
+2988,TikTok,Brand Awareness,12582.32,0.15,11787
+2989,Meta,Flash Sale,12192.24,0.14,47744
+2990,Google,Flash Sale,11074.16,0.13,9077
+2991,Email,Flash Sale,17711.6,0.2,27889
+2992,Email,Brand Awareness,17590.85,0.2,49534
+2993,Meta,Flash Sale,19748.01,0.22,8530
+2994,Email,Brand Awareness,10117.55,0.12,47022
+2995,Email,Flash Sale,6957.71,0.09,8888
+2996,Google,Seasonal,8711.9,0.11,23950
+2997,Meta,Flash Sale,14666.7,0.17,1039
+2998,TikTok,Seasonal,6538.17,0.09,27898
+2999,Google,Flash Sale,10184.4,0.12,48139
+3000,Email,Brand Awareness,5427.7,0.07,16213
+3001,Email,Flash Sale,11863.89,0.14,34578
+3002,Meta,Flash Sale,2480.33,0.04,5238
+3003,Email,Flash Sale,10348.31,0.12,27604
+3004,Email,Brand Awareness,6070.52,0.08,19188
+3005,Google,Seasonal,8307.67,0.1,35032
+3006,TikTok,Flash Sale,10285.01,0.12,25398
+3007,Google,Flash Sale,14409.58,0.16,11252
+3008,Email,Brand Awareness,12407.13,0.14,12359
+3009,TikTok,Seasonal,17679.34,0.2,24999
+3010,Google,Seasonal,19679.85,0.22,30775
+3011,Meta,Seasonal,7932.1,0.1,13934
+3012,Meta,Seasonal,13137.05,0.15,10249
+3013,Google,Seasonal,11584.0,0.14,39198
+3014,Google,Seasonal,9144.37,0.11,27335
+3015,Google,Flash Sale,17533.81,0.2,43885
+3016,Google,Brand Awareness,4408.77,0.06,48298
+3017,Meta,Seasonal,2428.26,0.04,16460
+3018,TikTok,Flash Sale,18662.34,0.21,30361
+3019,Email,Seasonal,6562.28,0.09,4379
+3020,Meta,Seasonal,1701.95,0.04,6179
+3021,Email,Brand Awareness,14397.71,0.16,42400
+3022,Email,Flash Sale,10012.52,0.12,43548
+3023,Meta,Seasonal,7972.3,0.1,31917
+3024,Email,Flash Sale,7568.96,0.1,22010
+3025,Meta,Flash Sale,17427.38,0.19,18779
+3026,Email,Brand Awareness,6517.89,0.09,26105
+3027,Meta,Seasonal,9635.08,0.12,16728
+3028,TikTok,Flash Sale,4515.32,0.07,42600
+3029,Meta,Brand Awareness,5365.08,0.07,20411
+3030,Meta,Flash Sale,6526.74,0.09,7257
+3031,Email,Brand Awareness,5489.73,0.07,28980
+3032,Google,Seasonal,4578.67,0.07,44376
+3033,Meta,Flash Sale,9706.15,0.12,2169
+3034,Meta,Flash Sale,18325.63,0.2,14876
+3035,Email,Flash Sale,16790.66,0.19,24731
+3036,TikTok,Brand Awareness,13401.5,0.15,21251
+3037,TikTok,Seasonal,6241.53,0.08,2036
+3038,TikTok,Flash Sale,10322.72,0.12,32116
+3039,Email,Seasonal,14338.82,0.16,28504
+3040,Meta,Brand Awareness,3744.15,0.06,28149
+3041,Google,Seasonal,5004.13,0.07,47684
+3042,Meta,Flash Sale,8121.98,0.1,32943
+3043,Email,Brand Awareness,3711.58,0.06,31458
+3044,TikTok,Seasonal,12912.98,0.15,34070
+3045,TikTok,Seasonal,5709.54,0.08,17604
+3046,TikTok,Brand Awareness,18293.75,0.2,46523
+3047,TikTok,Brand Awareness,19878.21,0.22,44203
+3048,Meta,Brand Awareness,3064.83,0.05,15230
+3049,Email,Flash Sale,6292.27,0.08,30116
+3050,TikTok,Brand Awareness,16914.64,0.19,43405
+3051,Google,Brand Awareness,11915.74,0.14,38776
+3052,Meta,Brand Awareness,9655.61,0.12,6904
+3053,Meta,Flash Sale,4000.42,0.06,13925
+3054,Google,Flash Sale,6665.31,0.09,37715
+3055,Email,Brand Awareness,16719.94,0.19,45461
+3056,Email,Seasonal,18718.15,0.21,29927
+3057,Email,Seasonal,2460.15,0.04,2081
+3058,TikTok,Seasonal,13410.1,0.15,30185
+3059,Meta,Brand Awareness,15760.72,0.18,28237
+3060,Google,Flash Sale,10261.05,0.12,24628
+3061,TikTok,Brand Awareness,18728.96,0.21,36985
+3062,Meta,Flash Sale,5794.13,0.08,34378
+3063,TikTok,Seasonal,16559.2,0.19,24573
+3064,TikTok,Flash Sale,11292.19,0.13,6568
+3065,Meta,Brand Awareness,12910.75,0.15,36834
+3066,TikTok,Seasonal,13054.03,0.15,36597
+3067,Email,Brand Awareness,9791.8,0.12,44528
+3068,Meta,Seasonal,16201.0,0.18,1642
+3069,TikTok,Brand Awareness,18537.57,0.21,8281
+3070,TikTok,Flash Sale,13236.17,0.15,29524
+3071,Meta,Seasonal,1965.49,0.04,20683
+3072,Email,Seasonal,12612.63,0.15,33898
+3073,TikTok,Flash Sale,5537.49,0.08,4295
+3074,Email,Brand Awareness,5413.09,0.07,37940
+3075,TikTok,Brand Awareness,15837.81,0.18,8526
+3076,Email,Brand Awareness,13197.58,0.15,35650
+3077,Google,Seasonal,18009.16,0.2,8420
+3078,TikTok,Flash Sale,6167.84,0.08,17447
+3079,Email,Flash Sale,14902.01,0.17,25195
+3080,Google,Brand Awareness,6321.83,0.08,2865
+3081,TikTok,Flash Sale,17028.78,0.19,3124
+3082,Meta,Seasonal,18966.81,0.21,40981
+3083,Email,Flash Sale,13900.49,0.16,39359
+3084,Email,Brand Awareness,5500.35,0.08,22313
+3085,Meta,Brand Awareness,16395.5,0.18,43023
+3086,Google,Seasonal,16222.2,0.18,45965
+3087,Google,Brand Awareness,8216.06,0.1,6353
+3088,TikTok,Flash Sale,15447.34,0.17,26284
+3089,Email,Flash Sale,14686.24,0.17,14323
+3090,TikTok,Seasonal,10580.34,0.13,33430
+3091,Meta,Brand Awareness,19719.29,0.22,25311
+3092,Meta,Brand Awareness,18284.05,0.2,7996
+3093,Meta,Seasonal,17386.68,0.19,19925
+3094,Meta,Brand Awareness,12966.23,0.15,3316
+3095,Email,Flash Sale,5719.14,0.08,11609
+3096,TikTok,Flash Sale,17882.91,0.2,16958
+3097,Google,Seasonal,2736.84,0.05,22509
+3098,TikTok,Flash Sale,7139.44,0.09,31974
+3099,Email,Brand Awareness,18068.22,0.2,20855
+3100,TikTok,Brand Awareness,16366.57,0.18,25033
+3101,Google,Seasonal,17796.08,0.2,21439
+3102,Email,Flash Sale,17759.78,0.2,40779
+3103,Email,Seasonal,3617.24,0.06,37858
+3104,Google,Brand Awareness,4961.89,0.07,48811
+3105,Meta,Brand Awareness,13670.21,0.16,40811
+3106,Email,Flash Sale,9049.48,0.11,42416
+3107,Email,Seasonal,17965.47,0.2,5817
+3108,TikTok,Flash Sale,17853.49,0.2,40501
+3109,Meta,Flash Sale,15760.37,0.18,29782
+3110,Email,Seasonal,10664.33,0.13,11603
+3111,Email,Seasonal,10175.18,0.12,31555
+3112,TikTok,Flash Sale,16711.81,0.19,30346
+3113,TikTok,Brand Awareness,3407.28,0.05,44227
+3114,Google,Flash Sale,9770.42,0.12,39989
+3115,Email,Flash Sale,5770.77,0.08,49230
+3116,Email,Flash Sale,19190.34,0.21,18711
+3117,Email,Seasonal,1364.29,0.03,37502
+3118,Google,Seasonal,12237.73,0.14,38725
+3119,Google,Brand Awareness,15691.8,0.18,18948
+3120,Google,Brand Awareness,3873.36,0.06,44513
+3121,Meta,Seasonal,17838.67,0.2,27832
+3122,TikTok,Flash Sale,4626.94,0.07,36220
+3123,Email,Flash Sale,10363.9,0.12,42759
+3124,Email,Flash Sale,18964.37,0.21,43347
+3125,Google,Flash Sale,15350.63,0.17,16946
+3126,Google,Seasonal,4343.21,0.06,27084
+3127,TikTok,Seasonal,2197.55,0.04,5716
+3128,Google,Flash Sale,19149.04,0.21,38997
+3129,Google,Flash Sale,18361.45,0.2,27029
+3130,Meta,Flash Sale,4849.73,0.07,43023
+3131,Email,Brand Awareness,6358.78,0.08,39137
+3132,TikTok,Seasonal,7181.65,0.09,28698
+3133,TikTok,Seasonal,12782.93,0.15,30001
+3134,Google,Brand Awareness,3237.77,0.05,11161
+3135,TikTok,Flash Sale,7722.16,0.1,19705
+3136,Meta,Seasonal,10272.78,0.12,40063
+3137,Meta,Brand Awareness,14084.14,0.16,45822
+3138,TikTok,Flash Sale,16629.45,0.19,36787
+3139,Email,Flash Sale,11867.17,0.14,24558
+3140,Email,Brand Awareness,16026.79,0.18,31459
+3141,Google,Flash Sale,7628.92,0.1,13644
+3142,Google,Flash Sale,6030.6,0.08,27588
+3143,Meta,Seasonal,9222.83,0.11,26410
+3144,Meta,Seasonal,3276.36,0.05,7907
+3145,TikTok,Seasonal,8898.95,0.11,22918
+3146,Email,Seasonal,2757.12,0.05,42791
+3147,Meta,Flash Sale,6039.71,0.08,8171
+3148,Email,Seasonal,9595.54,0.12,12044
+3149,Google,Flash Sale,5908.41,0.08,31855
+3150,Email,Seasonal,5764.5,0.08,21703
+3151,Google,Seasonal,17915.38,0.2,17912
+3152,Meta,Seasonal,19024.58,0.21,45092
+3153,TikTok,Flash Sale,3713.66,0.06,21806
+3154,Email,Seasonal,9299.43,0.11,31245
+3155,Meta,Seasonal,8265.35,0.1,44559
+3156,Google,Seasonal,7530.44,0.1,5171
+3157,Google,Seasonal,15310.0,0.17,28600
+3158,TikTok,Flash Sale,18653.09,0.21,44180
+3159,Meta,Brand Awareness,11191.35,0.13,5802
+3160,Meta,Seasonal,17214.11,0.19,19289
+3161,Meta,Seasonal,12051.21,0.14,29387
+3162,Meta,Flash Sale,12508.55,0.15,43812
+3163,Google,Brand Awareness,15398.29,0.17,32688
+3164,TikTok,Brand Awareness,6187.38,0.08,19239
+3165,Email,Brand Awareness,11521.06,0.14,32314
+3166,Google,Brand Awareness,16233.64,0.18,15042
+3167,TikTok,Seasonal,16673.62,0.19,38005
+3168,TikTok,Flash Sale,1495.98,0.03,48836
+3169,Google,Seasonal,15672.12,0.18,40113
+3170,Google,Flash Sale,18906.14,0.21,33918
+3171,Meta,Seasonal,7841.69,0.1,14740
+3172,TikTok,Flash Sale,1770.38,0.04,9079
+3173,Meta,Seasonal,13277.88,0.15,21679
+3174,TikTok,Seasonal,7337.86,0.09,3273
+3175,TikTok,Seasonal,14004.71,0.16,44418
+3176,Email,Brand Awareness,17865.83,0.2,47277
+3177,Meta,Seasonal,10887.53,0.13,35116
+3178,Google,Seasonal,8386.11,0.1,43965
+3179,TikTok,Brand Awareness,2033.77,0.04,19897
+3180,Email,Seasonal,6718.96,0.09,35322
+3181,TikTok,Brand Awareness,4783.4,0.07,29810
+3182,Google,Brand Awareness,14843.38,0.17,1427
+3183,TikTok,Brand Awareness,9424.83,0.11,40227
+3184,Google,Seasonal,6020.99,0.08,15636
+3185,TikTok,Flash Sale,7502.88,0.1,3042
+3186,Google,Brand Awareness,7105.69,0.09,9147
+3187,Meta,Flash Sale,13428.88,0.15,34780
+3188,Google,Flash Sale,18328.75,0.2,2057
+3189,Google,Brand Awareness,3559.11,0.06,29229
+3190,Google,Seasonal,16243.21,0.18,17753
+3191,Meta,Seasonal,9050.0,0.11,28142
+3192,Email,Seasonal,3246.38,0.05,18714
+3193,Google,Flash Sale,11601.98,0.14,22526
+3194,Meta,Brand Awareness,17190.71,0.19,48727
+3195,TikTok,Flash Sale,18269.72,0.2,22091
+3196,Google,Brand Awareness,3899.46,0.06,24695
+3197,Email,Brand Awareness,14113.48,0.16,33664
+3198,Google,Flash Sale,1863.72,0.04,42292
+3199,Google,Flash Sale,9595.25,0.12,3451
+3200,Email,Flash Sale,17218.73,0.19,12167
+3201,TikTok,Flash Sale,14847.56,0.17,28659
+3202,Meta,Brand Awareness,9071.01,0.11,7997
+3203,Google,Flash Sale,6074.95,0.08,16745
+3204,Email,Brand Awareness,6622.31,0.09,44339
+3205,Email,Seasonal,19617.8,0.22,11627
+3206,TikTok,Brand Awareness,4801.68,0.07,34100
+3207,Meta,Flash Sale,12382.19,0.14,42465
+3208,Google,Brand Awareness,12256.05,0.14,18442
+3209,Meta,Brand Awareness,12780.13,0.15,11136
+3210,TikTok,Brand Awareness,4124.23,0.06,31803
+3211,Email,Seasonal,2242.74,0.04,28751
+3212,Google,Brand Awareness,18987.27,0.21,13433
+3213,Email,Seasonal,7243.12,0.09,35796
+3214,Meta,Brand Awareness,5702.22,0.08,39745
+3215,Google,Flash Sale,7570.48,0.1,30509
+3216,TikTok,Brand Awareness,9953.34,0.12,19492
+3217,TikTok,Flash Sale,1568.75,0.04,23061
+3218,Google,Brand Awareness,6929.68,0.09,22886
+3219,Meta,Flash Sale,17173.53,0.19,26498
+3220,Google,Seasonal,14411.76,0.16,27853
+3221,TikTok,Seasonal,14871.71,0.17,4711
+3222,Meta,Flash Sale,18391.12,0.2,33176
+3223,Email,Seasonal,15013.59,0.17,23485
+3224,Google,Flash Sale,9332.57,0.11,41952
+3225,TikTok,Brand Awareness,4807.58,0.07,38979
+3226,Google,Seasonal,16280.49,0.18,46659
+3227,Meta,Seasonal,19148.69,0.21,8010
+3228,Meta,Seasonal,1194.49,0.03,13357
+3229,Meta,Brand Awareness,11302.59,0.13,20010
+3230,Email,Seasonal,11753.37,0.14,21086
+3231,Meta,Seasonal,17163.24,0.19,27281
+3232,TikTok,Brand Awareness,15603.13,0.18,47068
+3233,TikTok,Brand Awareness,16616.2,0.19,6194
+3234,Google,Seasonal,1327.43,0.03,20304
+3235,TikTok,Flash Sale,8361.13,0.1,15444
+3236,Google,Seasonal,19677.78,0.22,40003
+3237,TikTok,Brand Awareness,8697.7,0.11,26929
+3238,Google,Brand Awareness,12496.59,0.14,22187
+3239,Google,Brand Awareness,16501.85,0.19,46420
+3240,Google,Brand Awareness,12522.92,0.15,46888
+3241,TikTok,Brand Awareness,14126.77,0.16,12259
+3242,Email,Flash Sale,12186.25,0.14,18689
+3243,Google,Flash Sale,4232.02,0.06,31864
+3244,Google,Brand Awareness,16969.09,0.19,22494
+3245,Email,Flash Sale,2804.57,0.05,4256
+3246,Meta,Flash Sale,3620.87,0.06,27261
+3247,TikTok,Seasonal,12765.13,0.15,49413
+3248,Google,Seasonal,10010.2,0.12,38193
+3249,TikTok,Seasonal,13296.82,0.15,18213
+3250,Google,Brand Awareness,8548.07,0.11,36311
+3251,TikTok,Brand Awareness,3651.13,0.06,30114
+3252,Email,Flash Sale,1289.68,0.03,44218
+3253,Email,Seasonal,10708.38,0.13,45020
+3254,TikTok,Seasonal,17758.95,0.2,2919
+3255,Google,Flash Sale,19529.02,0.22,32015
+3256,Email,Seasonal,12644.16,0.15,29407
+3257,Meta,Seasonal,10384.44,0.12,42621
+3258,Meta,Seasonal,13625.13,0.16,28710
+3259,TikTok,Flash Sale,3472.41,0.05,46093
+3260,Meta,Flash Sale,5969.94,0.08,7293
+3261,Google,Brand Awareness,7321.35,0.09,43845
+3262,Google,Flash Sale,15652.45,0.18,29712
+3263,Google,Seasonal,17258.95,0.19,24576
+3264,Google,Brand Awareness,12284.49,0.14,2285
+3265,TikTok,Seasonal,3577.34,0.06,4665
+3266,Google,Flash Sale,5012.24,0.07,29219
+3267,Meta,Flash Sale,15508.28,0.18,25442
+3268,TikTok,Flash Sale,4449.72,0.06,1967
+3269,Google,Flash Sale,14497.34,0.16,42325
+3270,TikTok,Seasonal,19517.83,0.22,32766
+3271,TikTok,Seasonal,9601.84,0.12,13044
+3272,TikTok,Flash Sale,17661.58,0.2,6283
+3273,TikTok,Seasonal,18739.35,0.21,34612
+3274,Google,Flash Sale,8948.05,0.11,49167
+3275,Meta,Flash Sale,12690.71,0.15,37815
+3276,TikTok,Seasonal,16796.64,0.19,14346
+3277,TikTok,Seasonal,9299.68,0.11,14342
+3278,Email,Brand Awareness,7067.86,0.09,19819
+3279,TikTok,Brand Awareness,10039.64,0.12,40071
+3280,Meta,Brand Awareness,18260.4,0.2,8064
+3281,Meta,Seasonal,1210.4,0.03,15550
+3282,Google,Seasonal,8361.42,0.1,21338
+3283,Google,Brand Awareness,12973.96,0.15,11498
+3284,Meta,Brand Awareness,14884.64,0.17,4793
+3285,TikTok,Flash Sale,5099.29,0.07,33767
+3286,Email,Seasonal,17138.99,0.19,27461
+3287,Google,Seasonal,7289.16,0.09,32873
+3288,Google,Flash Sale,12255.08,0.14,36778
+3289,Meta,Seasonal,2475.18,0.04,3705
+3290,Email,Brand Awareness,9708.02,0.12,38585
+3291,Meta,Flash Sale,12873.37,0.15,4924
+3292,Google,Flash Sale,4183.81,0.06,42940
+3293,Meta,Brand Awareness,7388.6,0.09,22917
+3294,TikTok,Flash Sale,2835.69,0.05,32890
+3295,TikTok,Flash Sale,14068.85,0.16,10012
+3296,Google,Flash Sale,14279.91,0.16,43551
+3297,Email,Flash Sale,11615.17,0.14,1888
+3298,TikTok,Flash Sale,14647.69,0.17,23475
+3299,Email,Seasonal,14144.85,0.16,40985
+3300,Google,Seasonal,5418.14,0.07,21606
+3301,Meta,Seasonal,10757.83,0.13,41379
+3302,Google,Seasonal,9156.44,0.11,15854
+3303,Google,Brand Awareness,17578.29,0.2,21015
+3304,Google,Seasonal,9366.36,0.11,29046
+3305,Google,Brand Awareness,10580.57,0.13,7971
+3306,Email,Brand Awareness,6886.39,0.09,18613
+3307,Email,Brand Awareness,19125.34,0.21,13943
+3308,Email,Seasonal,19564.52,0.22,42104
+3309,Google,Seasonal,11483.68,0.13,27682
+3310,Meta,Flash Sale,10066.06,0.12,45151
+3311,Google,Seasonal,12974.55,0.15,34314
+3312,TikTok,Brand Awareness,14366.3,0.16,5571
+3313,Meta,Seasonal,3231.14,0.05,44179
+3314,Meta,Brand Awareness,14334.62,0.16,47020
+3315,Meta,Flash Sale,1662.17,0.04,42699
+3316,Email,Brand Awareness,4105.39,0.06,44195
+3317,Meta,Brand Awareness,1976.99,0.04,38350
+3318,TikTok,Brand Awareness,8200.54,0.1,31791
+3319,Google,Flash Sale,12691.6,0.15,35654
+3320,TikTok,Seasonal,19343.02,0.21,18382
+3321,TikTok,Brand Awareness,7907.23,0.1,43497
+3322,Google,Seasonal,18160.65,0.2,35278
+3323,TikTok,Flash Sale,1448.77,0.03,18208
+3324,Google,Brand Awareness,18677.47,0.21,25315
+3325,Meta,Seasonal,7218.5,0.09,29010
+3326,Email,Brand Awareness,9008.94,0.11,41731
+3327,Email,Brand Awareness,3706.25,0.06,8132
+3328,Meta,Brand Awareness,18537.91,0.21,11851
+3329,Email,Brand Awareness,9762.83,0.12,49561
+3330,Meta,Seasonal,19141.78,0.21,44590
+3331,Google,Seasonal,15321.88,0.17,8376
+3332,Email,Seasonal,16089.93,0.18,1327
+3333,Google,Flash Sale,14455.26,0.16,15140
+3334,Email,Seasonal,1338.65,0.03,12730
+3335,Meta,Brand Awareness,14595.01,0.17,2722
+3336,Email,Brand Awareness,7573.85,0.1,18705
+3337,Email,Brand Awareness,3707.92,0.06,5879
+3338,TikTok,Brand Awareness,4285.98,0.06,8196
+3339,Email,Seasonal,10942.22,0.13,2241
+3340,Email,Brand Awareness,2937.92,0.05,25670
+3341,Meta,Flash Sale,2382.44,0.04,43863
+3342,Email,Seasonal,2562.04,0.05,48521
+3343,Google,Brand Awareness,6630.67,0.09,10954
+3344,Google,Flash Sale,12959.43,0.15,7401
+3345,Google,Flash Sale,10499.12,0.12,47487
+3346,Email,Seasonal,15629.65,0.18,4308
+3347,Google,Flash Sale,15689.3,0.18,8760
+3348,Email,Brand Awareness,19423.74,0.21,4190
+3349,Email,Brand Awareness,7190.97,0.09,34887
+3350,Email,Seasonal,7874.52,0.1,30294
+3351,TikTok,Seasonal,14437.68,0.16,8579
+3352,Google,Flash Sale,19769.83,0.22,2164
+3353,Google,Flash Sale,7345.26,0.09,22368
+3354,Google,Seasonal,1431.6,0.03,8743
+3355,TikTok,Flash Sale,15632.77,0.18,39937
+3356,TikTok,Seasonal,13921.13,0.16,40639
+3357,Google,Seasonal,12845.48,0.15,41870
+3358,Email,Seasonal,9892.32,0.12,7738
+3359,TikTok,Brand Awareness,16928.98,0.19,11064
+3360,TikTok,Seasonal,13176.12,0.15,3194
+3361,Email,Seasonal,8446.07,0.1,10983
+3362,Meta,Seasonal,18602.81,0.21,24782
+3363,Email,Flash Sale,5846.79,0.08,46702
+3364,TikTok,Flash Sale,19088.03,0.21,14009
+3365,TikTok,Flash Sale,6215.73,0.08,27568
+3366,Meta,Flash Sale,2382.15,0.04,24698
+3367,TikTok,Seasonal,19293.18,0.21,17457
+3368,Google,Flash Sale,16918.95,0.19,13928
+3369,TikTok,Brand Awareness,3370.44,0.05,12186
+3370,TikTok,Brand Awareness,2937.03,0.05,29880
+3371,Meta,Flash Sale,2974.05,0.05,2275
+3372,Email,Flash Sale,5650.3,0.08,2316
+3373,TikTok,Flash Sale,11817.54,0.14,32247
+3374,Google,Brand Awareness,15042.81,0.17,3033
+3375,Meta,Brand Awareness,12105.88,0.14,41091
+3376,Meta,Brand Awareness,8160.74,0.1,22475
+3377,Email,Seasonal,18795.31,0.21,14742
+3378,TikTok,Flash Sale,7580.77,0.1,5865
+3379,Email,Seasonal,5206.94,0.07,21062
+3380,Google,Flash Sale,8267.9,0.1,25681
+3381,Meta,Seasonal,1519.14,0.04,21912
+3382,Meta,Seasonal,6714.19,0.09,47136
+3383,TikTok,Flash Sale,17812.71,0.2,14724
+3384,Meta,Seasonal,6023.55,0.08,47865
+3385,Email,Flash Sale,10774.65,0.13,25628
+3386,Email,Seasonal,7289.76,0.09,40215
+3387,Meta,Seasonal,14280.25,0.16,9594
+3388,Meta,Seasonal,1076.46,0.03,33370
+3389,TikTok,Seasonal,10249.04,0.12,25972
+3390,Google,Seasonal,1978.72,0.04,2219
+3391,Google,Seasonal,15195.49,0.17,15111
+3392,Email,Brand Awareness,3205.29,0.05,26396
+3393,Google,Brand Awareness,6104.88,0.08,47727
+3394,Google,Flash Sale,14161.56,0.16,47547
+3395,Meta,Seasonal,16914.66,0.19,24801
+3396,Meta,Flash Sale,15178.96,0.17,1007
+3397,Google,Seasonal,17599.27,0.2,26158
+3398,Google,Seasonal,3884.47,0.06,37216
+3399,Meta,Brand Awareness,9661.95,0.12,8948
+3400,TikTok,Flash Sale,4516.96,0.07,49686
+3401,Google,Flash Sale,14233.43,0.16,23810
+3402,Meta,Flash Sale,1770.37,0.04,31243
+3403,TikTok,Seasonal,4004.79,0.06,49062
+3404,Google,Flash Sale,4629.26,0.07,37418
+3405,Google,Flash Sale,4218.48,0.06,20101
+3406,TikTok,Brand Awareness,4578.24,0.07,25130
+3407,Email,Seasonal,5111.35,0.07,21652
+3408,Google,Brand Awareness,17933.74,0.2,35125
+3409,Google,Seasonal,13469.13,0.15,13983
+3410,Meta,Flash Sale,15843.13,0.18,22168
+3411,TikTok,Flash Sale,18409.66,0.2,5539
+3412,Meta,Brand Awareness,13619.63,0.16,8445
+3413,Email,Brand Awareness,13401.39,0.15,44316
+3414,Email,Flash Sale,15894.0,0.18,31378
+3415,TikTok,Seasonal,5064.65,0.07,38590
+3416,TikTok,Brand Awareness,14468.47,0.16,22951
+3417,Meta,Brand Awareness,6307.01,0.08,48513
+3418,Meta,Brand Awareness,1612.8,0.04,3798
+3419,TikTok,Seasonal,13568.93,0.16,7855
+3420,Google,Flash Sale,2721.84,0.05,1832
+3421,TikTok,Seasonal,15145.14,0.17,29606
+3422,Google,Brand Awareness,4143.41,0.06,42532
+3423,Email,Seasonal,7689.0,0.1,49290
+3424,Google,Brand Awareness,4879.81,0.07,44697
+3425,Meta,Seasonal,7384.18,0.09,30381
+3426,Google,Brand Awareness,16852.66,0.19,7768
+3427,Meta,Flash Sale,19103.81,0.21,17343
+3428,Email,Brand Awareness,7894.9,0.1,8819
+3429,Google,Flash Sale,10881.71,0.13,14433
+3430,TikTok,Flash Sale,4466.43,0.06,13713
+3431,TikTok,Seasonal,13398.3,0.15,36967
+3432,Google,Brand Awareness,9774.05,0.12,35702
+3433,Meta,Flash Sale,13449.46,0.15,5299
+3434,Meta,Brand Awareness,9418.55,0.11,7139
+3435,TikTok,Seasonal,8544.44,0.11,43594
+3436,Meta,Brand Awareness,2400.39,0.04,32278
+3437,Email,Brand Awareness,11879.17,0.14,37595
+3438,Meta,Seasonal,17689.8,0.2,12462
+3439,Google,Brand Awareness,5821.48,0.08,32035
+3440,TikTok,Brand Awareness,4184.85,0.06,34345
+3441,Meta,Flash Sale,11895.03,0.14,40949
+3442,TikTok,Flash Sale,17211.63,0.19,38497
+3443,Email,Seasonal,11393.35,0.13,42440
+3444,Google,Seasonal,16032.27,0.18,45510
+3445,TikTok,Flash Sale,15641.99,0.18,7893
+3446,Email,Seasonal,4234.55,0.06,15029
+3447,Email,Seasonal,11098.15,0.13,41056
+3448,TikTok,Seasonal,18649.05,0.21,46746
+3449,Google,Brand Awareness,6238.4,0.08,18849
+3450,TikTok,Flash Sale,15313.24,0.17,34102
+3451,TikTok,Seasonal,15838.74,0.18,18607
+3452,Meta,Brand Awareness,17712.53,0.2,22814
+3453,TikTok,Seasonal,10026.29,0.12,15600
+3454,Email,Flash Sale,1598.82,0.04,21907
+3455,Meta,Brand Awareness,10201.41,0.12,6247
+3456,Google,Flash Sale,19169.98,0.21,25476
+3457,Google,Seasonal,15941.0,0.18,45924
+3458,TikTok,Seasonal,7778.59,0.1,4328
+3459,TikTok,Seasonal,18286.05,0.2,6196
+3460,Google,Brand Awareness,7817.85,0.1,6545
+3461,Google,Flash Sale,9851.38,0.12,37476
+3462,Email,Brand Awareness,6333.23,0.08,27231
+3463,Google,Seasonal,19250.3,0.21,28461
+3464,Google,Seasonal,19574.39,0.22,11365
+3465,TikTok,Flash Sale,9613.55,0.12,29804
+3466,Email,Brand Awareness,1361.43,0.03,14745
+3467,Google,Seasonal,7928.92,0.1,27144
+3468,Meta,Flash Sale,17559.91,0.2,40418
+3469,Google,Seasonal,9280.61,0.11,2973
+3470,Meta,Flash Sale,16418.2,0.18,39535
+3471,Email,Brand Awareness,15204.76,0.17,40605
+3472,Meta,Flash Sale,5686.87,0.08,39278
+3473,Meta,Flash Sale,19560.83,0.22,20671
+3474,Meta,Brand Awareness,18079.62,0.2,32146
+3475,Meta,Flash Sale,1348.5,0.03,36791
+3476,TikTok,Brand Awareness,11600.9,0.14,33427
+3477,Email,Flash Sale,17348.42,0.19,41105
+3478,Email,Brand Awareness,2095.72,0.04,35571
+3479,Meta,Brand Awareness,18586.76,0.21,27874
+3480,Email,Flash Sale,15674.77,0.18,2986
+3481,Google,Brand Awareness,4624.48,0.07,31479
+3482,Google,Seasonal,13102.15,0.15,45178
+3483,Email,Brand Awareness,12450.55,0.14,28444
+3484,Google,Flash Sale,2140.13,0.04,9049
+3485,Email,Brand Awareness,5751.0,0.08,38396
+3486,TikTok,Flash Sale,18847.14,0.21,22003
+3487,Google,Seasonal,16955.81,0.19,15011
+3488,TikTok,Brand Awareness,15218.48,0.17,29051
+3489,Email,Flash Sale,11446.66,0.13,45264
+3490,Google,Flash Sale,15826.83,0.18,45541
+3491,Email,Brand Awareness,8495.71,0.1,43370
+3492,Email,Brand Awareness,13445.57,0.15,18905
+3493,TikTok,Flash Sale,5741.37,0.08,28372
+3494,TikTok,Brand Awareness,2754.73,0.05,30775
+3495,TikTok,Seasonal,15624.69,0.18,40055
+3496,Meta,Seasonal,1888.98,0.04,38682
+3497,Meta,Flash Sale,11486.12,0.13,42551
+3498,TikTok,Brand Awareness,2902.34,0.05,26072
+3499,Meta,Brand Awareness,17989.97,0.2,39040
+3500,Meta,Brand Awareness,2559.31,0.05,1991
