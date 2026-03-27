@@ -1,265 +1,421 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import datetime
+import matplotlib.pyplot as plt
+from datetime import datetime
+import warnings
+warnings.filterwarnings('ignore')
 
-# --- 页面配置 ---
+# Page configuration
 st.set_page_config(
-    page_title="SalesMind Executive Dashboard",
+    page_title="SalesMind Analytics Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# --- 辅助函数：加载数据 (使用缓存以提高性能) ---
+# Custom CSS for better styling
+st.markdown("""
+    <style>
+    .main-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #1E3A8A;
+        margin-bottom: 1rem;
+    }
+    .metric-card {
+        background-color: #F3F4F6;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin: 0.5rem;
+    }
+    .sub-header {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #2563EB;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Load all data files
 @st.cache_data
 def load_data():
-    """加载所有CSV文件并执行初步的数据清洗和合并"""
-    # 加载主要数据表
+    # Load main datasets
     sales = pd.read_csv('SalesMind_Sales_Transactions_2026.csv')
     stores = pd.read_csv('SalesMind_Stores_Master_2026.csv')
     products = pd.read_csv('SalesMind_Products_Master_2026.csv')
-    calendar = pd.read_csv('SalesMind_Calendar_Dimension_2026.csv')
-    customers = pd.read_csv('SalesMind_Customer_Segments_2026.csv')
-    external = pd.read_csv('SalesMind_External_Factors_2026.csv')
-    inventory = pd.read_csv('SalesMind_Inventory_Supply_2026.csv')
     campaigns = pd.read_csv('SalesMind_Marketing_Campaigns_2026.csv')
+    inventory = pd.read_csv('SalesMind_Inventory_Supply_2026.csv')
+    calendar = pd.read_csv('SalesMind_Calendar_Dimension_2026.csv')
+    customer_segments = pd.read_csv('SalesMind_Customer_Segments_2026.csv')
+    external_factors = pd.read_csv('SalesMind_External_Factors_2026.csv')
     suspicious = pd.read_csv('suspicious_transactions.csv')
-
-    # 转换日期列
+    
+    # Convert date columns
     sales['date'] = pd.to_datetime(sales['date'])
-    calendar['date'] = pd.to_datetime(calendar['date'])
-    external['date'] = pd.to_datetime(external['date'])
-    suspicious['InvoiceDate'] = pd.to_datetime(suspicious['InvoiceDate'])
-    suspicious['DueDate'] = pd.to_datetime(suspicious['DueDate'])
-    if 'PaidDate' in suspicious.columns:
-        suspicious['PaidDate'] = pd.to_datetime(suspicious['PaidDate'], errors='coerce')
-
-    # --- 数据合并 ---
-    # 1. 将销售数据与门店、产品、日历维度连接
-    df = sales.merge(stores, on='store_id', how='left')
-    df = df.merge(products, on='product_id', how='left')
-    df = df.merge(calendar, on='date', how='left')
-    df = df.merge(customers, on='customer_segment', how='left')
+    external_factors['date'] = pd.to_datetime(external_factors['date'])
+    if 'date' in calendar.columns:
+        calendar['date'] = pd.to_datetime(calendar['date'])
     
-    # 2. 合并外部因素 (按日期)
-    df = df.merge(external, on='date', how='left')
+    # Add year and month columns
+    sales['year'] = sales['date'].dt.year
+    sales['month'] = sales['date'].dt.month
+    sales['quarter'] = sales['date'].dt.quarter
     
-    # 3. 合并库存数据 (按门店和产品)
-    df = df.merge(inventory, on=['store_id', 'product_id'], how='left')
-    
-    # 4. 为每个交易分配一个营销活动？这里我们简单地按日期和广告渠道聚合营销数据。
-    # 注意：营销数据中没有直接关联到交易的字段，所以我们按日期和渠道聚合，然后合并到df。
-    campaigns_by_date = campaigns.groupby('date')['marketing_spend'].sum().reset_index()
-    campaigns_by_date['date'] = pd.to_datetime(campaigns_by_date['date'])
-    df = df.merge(campaigns_by_date, on='date', how='left')
-    df['marketing_spend'].fillna(0, inplace=True) # 没有营销活动的日期设为0
+    return sales, stores, products, campaigns, inventory, calendar, customer_segments, external_factors, suspicious
 
-    return df, stores, products, calendar, customers, external, inventory, campaigns, suspicious
+# Load data
+sales, stores, products, campaigns, inventory, calendar, customer_segments, external_factors, suspicious = load_data()
 
-# --- 加载数据 ---
-with st.spinner('Loading data...'):
-    df, stores, products, calendar, customers, external, inventory, campaigns, suspicious = load_data()
+# Merge sales with store and product data for analysis
+sales_with_details = sales.merge(stores, left_on='store_id', right_on='store_id', how='left')
+sales_with_details = sales_with_details.merge(products, left_on='product_id', right_on='product_id', how='left')
+sales_with_details = sales_with_details.merge(customer_segments, left_on='customer_segment', right_on='customer_segment', how='left')
 
-# --- 侧边栏: 全局筛选器 ---
-st.sidebar.image("https://via.placeholder.com/150x50?text=SalesMind", use_column_width=True) # Placeholder for a logo
-st.sidebar.title("📊 Dashboard Filters")
+# Sidebar filters
+st.sidebar.title("🔍 Filters")
 
-# 日期范围选择器
-min_date = df['date'].min().date()
-max_date = df['date'].max().date()
-start_date, end_date = st.sidebar.date_input(
-    "Select Date Range",
-    value=(min_date, max_date),
+# Date range filter
+min_date = sales['date'].min().date()
+max_date = sales['date'].max().date()
+date_range = st.sidebar.date_input(
+    "Date Range",
+    [min_date, max_date],
     min_value=min_date,
     max_value=max_date
 )
-# 将date列转换为date对象以便比较
-df['date_only'] = df['date'].dt.date
-mask = (df['date_only'] >= start_date) & (df['date_only'] <= end_date)
-filtered_df = df.loc[mask].copy()
 
-# 其他筛选器
-st.sidebar.markdown("---")
-stores_list = ['All'] + sorted(filtered_df['store_type'].unique().tolist())
-selected_store_type = st.sidebar.selectbox("Select Store Type", stores_list)
+# Segment filter
+segments = ['All'] + list(sales['customer_segment'].unique())
+selected_segment = st.sidebar.selectbox("Customer Segment", segments)
 
-customer_list = ['All'] + sorted(filtered_df['customer_segment'].unique().tolist())
-selected_customer = st.sidebar.selectbox("Select Customer Segment", customer_list)
+# Product category filter
+categories = ['All'] + list(products['product_category'].unique())
+selected_category = st.sidebar.selectbox("Product Category", categories)
 
-product_cat_list = ['All'] + sorted(filtered_df['product_category'].unique().tolist())
-selected_product_cat = st.sidebar.selectbox("Select Product Category", product_cat_list)
+# Region filter
+regions = ['All'] + list(stores['region'].unique())
+selected_region = st.sidebar.selectbox("Region", regions)
 
-# 应用筛选器
-if selected_store_type != 'All':
-    filtered_df = filtered_df[filtered_df['store_type'] == selected_store_type]
-if selected_customer != 'All':
-    filtered_df = filtered_df[filtered_df['customer_segment'] == selected_customer]
-if selected_product_cat != 'All':
-    filtered_df = filtered_df[filtered_df['product_category'] == selected_product_cat]
+# Apply filters
+filtered_sales = sales_with_details.copy()
+if len(date_range) == 2:
+    filtered_sales = filtered_sales[
+        (filtered_sales['date'] >= pd.to_datetime(date_range[0])) &
+        (filtered_sales['date'] <= pd.to_datetime(date_range[1]))
+    ]
+if selected_segment != 'All':
+    filtered_sales = filtered_sales[filtered_sales['customer_segment'] == selected_segment]
+if selected_category != 'All':
+    filtered_sales = filtered_sales[filtered_sales['product_category'] == selected_category]
+if selected_region != 'All':
+    filtered_sales = filtered_sales[filtered_sales['region'] == selected_region]
 
-
-# --- 主面板: KPI 卡片 ---
-st.title("📈 SalesMind Executive Dashboard")
-st.markdown(f"**Period:** {start_date} to {end_date} | **Store Type:** {selected_store_type} | **Customer:** {selected_customer} | **Product Category:** {selected_product_cat}")
+# Main Dashboard Title
+st.markdown('<div class="main-header">📊 SalesMind Analytics Dashboard</div>', unsafe_allow_html=True)
+st.markdown("### Real-time Business Intelligence & Sales Performance Insights")
 st.markdown("---")
 
-# 计算关键指标
-total_net_sales = filtered_df['net_sales'].sum()
-total_units_sold = filtered_df['units_sold'].sum()
-avg_discount_rate = (filtered_df['total_discount_given'].sum() / filtered_df['total_sales_revenue'].sum()) * 100
-avg_return_rate = filtered_df['return_rate'].mean() * 100
-gross_profit_margin = (filtered_df['gross_profit'].sum() / filtered_df['net_sales'].sum()) * 100
-total_inventory = inventory[inventory['store_id'].isin(filtered_df['store_id'].unique())]['inventory_level'].sum()
-stockout_count = inventory[(inventory['stockout_flag'] == 1) & (inventory['store_id'].isin(filtered_df['store_id'].unique()))]['inventory_id'].count()
+# Key Metrics Row
+st.markdown('<div class="sub-header">🎯 Key Performance Indicators</div>', unsafe_allow_html=True)
 
-# 展示KPI
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4, col5 = st.columns(5)
+
 with col1:
-    st.metric(label="💰 Net Sales", value=f"${total_net_sales:,.0f}")
+    total_revenue = filtered_sales['total_sales_revenue'].sum()
+    st.metric("💰 Total Revenue", f"${total_revenue:,.0f}")
+
 with col2:
-    st.metric(label="📦 Units Sold", value=f"{total_units_sold:,.0f}")
+    total_units = filtered_sales['units_sold'].sum()
+    st.metric("📦 Units Sold", f"{total_units:,}")
+
 with col3:
-    st.metric(label="💸 Avg. Discount", value=f"{avg_discount_rate:.1f}%")
+    avg_margin = filtered_sales['profit_margin'].mean()
+    st.metric("📈 Avg Profit Margin", f"${avg_margin:.2f}")
+
 with col4:
-    st.metric(label="🔄 Return Rate", value=f"{avg_return_rate:.1f}%")
+    avg_discount = filtered_sales['total_discount_given'].sum() / len(filtered_sales) if len(filtered_sales) > 0 else 0
+    st.metric("🏷️ Avg Discount", f"${avg_discount:.2f}")
+
 with col5:
-    st.metric(label="📈 Gross Profit Margin", value=f"{gross_profit_margin:.1f}%")
-with col6:
-    st.metric(label="⚠️ Stockout Events", value=f"{stockout_count:,}")
+    avg_return_rate = filtered_sales['return_rate'].mean() * 100
+    st.metric("↩️ Return Rate", f"{avg_return_rate:.1f}%")
 
 st.markdown("---")
 
-# --- 可视化部分 ---
-# 创建选项卡，让用户在不同分析之间切换
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Sales Performance", "🏪 Store & Inventory", "🎯 Marketing & Customers", "🌍 External Factors", "🚨 Suspicious Transactions"])
+# Row 1: Revenue Trends and Customer Segment Analysis
+col1, col2 = st.columns(2)
 
-with tab1:
-    st.subheader("Sales Performance Analysis")
-    col1, col2 = st.columns(2)
+with col1:
+    st.markdown('<div class="sub-header">📈 Sales Revenue Trend</div>', unsafe_allow_html=True)
     
+    # Aggregate daily revenue
+    daily_revenue = filtered_sales.groupby('date')['total_sales_revenue'].sum().reset_index()
+    
+    fig_revenue = px.line(daily_revenue, x='date', y='total_sales_revenue',
+                          title='Daily Sales Revenue',
+                          labels={'total_sales_revenue': 'Revenue ($)', 'date': 'Date'},
+                          template='plotly_white')
+    fig_revenue.update_layout(showlegend=False, height=400)
+    st.plotly_chart(fig_revenue, use_container_width=True)
+
+with col2:
+    st.markdown('<div class="sub-header">👥 Customer Segment Performance</div>', unsafe_allow_html=True)
+    
+    segment_revenue = filtered_sales.groupby('customer_segment')['total_sales_revenue'].sum().reset_index()
+    segment_units = filtered_sales.groupby('customer_segment')['units_sold'].sum().reset_index()
+    
+    fig_segment = make_subplots(specs=[[{"secondary_y": True}]])
+    fig_segment.add_trace(go.Bar(name='Revenue ($)', x=segment_revenue['customer_segment'], 
+                                 y=segment_revenue['total_sales_revenue'], marker_color='#3B82F6'),
+                         secondary_y=False)
+    fig_segment.add_trace(go.Scatter(name='Units Sold', x=segment_units['customer_segment'], 
+                                     y=segment_units['units_sold'], mode='lines+markers', 
+                                     line=dict(color='#EF4444', width=2)),
+                         secondary_y=True)
+    fig_segment.update_layout(title='Revenue vs Units by Segment', height=400, template='plotly_white')
+    fig_segment.update_xaxes(title_text="Customer Segment")
+    fig_segment.update_yaxes(title_text="Revenue ($)", secondary_y=False)
+    fig_segment.update_yaxes(title_text="Units Sold", secondary_y=True)
+    st.plotly_chart(fig_segment, use_container_width=True)
+
+# Row 2: Product Analysis and Store Performance
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown('<div class="sub-header">🏆 Top 10 Products by Revenue</div>', unsafe_allow_html=True)
+    
+    top_products = filtered_sales.groupby(['product_id', 'product_category', 'brand'])['total_sales_revenue'].sum().reset_index()
+    top_products = top_products.nlargest(10, 'total_sales_revenue')
+    
+    fig_products = px.bar(top_products, x='total_sales_revenue', y='product_id', 
+                          orientation='h', color='product_category',
+                          title='Top Products by Revenue',
+                          labels={'total_sales_revenue': 'Revenue ($)', 'product_id': 'Product ID'},
+                          template='plotly_white')
+    fig_products.update_layout(height=400)
+    st.plotly_chart(fig_products, use_container_width=True)
+
+with col2:
+    st.markdown('<div class="sub-header">🏪 Store Performance by Region</div>', unsafe_allow_html=True)
+    
+    store_revenue = filtered_sales.groupby(['store_id', 'region'])['total_sales_revenue'].sum().reset_index()
+    store_revenue = store_revenue.nlargest(15, 'total_sales_revenue')
+    
+    fig_stores = px.bar(store_revenue, x='total_sales_revenue', y='store_id', 
+                        color='region', orientation='h',
+                        title='Top 15 Stores by Revenue',
+                        labels={'total_sales_revenue': 'Revenue ($)', 'store_id': 'Store ID'},
+                        template='plotly_white')
+    fig_stores.update_layout(height=400)
+    st.plotly_chart(fig_stores, use_container_width=True)
+
+# Row 3: Marketing Campaign Analysis
+st.markdown('<div class="sub-header">📢 Marketing Campaign Performance</div>', unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    total_marketing_spend = campaigns['marketing_spend'].sum()
+    st.metric("Total Marketing Spend", f"${total_marketing_spend:,.0f}")
+
+with col2:
+    avg_conversion = campaigns['conversion_rate'].mean() * 100
+    st.metric("Avg Conversion Rate", f"{avg_conversion:.1f}%")
+
+with col3:
+    total_impressions = campaigns['impressions'].sum()
+    st.metric("Total Impressions", f"{total_impressions:,.0f}")
+
+# Marketing ROI Analysis
+campaign_performance = campaigns.groupby('ad_channel').agg({
+    'marketing_spend': 'sum',
+    'conversion_rate': 'mean',
+    'impressions': 'sum'
+}).reset_index()
+
+fig_channels = px.bar(campaign_performance, x='ad_channel', y='marketing_spend',
+                      color='conversion_rate', title='Marketing Spend by Channel',
+                      labels={'marketing_spend': 'Spend ($)', 'ad_channel': 'Channel'},
+                      template='plotly_white')
+st.plotly_chart(fig_channels, use_container_width=True)
+
+# Row 4: Inventory and Supply Chain
+st.markdown('<div class="sub-header">📦 Inventory & Supply Chain Metrics</div>', unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    # Inventory levels by store type
+    inventory_with_stores = inventory.merge(stores, left_on='store_id', right_on='store_id', how='left')
+    inv_by_type = inventory_with_stores.groupby('store_type')['inventory_level'].mean().reset_index()
+    
+    fig_inventory = px.bar(inv_by_type, x='store_type', y='inventory_level',
+                           title='Average Inventory Level by Store Type',
+                           labels={'inventory_level': 'Avg Inventory', 'store_type': 'Store Type'},
+                           color='store_type', template='plotly_white')
+    st.plotly_chart(fig_inventory, use_container_width=True)
+
+with col2:
+    # Stockout risk analysis
+    stockout_count = inventory['stockout_flag'].sum()
+    stockout_pct = (stockout_count / len(inventory)) * 100
+    
+    fig_stockout = go.Figure(data=[go.Pie(labels=['In Stock', 'Stockout'], 
+                                         values=[len(inventory) - stockout_count, stockout_count],
+                                         marker_colors=['#10B981', '#EF4444'])])
+    fig_stockout.update_layout(title='Stockout Risk Analysis', height=400)
+    st.plotly_chart(fig_stockout, use_container_width=True)
+
+# Row 5: External Factors Impact
+st.markdown('<div class="sub-header">🌍 External Factors Impact on Sales</div>', unsafe_allow_html=True)
+
+# Merge sales with external factors
+sales_with_external = sales.merge(external_factors, left_on='date', right_on='date', how='left')
+external_aggregated = sales_with_external.groupby('weather_condition').agg({
+    'total_sales_revenue': 'mean',
+    'units_sold': 'mean'
+}).reset_index()
+
+fig_weather = px.bar(external_aggregated, x='weather_condition', y='total_sales_revenue',
+                     title='Average Sales Revenue by Weather Condition',
+                     labels={'total_sales_revenue': 'Avg Revenue ($)', 'weather_condition': 'Weather'},
+                     color='weather_condition', template='plotly_white')
+st.plotly_chart(fig_weather, use_container_width=True)
+
+# Row 6: Suspicious Transactions Alert
+st.markdown('<div class="sub-header">⚠️ Suspicious Transactions Alert</div>', unsafe_allow_html=True)
+
+if len(suspicious) > 0:
+    col1, col2, col3 = st.columns(3)
     with col1:
-        # 1. 销售额随时间变化 (按星期几聚合，消除年份和季节影响)
-        sales_over_time = filtered_df.groupby('date_only')['net_sales'].sum().reset_index()
-        fig_sales = px.line(sales_over_time, x='date_only', y='net_sales', title='Daily Net Sales', labels={'date_only': 'Date', 'net_sales': 'Net Sales ($)'})
-        st.plotly_chart(fig_sales, use_container_width=True)
-        
+        st.warning(f"🚨 {len(suspicious)} Suspicious Transactions Detected")
     with col2:
-        # 2. 按产品类别的销售额饼图
-        sales_by_category = filtered_df.groupby('product_category')['net_sales'].sum().reset_index()
-        fig_category = px.pie(sales_by_category, values='net_sales', names='product_category', title='Net Sales by Product Category', hole=0.3)
-        st.plotly_chart(fig_category, use_container_width=True)
-        
-    col3, col4 = st.columns(2)
+        total_suspicious = suspicious['amount_usd'].sum()
+        st.metric("Total Suspicious Amount", f"${total_suspicious:,.0f}")
     with col3:
-        # 3. 不同客户细分市场的销售额
-        sales_by_segment = filtered_df.groupby('customer_segment')['net_sales'].sum().reset_index()
-        fig_segment = px.bar(sales_by_segment, x='customer_segment', y='net_sales', title='Net Sales by Customer Segment', color='customer_segment', text_auto='.2s')
-        st.plotly_chart(fig_segment, use_container_width=True)
-        
-    with col4:
-        # 4. 退货率 vs 满意度 (散点图)
-        segment_metrics = filtered_df.groupby('customer_segment')[['return_rate', 'customer_satisfaction_score']].mean().reset_index()
-        fig_satisfaction = px.scatter(segment_metrics, x='return_rate', y='customer_satisfaction_score', size='return_rate', color='customer_segment',
-                                     title='Return Rate vs. Customer Satisfaction', labels={'return_rate': 'Avg. Return Rate', 'customer_satisfaction_score': 'Avg. Satisfaction Score'})
-        st.plotly_chart(fig_satisfaction, use_container_width=True)
-
-with tab2:
-    st.subheader("Store & Inventory Analysis")
-    col1, col2 = st.columns(2)
-    with col1:
-        # 5. 门店类型销售额对比
-        sales_by_store_type = filtered_df.groupby('store_type')['net_sales'].sum().reset_index()
-        fig_store = px.bar(sales_by_store_type, x='store_type', y='net_sales', title='Net Sales by Store Type', color='store_type')
-        st.plotly_chart(fig_store, use_container_width=True)
-        
-        # 6. 库存水平 vs 缺货事件 (Top 10 缺货产品)
-        # 计算库存平均值和缺货总数
-        stockout_by_product = inventory[inventory['stockout_flag'] == 1].groupby('product_id').size().reset_index(name='stockout_count')
-        stockout_by_product = stockout_by_product.merge(products[['product_id', 'product_category']], on='product_id', how='left')
-        top_stockout = stockout_by_product.nlargest(10, 'stockout_count')
-        fig_stockout = px.bar(top_stockout, x='product_id', y='stockout_count', title='Top 10 Products by Stockout Events', color='product_category')
-        st.plotly_chart(fig_stockout, use_container_width=True)
-        
-    with col2:
-        # 7. 库存周转率 (简单模拟: 总销售额 / 平均库存水平)
-        # 计算平均库存水平 (假设期末库存)
-        avg_inventory = inventory.groupby('store_id')['inventory_level'].mean().reset_index()
-        store_sales = filtered_df.groupby('store_id')['net_sales'].sum().reset_index()
-        store_turnover = store_sales.merge(avg_inventory, on='store_id')
-        store_turnover['turnover_rate'] = store_turnover['net_sales'] / store_turnover['inventory_level']
-        fig_turnover = px.bar(store_turnover, x='store_id', y='turnover_rate', title='Store Turnover Rate (Net Sales / Avg Inventory)', color='turnover_rate')
-        st.plotly_chart(fig_turnover, use_container_width=True)
-
-with tab3:
-    st.subheader("Marketing & Customer Insights")
-    col1, col2 = st.columns(2)
-    with col1:
-        # 8. 营销活动ROI (按渠道)
-        campaign_roi = campaigns.groupby('ad_channel')[['marketing_spend', 'conversion_rate', 'impressions']].mean().reset_index()
-        # 假设 ROI = conversion_rate / (marketing_spend/impressions) 的简化计算
-        campaign_roi['roi'] = campaign_roi['conversion_rate'] / (campaign_roi['marketing_spend'] / campaign_roi['impressions']) * 1000
-        fig_roi = px.bar(campaign_roi, x='ad_channel', y='roi', title='Average ROI by Ad Channel', color='ad_channel')
-        st.plotly_chart(fig_roi, use_container_width=True)
-        
-        # 9. 客户流失率 vs 忠诚度会员比例
-        segment_data = customers[['customer_segment', 'churn_rate', 'loyalty_member_ratio']]
-        fig_loyalty = px.scatter(segment_data, x='loyalty_member_ratio', y='churn_rate', size='churn_rate', color='customer_segment',
-                                 title='Loyalty Members vs. Churn Rate', labels={'loyalty_member_ratio': 'Loyalty Member Ratio', 'churn_rate': 'Churn Rate'})
-        st.plotly_chart(fig_loyalty, use_container_width=True)
-        
-    with col2:
-        # 10. 营销活动转化率 vs 花费
-        fig_conversion = px.scatter(campaigns, x='marketing_spend', y='conversion_rate', size='impressions', color='ad_channel',
-                                   title='Marketing Spend vs. Conversion Rate', labels={'marketing_spend': 'Marketing Spend ($)', 'conversion_rate': 'Conversion Rate'})
-        st.plotly_chart(fig_conversion, use_container_width=True)
-
-with tab4:
-    st.subheader("External Factors Impact")
-    # 11. 销售额 vs 通胀率/竞争对手价格
-    external_merged = filtered_df.groupby('date_only')[['net_sales', 'inflation_rate', 'competitor_price']].mean().reset_index()
-    external_merged = external_merged.melt(id_vars='date_only', value_vars=['net_sales', 'inflation_rate', 'competitor_price'], var_name='Metric', value_name='Value')
+        open_status = suspicious[suspicious['Status'] == 'Open'].shape[0]
+        st.metric("Open Investigations", open_status)
     
-    # 多折线图
-    fig_ext = px.line(external_merged, x='date_only', y='Value', color='Metric', title='Net Sales vs. Inflation Rate vs. Competitor Price Over Time')
-    st.plotly_chart(fig_ext, use_container_width=True)
-    
-    # 12. 天气状况对销售额的影响
-    sales_by_weather = filtered_df.groupby('weather_condition')['net_sales'].sum().reset_index()
-    fig_weather = px.bar(sales_by_weather, x='weather_condition', y='net_sales', title='Net Sales by Weather Condition', color='weather_condition')
-    st.plotly_chart(fig_weather, use_container_width=True)
+    # Show suspicious transactions table
+    st.dataframe(suspicious[['APID', 'Vendor', 'InvoiceDate', 'Amount', 'Currency', 'Status', 'amount_usd']].head(10),
+                 use_container_width=True)
+else:
+    st.success("✅ No suspicious transactions detected in the current period")
 
-with tab5:
-    st.subheader("🚨 Anomaly Detection in Accounts Payable")
-    st.markdown("This table highlights suspicious transactions detected in the AP system based on size, payment delay, or other rules.")
-    
-    # 显示可疑交易表
-    if not suspicious.empty:
-        st.dataframe(suspicious[['APID', 'Vendor', 'InvoiceDate', 'DueDate', 'Amount', 'Currency', 'Status', 'amount_usd']], use_container_width=True)
-        
-        # 按供应商统计异常金额
-        anomaly_by_vendor = suspicious.groupby('Vendor')['amount_usd'].sum().reset_index().nlargest(10, 'amount_usd')
-        fig_anomaly = px.bar(anomaly_by_vendor, x='Vendor', y='amount_usd', title='Top 10 Vendors with Highest Suspicious Amounts (USD)', color='amount_usd')
-        st.plotly_chart(fig_anomaly, use_container_width=True)
-    else:
-        st.info("No suspicious transactions found in the selected period.")
+# Row 7: Customer Insights
+st.markdown('<div class="sub-header">👥 Customer Insights</div>', unsafe_allow_html=True)
 
-# --- 在侧边栏底部展示数据字典概要 ---
-st.sidebar.markdown("---")
-with st.sidebar.expander("📘 Quick Data Dictionary"):
-    st.markdown("""
-    - **Net Sales**: Revenue after discounts
-    - **Return Rate**: Percentage of returned units
-    - **Gross Profit Margin**: (Gross Profit / Net Sales) * 100
-    - **Stockout Events**: Number of products out of stock
-    - **Stockout Rate**: Total stockout events / total inventory count
-    - **Customer Segments**: Budget, Enterprise, Premium
-    - **Store Types**: Online, Offline, Hybrid
-    - **External Factors**: Inflation rate, competitor price, weather
-    - **Suspicious AP**: Transactions flagged by the system as anomalies
-    """)
+col1, col2 = st.columns(2)
+
+with col1:
+    # Customer segment metrics
+    segment_metrics = filtered_sales.groupby('customer_segment').agg({
+        'repeat_customer_rate': 'mean',
+        'customer_satisfaction_score': 'mean'
+    }).reset_index()
     
-st.sidebar.markdown("---")
-st.sidebar.caption("© SalesMind Analytics Dashboard | Powered by Streamlit")
+    fig_customer = px.scatter(segment_metrics, x='repeat_customer_rate', y='customer_satisfaction_score',
+                              text='customer_segment', size=[50]*len(segment_metrics),
+                              title='Customer Segment: Repeat Rate vs Satisfaction',
+                              labels={'repeat_customer_rate': 'Repeat Customer Rate', 
+                                     'customer_satisfaction_score': 'Satisfaction Score'},
+                              template='plotly_white')
+    fig_customer.update_traces(textposition='top center')
+    st.plotly_chart(fig_customer, use_container_width=True)
+
+with col2:
+    # Churn rate by segment
+    churn_data = filtered_sales.groupby('customer_segment')['churn_rate'].mean().reset_index()
+    
+    fig_churn = px.bar(churn_data, x='customer_segment', y='churn_rate',
+                       title='Churn Rate by Customer Segment',
+                       labels={'churn_rate': 'Churn Rate', 'customer_segment': 'Segment'},
+                       color='churn_rate', template='plotly_white')
+    st.plotly_chart(fig_churn, use_container_width=True)
+
+# Row 8: Time Series Analysis
+st.markdown('<div class="sub-header">📅 Time Series Analysis</div>', unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    # Monthly trend by segment
+    monthly_trend = filtered_sales.groupby(['month', 'customer_segment'])['total_sales_revenue'].sum().reset_index()
+    
+    fig_monthly = px.line(monthly_trend, x='month', y='total_sales_revenue', 
+                          color='customer_segment', title='Monthly Revenue Trend by Segment',
+                          labels={'total_sales_revenue': 'Revenue ($)', 'month': 'Month'},
+                          template='plotly_white')
+    st.plotly_chart(fig_monthly, use_container_width=True)
+
+with col2:
+    # Quarterly performance
+    quarterly_perf = filtered_sales.groupby(['quarter', 'year'])['total_sales_revenue'].sum().reset_index()
+    quarterly_perf['Quarter_Label'] = quarterly_perf['year'].astype(str) + '-Q' + quarterly_perf['quarter'].astype(str)
+    
+    fig_quarterly = px.bar(quarterly_perf, x='Quarter_Label', y='total_sales_revenue',
+                           title='Quarterly Revenue Performance',
+                           labels={'total_sales_revenue': 'Revenue ($)', 'Quarter_Label': 'Quarter'},
+                           color='total_sales_revenue', template='plotly_white')
+    st.plotly_chart(fig_quarterly, use_container_width=True)
+
+# Row 9: Profitability Analysis
+st.markdown('<div class="sub-header">💰 Profitability Analysis</div>', unsafe_allow_html=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    # Profit by category
+    profit_by_category = filtered_sales.groupby('product_category')['gross_profit'].sum().reset_index()
+    
+    fig_profit = px.pie(profit_by_category, values='gross_profit', names='product_category',
+                        title='Gross Profit Distribution by Product Category',
+                        template='plotly_white')
+    st.plotly_chart(fig_profit, use_container_width=True)
+
+with col2:
+    # Discount vs Profit correlation
+    discount_profit = filtered_sales.groupby('product_category').agg({
+        'total_discount_given': 'mean',
+        'gross_profit': 'mean'
+    }).reset_index()
+    
+    fig_discount = px.scatter(discount_profit, x='total_discount_given', y='gross_profit',
+                              text='product_category', size=[50]*len(discount_profit),
+                              title='Discount vs Profit Correlation',
+                              labels={'total_discount_given': 'Avg Discount ($)', 
+                                     'gross_profit': 'Avg Gross Profit ($)'},
+                              template='plotly_white')
+    st.plotly_chart(fig_discount, use_container_width=True)
+
+# Footer
+st.markdown("---")
+st.markdown("### 📊 Dashboard Summary")
+st.markdown(f"""
+- **Data Period**: {date_range[0]} to {date_range[1]} (if applicable)
+- **Total Transactions Analyzed**: {len(filtered_sales):,}
+- **Unique Stores**: {filtered_sales['store_id'].nunique()}
+- **Unique Products**: {filtered_sales['product_id'].nunique()}
+- **Customer Segments**: {', '.join(filtered_sales['customer_segment'].unique())}
+""")
+
+st.markdown("---")
+st.markdown("### 🔄 Data Refresh Information")
+st.markdown("Last updated: March 2026")
+st.markdown("Dashboard built with Streamlit | Data Source: SalesMind Enterprise Data Warehouse")
+
+# Download button for filtered data
+if st.sidebar.button("📥 Download Filtered Data"):
+    csv = filtered_sales.to_csv(index=False)
+    st.sidebar.download_button(
+        label="Download as CSV",
+        data=csv,
+        file_name="filtered_sales_data.csv",
+        mime="text/csv"
+    )
