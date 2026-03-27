@@ -12,6 +12,23 @@ st.markdown("### Question: Which channel (Social Media, Email, Paid Search) gene
 st.markdown("**Hypothesis:** Email yields the highest ROI; social media drives engagement.")
 
 # ------------------------------------------------------------------------------
+# Sidebar: User-adjustable CTR (Click-Through Rate) assumption
+# ------------------------------------------------------------------------------
+st.sidebar.markdown("## ⚙️ Estimation Assumptions")
+st.sidebar.markdown("""
+The dashboard estimates revenue using:
+A lower CTR yields more conservative revenue and ROI estimates.
+""")
+ctr = st.sidebar.slider(
+    "Click-Through Rate (CTR) Assumption",
+    min_value=0.005, max_value=0.10, value=0.02, step=0.005,
+    format="%.3f",
+    help="CTR represents the percentage of impressions that result in a click. "
+         "A typical range is 1%–5%. Lower values give more conservative estimates."
+)
+st.sidebar.markdown(f"Current CTR: **{ctr:.1%}**")
+
+# ------------------------------------------------------------------------------
 # 1. Load data
 # ------------------------------------------------------------------------------
 @st.cache_data
@@ -40,14 +57,15 @@ df_marketing['conv_rate'] = pd.to_numeric(df_marketing['conv_rate'], errors='coe
 df_marketing['impressions'] = pd.to_numeric(df_marketing['impressions'], errors='coerce')
 df_marketing.dropna(subset=['spend', 'conv_rate', 'impressions'], inplace=True)
 
-# Estimate conversions = impressions * conversion_rate
-df_marketing['estimated_conversions'] = df_marketing['impressions'] * df_marketing['conv_rate']
-
 # Calculate Average Order Value (AOV) from transaction data
 aov = df_transactions['net_sales'].mean()
-st.sidebar.metric("📦 Average Order Value (AOV)", f"${aov:.2f}")
+st.sidebar.metric("📦 Average Order Value (AOV)", f"${aov:,.2f}")
 
-# Estimate revenue = conversions * AOV
+# -------- CONSERVATIVE ESTIMATION ----------
+# Estimated conversions = impressions * CTR * conversion_rate
+df_marketing['estimated_conversions'] = df_marketing['impressions'] * ctr * df_marketing['conv_rate']
+
+# Estimated revenue = estimated_conversions * AOV
 df_marketing['estimated_revenue'] = df_marketing['estimated_conversions'] * aov
 
 # Calculate ROI
@@ -76,7 +94,7 @@ agg_dict = {
 df_grouped = df_marketing.groupby('channel_group').agg(agg_dict).reset_index()
 df_grouped['roi'] = (df_grouped['estimated_revenue'] - df_grouped['spend']) / df_grouped['spend']
 df_grouped['roi_pct'] = df_grouped['roi'] * 100
-df_grouped['avg_conv_rate'] = df_grouped['estimated_conversions'] / df_grouped['impressions']
+df_grouped['avg_conv_rate'] = df_grouped['estimated_conversions'] / df_grouped['impressions']  # weighted avg conversion rate (post-click)
 df_grouped = df_grouped.sort_values('roi', ascending=False)
 
 # ------------------------------------------------------------------------------
@@ -132,10 +150,10 @@ fig_spend_rev.update_layout(
 )
 st.plotly_chart(fig_spend_rev, use_container_width=True)
 
-# 5.3 Conversion rate
+# 5.3 Post-click conversion rate (estimated)
 fig_cr = px.bar(
     df_grouped, x='channel_group', y='avg_conv_rate',
-    title='Average Conversion Rate (Estimated)',
+    title='Average Post-Click Conversion Rate (Estimated)',
     labels={'avg_conv_rate': 'Conversion Rate', 'channel_group': 'Channel'},
     text=df_grouped['avg_conv_rate'].apply(lambda x: f"{x:.2%}"),
     color='channel_group'
@@ -160,9 +178,9 @@ st.markdown("---")
 st.subheader("Channel Summary")
 display_cols = ['channel_group', 'spend', 'estimated_revenue', 'roi_pct', 'impressions', 'avg_conv_rate']
 df_display = df_grouped[display_cols].copy()
-df_display.columns = ['Channel', 'Total Spend ($)', 'Estimated Revenue ($)', 'ROI (%)', 'Total Impressions', 'Avg. Conversion Rate']
+df_display.columns = ['Channel', 'Total Spend ($)', 'Estimated Revenue ($)', 'ROI (%)', 'Total Impressions', 'Avg. Post-Click Conv. Rate']
 df_display['ROI (%)'] = df_display['ROI (%)'].round(1)
-df_display['Avg. Conversion Rate'] = df_display['Avg. Conversion Rate'].apply(lambda x: f"{x:.2%}")
+df_display['Avg. Post-Click Conv. Rate'] = df_display['Avg. Post-Click Conv. Rate'].apply(lambda x: f"{x:.2%}")
 st.dataframe(df_display, use_container_width=True)
 
 st.subheader("Breakdown by Original Ad Channel")
@@ -177,9 +195,9 @@ df_raw['roi_pct'] = df_raw['roi'] * 100
 df_raw['avg_conv_rate'] = df_raw['estimated_conversions'] / df_raw['impressions']
 df_raw = df_raw.sort_values('roi', ascending=False)
 df_raw_display = df_raw[['channel', 'spend', 'estimated_revenue', 'roi_pct', 'impressions', 'avg_conv_rate']].copy()
-df_raw_display.columns = ['Ad Channel', 'Total Spend ($)', 'Estimated Revenue ($)', 'ROI (%)', 'Total Impressions', 'Avg. Conversion Rate']
+df_raw_display.columns = ['Ad Channel', 'Total Spend ($)', 'Estimated Revenue ($)', 'ROI (%)', 'Total Impressions', 'Avg. Post-Click Conv. Rate']
 df_raw_display['ROI (%)'] = df_raw_display['ROI (%)'].round(1)
-df_raw_display['Avg. Conversion Rate'] = df_raw_display['Avg. Conversion Rate'].apply(lambda x: f"{x:.2%}")
+df_raw_display['Avg. Post-Click Conv. Rate'] = df_raw_display['Avg. Post-Click Conv. Rate'].apply(lambda x: f"{x:.2%}")
 st.dataframe(df_raw_display, use_container_width=True)
 
 # ------------------------------------------------------------------------------
@@ -201,4 +219,11 @@ if email_roi and (email_roi >= (social_roi or 0)) and (email_roi >= (paid_roi or
 else:
     st.info("📊 Observation: While email performs well, the highest ROI channel may vary. Continuous optimization is recommended.")
 
-st.caption("Note: Revenue is estimated using the Average Order Value (AOV) from transaction data. ROI = (Estimated Revenue - Marketing Spend) / Marketing Spend.")
+st.caption("""
+**Note on revenue estimation:**  
+Revenue is estimated using a conservative model:  
+`Estimated Conversions = Impressions × CTR × Conversion Rate`  
+where CTR (Click-Through Rate) is adjustable in the sidebar (default 2%).  
+This approach avoids the unrealistic assumption that every impression leads directly to a conversion.  
+Actual ROI in practice depends on many factors; use this dashboard to compare relative channel efficiency.
+""")
