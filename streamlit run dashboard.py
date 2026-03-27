@@ -4,10 +4,11 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import matplotlib.pyplot as plt
 from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
+
+# (rest of the code remains the same)
 
 # Page configuration
 st.set_page_config(
